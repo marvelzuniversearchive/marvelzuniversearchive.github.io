@@ -48,18 +48,25 @@ const nameSet=new Set(D.characters.map(norm));
 const teamSet=new Set(D.teams.map(norm));
 
 const ORG_REMOTE={loaded:false,loading:false,items:[],error:'',rosters:{}};
-async function orgCategoryMembers(category){
- let all=[],cont=null;
- do{
-  const p=new URLSearchParams({action:'query',list:'categorymembers',cmtitle:category,cmlimit:'500',cmtype:'page|subcat',format:'json',origin:'*'});
-  if(cont)Object.entries(cont).forEach(([k,v])=>p.set(k,v));
-  const r=await fetch('https://marvel.fandom.com/api.php?'+p.toString(),{headers:{Accept:'application/json'}});
-  if(!r.ok)throw new Error('Source returned HTTP '+r.status);
-  const j=await r.json();if(j.error)throw new Error(j.error.info||'Source API error');
-  all.push(...(j.query?.categorymembers||[]).filter(x=>x.ns===0).map(x=>({name:x.title,pageid:x.pageid,source:category})));
-  cont=j.continue||null;
- }while(cont);
- return all;
+async function orgCategoryMembers(category,deep=false){
+ const all=new Map(),queue=[category],visited=new Set();
+ while(queue.length){
+  const current=queue.shift();if(visited.has(current))continue;visited.add(current);
+  let cont=null;
+  do{
+   const p=new URLSearchParams({action:'query',list:'categorymembers',cmtitle:current,cmlimit:'500',cmtype:'page|subcat',format:'json',origin:'*'});
+   if(cont)Object.entries(cont).forEach(([k,v])=>p.set(k,v));
+   const r=await fetch('https://marvel.fandom.com/api.php?'+p.toString(),{headers:{Accept:'application/json'}});
+   if(!r.ok)throw new Error('Source returned HTTP '+r.status+' while reading '+current);
+   const j=await r.json();if(j.error)throw new Error(j.error.info||'Source API error');
+   for(const x of (j.query?.categorymembers||[])){
+    if(x.ns===0)all.set(norm(x.title),{name:x.title,pageid:x.pageid,source:current});
+    else if(deep&&x.ns===14&&!visited.has(x.title))queue.push(x.title);
+   }
+   cont=j.continue||null;
+  }while(cont);
+ }
+ return [...all.values()];
 }
 async function loadOrganizationIndex(){
  if(ORG_REMOTE.loading)return;ORG_REMOTE.loading=true;ORG_REMOTE.error='';render();
@@ -67,7 +74,7 @@ async function loadOrganizationIndex(){
   const cached=stored('mua_org_main_index',null);
   if(cached&&cached.version===2&&Array.isArray(cached.items)&&cached.savedAt>Date.now()-86400000)ORG_REMOTE.items=cached.items;
   else{
-   const results=await Promise.all([orgCategoryMembers('Category:Organizations'),orgCategoryMembers('Category:Teams')]);
+   const results=await Promise.all([orgCategoryMembers('Category:Organizations',true),orgCategoryMembers('Category:Teams',true)]);
    const merged=new Map();results.flat().forEach(x=>{if(x.name&&!/^Category:/i.test(x.name)&&!excludedContinuityName(x.name))merged.set(norm(x.name),x)});
    ORG_REMOTE.items=[...merged.values()].sort((a,b)=>a.name.localeCompare(b.name));
    save('mua_org_main_index',{version:2,savedAt:Date.now(),items:ORG_REMOTE.items});
