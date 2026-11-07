@@ -183,7 +183,7 @@ async function comicCategoryMembers(category){
 async function loadComicArchive(force=false){
  if(COMIC_ARCHIVE.loading)return;
  const cached=stored('mua_comics_archive_v1',null);
- if(!force&&cached&&cached.version===1&&Array.isArray(cached.items)&&cached.savedAt>Date.now()-7*86400000){COMIC_ARCHIVE.items=cached.items.map(x=>Array.isArray(x)?({name:x[1],category:x[0]==='C'?'Comics':x[0]==='A'?'Story Arcs':'Storylines',source:'Marvel Database'}):x);COMIC_ARCHIVE.loaded=true;return}
+ if(!force&&cached&&cached.version===1&&Array.isArray(cached.items)&&cached.savedAt>Date.now()-7*86400000){COMIC_ARCHIVE.items=cached.items.map(x=>Array.isArray(x)?({name:x[1],category:x[0]==='C'?'Comics':x[0]==='A'?'Story Arcs':'Storylines',source:'Marvel Database'}):x);COMIC_ARCHIVE.loaded=true;if(S.view==='comics')render();return}
  COMIC_ARCHIVE.loading=true;COMIC_ARCHIVE.error='';COMIC_ARCHIVE.progress='Connecting to Marvel Database public indexes…';if(S.view==='comics')render();
  const roots=['Category:Comics','Category:Story Arcs','Category:Storylines'];
  const results=await Promise.allSettled(roots.map(comicCategoryMembers));
