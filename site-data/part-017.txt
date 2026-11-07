@@ -48,7 +48,7 @@ const nameSet=new Set(D.characters.map(norm));
 const teamSet=new Set(D.teams.map(norm));
 
 const ORG_REMOTE={loaded:false,loading:false,items:[],error:'',rosters:{}};
-async function orgCategoryMembers(category,deep=false){
+async function orgCategoryMembers(category,deep=false,base='https://marvel.fandom.com'){
  const all=new Map(),queue=[category],visited=new Set();
  while(queue.length){
   const current=queue.shift();if(visited.has(current))continue;visited.add(current);
@@ -56,11 +56,11 @@ async function orgCategoryMembers(category,deep=false){
   do{
    const p=new URLSearchParams({action:'query',list:'categorymembers',cmtitle:current,cmlimit:'500',cmtype:'page|subcat',format:'json',origin:'*'});
    if(cont)Object.entries(cont).forEach(([k,v])=>p.set(k,v));
-   const r=await fetch('https://marvel.fandom.com/api.php?'+p.toString(),{headers:{Accept:'application/json'}});
+   const r=await fetch(base+'/api.php?'+p.toString(),{headers:{Accept:'application/json'}});
    if(!r.ok)throw new Error('Source returned HTTP '+r.status+' while reading '+current);
    const j=await r.json();if(j.error)throw new Error(j.error.info||'Source API error');
    for(const x of (j.query?.categorymembers||[])){
-    if(x.ns===0)all.set(norm(x.title),{name:x.title,pageid:x.pageid,source:current});
+    if(x.ns===0)all.set(norm(x.title),{name:x.title,pageid:x.pageid,source:base.replace('https://','')+' · '+current});
     else if(deep&&x.ns===14&&!visited.has(x.title))queue.push(x.title);
    }
    cont=j.continue||null;
@@ -68,16 +68,31 @@ async function orgCategoryMembers(category,deep=false){
  }
  return [...all.values()];
 }
+async function orgPageMemberCategories(name,base){
+ const p=new URLSearchParams({action:'query',prop:'categories',titles:name,cllimit:'500',format:'json',origin:'*'});
+ const r=await fetch(base+'/api.php?'+p.toString(),{headers:{Accept:'application/json'}});
+ if(!r.ok)throw new Error('Could not read page categories for '+name);
+ const j=await r.json(),pages=Object.values(j.query?.pages||{}),cats=(pages[0]?.categories||[]).map(x=>x.title);
+ return cats.filter(x=>/member|character|affiliate|agent|roster|membership|staff|employee|personnel|operative/i.test(x));
+}
 async function loadOrganizationIndex(){
  if(ORG_REMOTE.loading)return;ORG_REMOTE.loading=true;ORG_REMOTE.error='';render();
  try{
-  const cached=stored('mua_org_main_index',null);
-  if(cached&&cached.version===2&&Array.isArray(cached.items)&&cached.savedAt>Date.now()-86400000)ORG_REMOTE.items=cached.items;
+  const cached=stored('mua_org_all_index',null);
+  if(cached&&cached.version===3&&Array.isArray(cached.items)&&cached.savedAt>Date.now()-86400000)ORG_REMOTE.items=cached.items;
   else{
-   const results=await Promise.all([orgCategoryMembers('Category:Organizations',true),orgCategoryMembers('Category:Teams',true)]);
-   const merged=new Map();results.flat().forEach(x=>{if(x.name&&!/^Category:/i.test(x.name)&&!excludedContinuityName(x.name))merged.set(norm(x.name),x)});
+   const sources=[
+    ['Category:Organizations','https://marvel.fandom.com'],
+    ['Category:Teams','https://marvel.fandom.com'],
+    ['Category:Organizations','https://marvelcinematicuniverse.fandom.com'],
+    ['Category:Teams','https://marvelcinematicuniverse.fandom.com']
+   ];
+   const results=await Promise.allSettled(sources.map(([cat,base])=>orgCategoryMembers(cat,true,base)));
+   const merged=new Map();let failures=[];
+   results.forEach((r,i)=>{if(r.status==='fulfilled')r.value.forEach(x=>{if(x.name&&!/^Category:/i.test(x.name)){const key=norm(x.name),prior=merged.get(key);if(!prior||String(x.source).includes('marvel.fandom.com'))merged.set(key,x)}});else failures.push(sources[i][1]+': '+String(r.reason?.message||r.reason))});
    ORG_REMOTE.items=[...merged.values()].sort((a,b)=>a.name.localeCompare(b.name));
-   save('mua_org_main_index',{version:2,savedAt:Date.now(),items:ORG_REMOTE.items});
+   save('mua_org_all_index',{version:3,savedAt:Date.now(),items:ORG_REMOTE.items});
+   if(failures.length)ORG_REMOTE.error='Some source categories could not be read: '+failures.join(' · ');
   }
   ORG_REMOTE.loaded=true;
  }catch(e){ORG_REMOTE.error=String(e.message||e);console.error('Organization index load failed',e)}
@@ -87,16 +102,19 @@ async function loadOrganizationRoster(name){
  const key=norm(name);if(ORG_REMOTE.rosters[key]?.loaded||ORG_REMOTE.rosters[key]?.loading)return;
  ORG_REMOTE.rosters[key]={loading:true,loaded:false,members:[],error:''};render();
  try{
-  const cats=['Category:'+name+' members','Category:'+name+'/Members','Category:'+name+' Members'];
-  const results=await Promise.allSettled(cats.map(orgCategoryMembers));
+  const bases=['https://marvel.fandom.com','https://marvelcinematicuniverse.fandom.com'];
+  const catsByBase=await Promise.allSettled(bases.map(base=>orgPageMemberCategories(name,base)));
+  const cats=new Map();
+  catsByBase.forEach((r,i)=>{if(r.status==='fulfilled')r.value.forEach(cat=>cats.set(bases[i]+'|'+cat,{cat,base:bases[i]}))});
+  ['Category:'+name+' members','Category:'+name+'/Members','Category:'+name+' Members'].forEach(cat=>cats.set(bases[0]+'|'+cat,{cat,base:bases[0]}));
+  const results=await Promise.allSettled([...cats.values()].map(x=>orgCategoryMembers(x.cat,false,x.base)));
   const merged=new Map();localGroupMembers(name).forEach(n=>merged.set(norm(n),n));
-  results.forEach(r=>{if(r.status==='fulfilled')r.value.forEach(x=>{if(x.name)merged.set(norm(x.name),x.name)})});
-  ORG_REMOTE.rosters[key]={loading:false,loaded:true,members:[...merged.values()].sort((a,b)=>a.localeCompare(b)),error:''};
-  if(!ORG_REMOTE.rosters[key].members.length)ORG_REMOTE.rosters[key].error='No public member-category entries were returned; the profile still shows all locally recorded members.';
+  results.forEach(r=>{if(r.status==='fulfilled')r.value.forEach(x=>{if(x.name&&!/^Category:/i.test(x.name))merged.set(norm(x.name),x.name)})});
+  const members=[...merged.values()].sort((a,b)=>a.localeCompare(b));
+  ORG_REMOTE.rosters[key]={loading:false,loaded:true,members,error:members.length?'':'No member-category pages were returned by the connected public wikis; local affiliation records are still shown.'};
  }catch(e){ORG_REMOTE.rosters[key]={loading:false,loaded:false,members:localGroupMembers(name),error:String(e.message||e)}}
  if(S.view==='team-profile'&&norm(S.selectedTeam)===key)render();
 }
-
 function themeFor(s){let h=0;for(let i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))|0;const palettes=[['#a52b52','#553b98'],['#126b83','#523b9a'],['#984b30','#46388e'],['#6a3a95','#1a7886'],['#a12b35','#294f83']];return palettes[Math.abs(h)%palettes.length]}
 function art(name,large=false){const [a,b]=themeFor(name);return `<div class="${large?'detail-art':'entity-art'} comic-art-slot" style="--c1:${a};--c2:${b}" data-subject="${esc(name)}"><span class="art-halftone" aria-hidden="true"></span><span class="art-slash slash-one" aria-hidden="true"></span><span class="art-slash slash-two" aria-hidden="true"></span><span class="art-emblem" aria-hidden="true">✦</span><b>${esc(initials(name))}</b><small>PORTRAIT ART SLOT · SOURCE IMAGE NOT SUPPLIED</small></div>`}
 function tag(s){return `<span class="tag">${esc(s)}</span>`}
@@ -124,9 +142,9 @@ function libraryView(){let favs=[...FAV()],chars=favs.filter(x=>x.startsWith('c:
 function dataView(){return `${titleBlock('DATA & ADMIN','Archive Data Desk','Local tools for checking source coverage and exporting your registries. A protected multi-user admin console requires a backend and server-side authentication; this static version does not pretend to provide one.')}<div class="stat-grid"><div class="stat-card glass"><div class="stat-label">Character registry</div><div class="stat-num">${num(D.characters.length)}</div><div class="stat-foot">Imported from A–Z text file</div></div><div class="stat-card glass"><div class="stat-label">Team registry</div><div class="stat-num">${num(D.teams.length)}</div><div class="stat-foot">Imported from Team_Name CSV</div></div><div class="stat-card glass"><div class="stat-label">CSV character records</div><div class="stat-num">${num(D.characterRows.length)}</div><div class="stat-foot">Supplementary</div></div><div class="stat-card glass"><div class="stat-label">Structured profiles</div><div class="stat-num">${num(D.characterDetails.length)}</div><div class="stat-foot">Mixed confidence</div></div></div><div class="two-col"><div class="panel glass"><h2 class="panel-title">Export master registries</h2><p class="panel-sub">Download exact name lists derived from the uploaded source files.</p><div class="bar-list"><button class="btn" data-action="export-characters">Download all 51,910 character names (.txt)</button><button class="btn" data-action="export-teams">Download all 3,138 team/group names (.csv)</button><button class="btn" data-action="export-favs">Export my favourites (.json)</button></div></div><div class="panel glass"><h2 class="panel-title">Image rights queue</h2><p class="panel-sub">All character records have a portrait slot. No individual source image files with verified reuse licences were supplied in your datasets.</p><div class="warning">The current site uses original CSS monogram artwork as a temporary placeholder—not as a character photograph. The JSON contains a generic Marvel characters page URL for many entries, which is not an individual portrait and is not treated as an image asset.</div><p style="font-size:10px;color:#aeb8c8;line-height:1.7">To fill this queue for public release, each exact image needs a documented licence/permission, creator or rights holder, source URL, attribution, and correct character match. Do not scrape or reuse images just because they are visible online.</p></div></div><div class="panel glass" style="margin-top:16px"><h2 class="panel-title">Production admin status</h2><p class="panel-sub">This deliverable is an offline static archive. Secure accounts, server-enforced roles, remote database editing, imports, backups, and audit logs are not activated in this local-only build. Those require a backend deployment.</p><div class="tag-list">${tag('Offline browsing')}${tag('Browser favourites')}${tag('Full indexes embedded')}${tag('Local registry exports')}${tag('Backend required for secure admin')}</div></div>`}
 function organizationView(){
  const byName=new Map();
- D.teams.forEach(name=>{if(!excludedContinuityName(name))byName.set(norm(name),{name:name,source:'Master Marvel group registry'})});
- D.teamDetails.forEach(d=>{if(d.name&&!excludedContinuityName(d.name)&&!excludedTeam(d))byName.set(norm(d.name),{name:d.name,source:'Structured archive'})});
- ORG_REMOTE.items.forEach(x=>{if(x.name&&!excludedContinuityName(x.name))byName.set(norm(x.name),x)});
+ D.teams.forEach(name=>byName.set(norm(name),{name,source:'Imported Marvel group registry'}));
+ D.teamDetails.forEach(d=>{if(d.name)byName.set(norm(d.name),{name:d.name,source:'Structured archive'})});
+ ORG_REMOTE.items.forEach(x=>{if(x.name){const key=norm(x.name),prior=byName.get(key);byName.set(key,{...prior,...x,name:prior?.name||x.name})}});
  const all=[...byName.values()].sort((a,b)=>a.name.localeCompare(b.name));
  const q=norm(S.q||'');
  const list=all.filter(x=>{const d=getTeam(x.name),members=localGroupMembers(x.name);return !q||norm(x.name).includes(q)||norm(d?.type||'').includes(q)||norm(d?.description||'').includes(q)||members.some(n=>norm(n).includes(q))});
@@ -135,12 +153,13 @@ function organizationView(){
  const pageItems=list.slice((S.page-1)*60,S.page*60);
  const cards=pageItems.map(x=>{
   const d=getTeam(x.name),members=localGroupMembers(x.name);
-  return '<article class="entity-card org-card"><div class="entity-main" role="button" tabindex="0" data-action="open-team" data-name="'+esc(x.name)+'">'+art(x.name)+'<div class="entity-info"><strong>'+esc(x.name)+'</strong><span>'+esc(d?.type||x.source||'Marvel organization / team')+'</span></div></div><div class="org-copy"><div class="hero-meta">'+tag(d?'Structured archive record':'Master registry entry')+tag(members.length?num(members.length)+' recorded members':'Member roster needs source lookup')+'</div><p>'+esc(d?.description||'Indexed Marvel group. Open its profile to combine the archive roster with source-listed member records.')+'</p><div class="org-members"><strong>'+(members.length?num(members.length)+' recorded members':'No local member records yet')+'</strong><div>'+members.slice(0,8).map(n=>'<span class="tag">'+esc(n)+'</span>').join('')+'</div></div><button class="btn" data-action="open-team" data-name="'+esc(x.name)+'">Open organization / group</button></div></article>';
+  const continuity=(String(x.name).match(/\\(([^()]*(?:Earth[- ]?\\d+|Multiverse|Mojoverse|Null-Time Zone|Sacred Timeline|Counter-Earth|Battleworld)[^()]*)\\)\\s*$/i)||[])[1]||'Continuity not specified';
+  return '<article class="entity-card org-card"><div class="entity-main" role="button" tabindex="0" data-action="open-team" data-name="'+esc(x.name)+'">'+art(x.name)+'<div class="entity-info"><strong>'+esc(x.name)+'</strong><span>'+esc(d?.type||x.source||'Marvel organization / team')+'</span></div></div><div class="org-copy"><div class="hero-meta">'+tag(d?'Structured archive record':'Index entry')+tag(continuity)+'</div><p>'+esc(d?.description||'Indexed Marvel organization, agency, faction or team. Open the profile to load member-category records from the public reference wikis.')+'</p><div class="org-members"><strong>'+(members.length?num(members.length)+' locally recorded members':'Member roster not yet imported')+'</strong><div>'+members.slice(0,8).map(n=>'<span class="tag">'+esc(n)+'</span>').join('')+'</div></div><button class="btn" data-action="open-team" data-name="'+esc(x.name)+'">Open organization / group</button></div></article>';
  }).join('');
- return titleBlock('MARVEL ORGANIZATION INDEX','Organizations, Agencies & Factions','Browse the main Marvel continuity group registry. Organization profiles combine imported rosters with character affiliation records and source-listed members.')+
+ return titleBlock('MARVEL ORGANIZATION INDEX','Organizations, Agencies & Factions','Expanded index combines Marvel Database comic categories, MCU categories, and the supplied group registry. Continuity variants are retained and labelled rather than silently discarded.')+
  '<div class="toolbar"><input class="field search" id="organizationSearch" placeholder="Search organizations, agencies, teams or members…" value="'+esc(S.q||'')+'"><span class="count-note">'+num(list.length)+' results · '+num(all.length)+' indexed</span></div>'+
- '<div class="panel glass" style="margin:14px 0;padding:16px"><div class="hero-meta">'+tag('Main continuity index')+tag(ORG_REMOTE.loaded?'Live source index loaded':ORG_REMOTE.loading?'Loading live source index…':'Live source index not loaded')+'</div><p class="panel-sub">The local master registry is searchable immediately. Load the public Marvel group categories to merge additional organizations and teams into this index.</p><button class="btn primary" data-action="load-marvel-org-index" '+(ORG_REMOTE.loading?'disabled':'')+'>'+(ORG_REMOTE.loading?'Loading all source pages…':ORG_REMOTE.loaded?'Refresh source index':'Load / refresh complete source index')+'</button>'+(ORG_REMOTE.error?'<p class="warning">Source lookup: '+esc(ORG_REMOTE.error)+'. All local archive entries remain available.</p>':'')+'<p class="panel-sub" style="margin-top:8px">Reference categories: <a href="https://marvel.fandom.com/wiki/Category:Organizations" target="_blank" rel="noopener noreferrer">Organizations</a> · <a href="https://marvel.fandom.com/wiki/Category:Teams" target="_blank" rel="noopener noreferrer">Teams</a>.</p></div>'+
- '<div class="hero-meta" style="margin:12px 0 18px">'+tag(num(all.length)+' indexed groups')+tag(num(structured)+' structured profiles')+tag('Alternate-universe entries excluded')+'</div>'+
+ '<div class="panel glass" style="margin:14px 0;padding:16px"><div class="hero-meta">'+tag('Comics + MCU sources')+tag(ORG_REMOTE.loaded?'Source index loaded':ORG_REMOTE.loading?'Loading source index…':'Source index not loaded')+'</div><p class="panel-sub">Load or refresh the combined public indexes. This includes all listed continuities and retains variants as separate entries. Member lists are fetched from each group profile’s member-related categories where available.</p><button class="btn primary" data-action="load-marvel-org-index" '+(ORG_REMOTE.loading?'disabled':'')+'>'+(ORG_REMOTE.loading?'Loading source pages…':ORG_REMOTE.loaded?'Refresh source index':'Load complete source index')+'</button>'+(ORG_REMOTE.error?'<p class="warning">Source lookup: '+esc(ORG_REMOTE.error)+'. Imported local records remain searchable.</p>':'')+'<p class="panel-sub" style="margin-top:8px">Sources: <a href="https://marvel.fandom.com/wiki/Category:Organizations" target="_blank" rel="noopener noreferrer">Marvel Database organizations</a> · <a href="https://marvel.fandom.com/wiki/Category:Teams" target="_blank" rel="noopener noreferrer">Marvel Database teams</a> · <a href="https://marvelcinematicuniverse.fandom.com/wiki/Category:Organizations" target="_blank" rel="noopener noreferrer">MCU organizations</a> · <a href="https://marvelcinematicuniverse.fandom.com/wiki/Category:Teams" target="_blank" rel="noopener noreferrer">MCU teams</a>.</p></div>'+
+ '<div class="hero-meta" style="margin:12px 0 18px">'+tag(num(all.length)+' indexed groups')+tag(num(structured)+' structured profiles')+tag('All indexed continuities retained')+'</div>'+
  '<div class="org-grid">'+(cards||'<div class="empty glass" style="grid-column:1/-1"><strong>No matching groups</strong><p>Try another name or member.</p></div>')+'</div>'+
  '<div class="pager"><button class="btn" data-action="prev-page" '+(S.page<=1?'disabled':'')+'>← Previous</button><span>Page '+S.page+' of '+pages+' · '+num(list.length)+' total results</span><button class="btn" data-action="next-page" '+(S.page>=pages?'disabled':'')+'>Next →</button></div>';
 }
