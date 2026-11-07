@@ -183,7 +183,7 @@ async function comicCategoryMembers(category){
 async function loadComicArchive(force=false){
  if(COMIC_ARCHIVE.loading)return;
  const cached=stored('mua_comics_archive_v1',null);
- if(!force&&cached&&cached.version===1&&Array.isArray(cached.items)&&cached.savedAt>Date.now()-7*86400000){COMIC_ARCHIVE.items=cached.items;COMIC_ARCHIVE.loaded=true;return}
+ if(!force&&cached&&cached.version===1&&Array.isArray(cached.items)&&cached.savedAt>Date.now()-7*86400000){COMIC_ARCHIVE.items=cached.items.map(x=>Array.isArray(x)?({name:x[1],category:x[0]==='C'?'Comics':x[0]==='A'?'Story Arcs':'Storylines',source:'Marvel Database'}):x);COMIC_ARCHIVE.loaded=true;return}
  COMIC_ARCHIVE.loading=true;COMIC_ARCHIVE.error='';COMIC_ARCHIVE.progress='Connecting to Marvel Database public indexes…';if(S.view==='comics')render();
  const roots=['Category:Comics','Category:Story Arcs','Category:Storylines'];
  const results=await Promise.allSettled(roots.map(comicCategoryMembers));
@@ -192,7 +192,7 @@ async function loadComicArchive(force=false){
  COMIC_ARCHIVE.items=[...merged.values()].sort((a,b)=>a.name.localeCompare(b.name));
  COMIC_ARCHIVE.loaded=true;COMIC_ARCHIVE.loading=false;COMIC_ARCHIVE.progress='';
  COMIC_ARCHIVE.error=failures.join(' · ');
- if(COMIC_ARCHIVE.items.length)save('mua_comics_archive_v1',{version:1,savedAt:Date.now(),items:COMIC_ARCHIVE.items});
+ if(COMIC_ARCHIVE.items.length)save('mua_comics_archive_v1',{version:1,savedAt:Date.now(),items:COMIC_ARCHIVE.items.map(x=>[x.category==='Comics'?'C':x.category==='Story Arcs'?'A':'S',x.name])});
  if(S.view==='comics')render();
 }
 function comicsView(){
