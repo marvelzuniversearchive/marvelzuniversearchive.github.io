@@ -343,3 +343,14 @@ body{overscroll-behavior-y:contain}
 @media(max-width:800px){.card-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.entity-art{height:145px}.entity-main{min-height:195px}.entity-info{padding:12px}.entity-info strong{font-size:14px}}
 @media(max-width:390px){.card-grid{grid-template-columns:1fr}.entity-art{height:190px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.entity-card{transition:none}}
+
+/* Organizations catalogue */
+.org-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.org-card{overflow:hidden}
+.org-card .entity-art{height:145px}
+.org-copy{padding:14px 16px 17px;border-top:1px solid rgba(255,255,255,.10)}
+.org-copy p{margin:0 0 12px;color:var(--muted);font-size:13px;line-height:1.55}
+.org-members{margin-bottom:13px}
+.org-members>strong{display:block;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--paper);margin-bottom:8px}
+.org-members>div{display:flex;flex-wrap:wrap;gap:5px}
+@media(max-width:800px){.org-grid{grid-template-columns:1fr}.org-card .entity-art{height:130px}}
