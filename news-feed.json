@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T19:46:08.166731+00:00",
+  "generated_at": "2026-11-07T23:18:09.840276+00:00",
   "source_count": 15,
   "search_topics": [
     "Marvel Universe",
@@ -25,6 +25,56 @@
   },
   "article_count": 150,
   "articles": [
+    {
+      "id": "marvelofficiallyrevivesfemaleapacheghostriderbeforeavengersdoomsday",
+      "title": "Marvel Officially Revives Female Apache Ghost Rider Before Avengers: Doomsday",
+      "summary": "Marvel Officially Revives Female Apache Ghost Rider Before Avengers: Doomsday IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BQ2hZWnZFMUIwVXhJN1hmc2xEVm1faF9jcFJYaGdQRGdnVGI1THBDb3d3dF9QdndxUTdfRFZhdUtFR0tZRkg0eUk0bHRpdE83WU0tRTFvTGlPM1pqRXR5UFhIOGl1VUE?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-07T21:58:54+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Ghost Rider",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Ghost Rider",
+        "Doom"
+      ],
+      "external_id": "CBMiZ0FVX3lxTE1BQ2hZWnZFMUIwVXhJN1hmc2xEVm1faF9jcFJYaGdQRGdnVGI1THBDb3d3dF9QdndxUTdfRFZhdUtFR0tZRkg0eUk0bHRpdE83WU0tRTFvTGlPM1pqRXR5UFhIOGl1VUE",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "thunderboltsstoryboardsrevealamajormarvelcharacterwascutfromtheteam",
+      "title": "Thunderbolts Storyboards Reveal A Major Marvel Character Was Cut From The Team",
+      "summary": "Thunderbolts Storyboards Reveal A Major Marvel Character Was Cut From The Team IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pOFoxVFFxbzl0TG5mWUpOZ3JoUV8wNHI1NU5wQTk1ekNtaklnZUJCUTRhMDFYakl2cUZwb1FtaU1WMDFvNFVYZnU1X3NJM1JVMDY1Q1NqZE5iZmp2clQ4LS1OTld1WV9WNnc?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-07T19:42:58+00:00",
+      "status": "reported",
+      "tags": [],
+      "related_characters": [],
+      "external_id": "CBMiakFVX3lxTE5pOFoxVFFxbzl0TG5mWUpOZ3JoUV8wNHI1NU5wQTk1ekNtaklnZUJCUTRhMDFYakl2cUZwb1FtaU1WMDFvNFVYZnU1X3NJM1JVMDY1Q1NqZE5iZmp2clQ4LS1OTld1WV9WNnc",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
     {
       "id": "marvels2027releasescheduleall8moviesandtvshowsexplained",
       "title": "Marvel's 2027 Release Schedule: All 8 Movies And TV Shows Explained",
@@ -253,7 +303,7 @@
       ],
       "external_id": "CBMiZ0FVX3lxTE5BelVMVTFLcE43cS1IZldoRlBxcS15MnB6c2FpYXRnTEtsenlJTVZRVHJnR1EzLVZNeGZGNXR6OEl2YWxjdXdvX1JlT1lWc3hWTVk3VXdsUUFNM0NMQm1aU0lXNG1WZUE",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "theavengersdoomsdaylatveriamapisfullofcomicbookeastereggs",
@@ -280,7 +330,7 @@
       ],
       "external_id": "CBMiZ0FVX3lxTE9JLTRQLVMzNXVtUEtGemthN2czLU9tcmlDMGo5VkJYSFJ3MmcyNnhOcE9KcmdOREFKX052SXBMZWR1ZWJ2TjRadVB5bVpmRmdRNDN3LVpEeDdCclp0N3ViOV9nZmdPeHc",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "avengersdoomsdaylatveriamaprevealsdoctordoomskingdomfromdoomstadttodoomwoodfores",
@@ -307,7 +357,7 @@
       ],
       "external_id": "CBMiZ0FVX3lxTE85R29mOGpLc3FYVUl4YjdrV1ZxYnR6NjI3dzA5ejBYTVVSem9xTTBzcXg0X1VYbkJFTHFSVzdnRGQ5MFg1QnNVRmxqMHROYXNqMlpOY1o4UWhiMUpkb3AyNjQ2cmJ4dXc",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "avengersdoomsdaypromopairsavengersfantasticfourandxmenemblemswithmarvelrunkorea",
@@ -1542,6 +1592,24 @@
         "X-Men"
       ],
       "external_id": "CBMiZ0FVX3lxTE9FQXBIUHBiQlQtWjlaTkJHMVBxcTQxd2phUzNmb1g0d1F5SEVHZ1BINE84aHprLWNnVTdnOFRQVkptVVBVQTFnTVNVTzlfbTgyRXkzTW1aYVAzSERJVWpXemljdmFZN1k",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "10classiccomicsgenresmarvelmustbringbacksoon",
+      "title": "10 Classic Comics Genres Marvel Must Bring Back Soon",
+      "summary": "10 Classic Comics Genres Marvel Must Bring Back Soon Comic Book Resources",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1SQkVOZk9kRzRULWxkT0FGUkZaVDVPLVdOdjlvLS1Edk5qQllpVXNwMl9nQ0dlZkZGNVhuYkFsZW8ybVl4X19PYmVhSmFPWTl5dzZkZlJDa0xiTm5pQ0F3YUdwZWhKWWc4OGVTVmVQY3p1Q2ZrMmQzd1hkTjM?oc=5",
+      "source": "CBR",
+      "source_id": "cbr",
+      "category": "Marvel",
+      "published_at": "2026-11-05T20:00:12+00:00",
+      "status": "reported",
+      "tags": [],
+      "related_characters": [],
+      "external_id": "CBMifEFVX3lxTE1SQkVOZk9kRzRULWxkT0FGUkZaVDVPLVdOdjlvLS1Edk5qQllpVXNwMl9nQ0dlZkZGNVhuYkFsZW8ybVl4X19PYmVhSmFPWTl5dzZkZlJDa0xiTm5pQ0F3YUdwZWhKWWc4OGVTVmVQY3p1Q2ZrMmQzd1hkTjM",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -3338,11 +3406,11 @@
         "IMDb"
       ],
       "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9pb3RsRkp3OUdJTHo4SWNId3hsTVJXdGVCZzJ3clRlclBfSkl5ckFLWFk4Mks2WURaUjRfM3JyQUdhOWRNVEVpOE41REl2c1NwM1JXOGlONnozRWtBQndfVHZ2X2MtaTgzY1E?oc=5",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KSktqNHZ0TWVIQWh2S0JXNnRabjFfSGdUaTNzVlJqRUZGYjNhaTVvb1BYTVQzeHhIQ2NDMm44WU1MUXB4M2NhdGJ3RjZsbzkwNXNXVER6NWhMM2ZuNHRObndwMS1GOUNUaGc?oc=5",
       "source": "IMDb",
       "source_id": "imdb",
       "category": "Marvel",
-      "published_at": "2026-11-03T16:06:08+00:00",
+      "published_at": "2026-11-03T16:05:14+00:00",
       "status": "reported",
       "tags": [
         "Avengers",
@@ -3352,7 +3420,7 @@
         "Avengers",
         "Doom"
       ],
-      "external_id": "CBMiakFVX3lxTE9pb3RsRkp3OUdJTHo4SWNId3hsTVJXdGVCZzJ3clRlclBfSkl5ckFLWFk4Mks2WURaUjRfM3JyQUdhOWRNVEVpOE41REl2c1NwM1JXOGlONnozRWtBQndfVHZ2X2MtaTgzY1E",
+      "external_id": "CBMiakFVX3lxTE5KSktqNHZ0TWVIQWh2S0JXNnRabjFfSGdUaTNzVlJqRUZGYjNhaTVvb1BYTVQzeHhIQ2NDMm44WU1MUXB4M2NhdGJ3RjZsbzkwNXNXVER6NWhMM2ZuNHRObndwMS1GOUNUaGc",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -3712,80 +3780,6 @@
         "Doom"
       ],
       "external_id": "CBMiZ0FVX3lxTE1ldFdWb0FiVzZmZ2FoRGFTWDYtVkUxVEtzaGlrQmhNRDJMM3MtbGZvT2MtVlcyekhHQjhtajAyQ1VfLVJRQUhjRHJ0MG5lWGFXaXdNczlnT19PMnpoS2pTRmIxRF9iR3c",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "doctordoomtakesoverdunkinwithavillainousavengersdoomsdaymenu",
-      "title": "Doctor Doom Takes Over Dunkin’ With a Villainous ‘Avengers: Doomsday’ Menu",
-      "summary": "Doctor Doom Takes Over Dunkin’ With a Villainous ‘Avengers: Doomsday’ Menu IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlOU5USzJOeGFKUVFZbmJldnpPZGIxSzY4ODJKOUVfODU3OHVhYU9MSmhlNTFWZjVxcUg3SGNnYmVJVXhyUUgtaFl3Sm9aS2dzZTVDUE9faWlZWjdKYnllejFWYnVQQWs?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-03T08:40:35+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTFBlOU5USzJOeGFKUVFZbmJldnpPZGIxSzY4ODJKOUVfODU3OHVhYU9MSmhlNTFWZjVxcUg3SGNnYmVJVXhyUUgtaFl3Sm9aS2dzZTVDUE9faWlZWjdKYnllejFWYnVQQWs",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "benwangintalkstoplayicemaninmarvelsxmenreboot",
-      "title": "Ben Wang in Talks to Play Iceman in Marvel’s X-Men Reboot",
-      "summary": "Ben Wang in Talks to Play Iceman in Marvel’s X-Men Reboot IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrVzQ2aUFVeklQYWI0MTBHTDFraDZpQUJqU1h6aTRvdGFhclNKdWItTVFQS3lBUWMtaFpUekVqQktnZ0xpNEEySWRxeENUR0VOYVJ4a3BBSTZPdDZWbGZ0M0ljMTNBWW9uVFZR?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Casting",
-      "published_at": "2026-11-03T08:02:56+00:00",
-      "status": "reported",
-      "tags": [
-        "X-Men"
-      ],
-      "related_characters": [
-        "X-Men"
-      ],
-      "external_id": "CBMia0FVX3lxTFBrVzQ2aUFVeklQYWI0MTBHTDFraDZpQUJqU1h6aTRvdGFhclNKdWItTVFQS3lBUWMtaFpUekVqQktnZ0xpNEEySWRxeENUR0VOYVJ4a3BBSTZPdDZWbGZ0M0ljMTNBWW9uVFZR",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "quotingspidermanbombayhighcourtrapsmaharashtraonmodelcollegeappointments",
-      "title": "Quoting Spider-Man, Bombay High Court raps Maharashtra on Model College appointments",
-      "summary": "Quoting Spider-Man, Bombay High Court raps Maharashtra on Model College appointments The Indian Express",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa0tMWDRaMlQyVjhJeVFSOXcwclFBeGRXOU03YVNIbS1FbHFCeGN5ZlJiNjZTX0hlUXNGc1FMdVY2c0l4a0hQd3ZlemhzQ3pfLTZuMjVRTzQwMk1jemRzcU9GeV9zanBoaFIzRzZIeXpiTXRya1V0eWY2RWZ5ODg1MjFXOE1yRjQ4QkY1Y1FRZ280ekRJYzRmSUgyNlhZVFFRSTNUblpDX2I2VTB1U1p1TjJLM2UxSnRNU1o4N05B0gHEAUFVX3lxTFBfZGprYWtQTjlTaWxzQThCU1AxSzRpSllnX2hJQ1NIcWRPT3BhdUtJYS1ubVFiZFQ1NFBpdTZnaWhuZWNJdGIxV0pjel9JdkRJeS1nOEd1MDlyVFotTFZYc3BJd1c0R0ctbHdIbjBLeWhCaHdNeTk4RlFrX1pWNjY2djBkb003ajA2VUFpeV9LaDBWYlRuTW5JRmp4WTBYM1NVVEwyN2FlbE5sMGViSUJCXzQ5THpwekJ6alZyOE1aY3pNLU4?oc=5",
-      "source": "The Indian Express",
-      "source_id": "the_indian_express",
-      "category": "Marvel",
-      "published_at": "2026-11-03T08:00:05+00:00",
-      "status": "reported",
-      "tags": [
-        "Spider-Man"
-      ],
-      "related_characters": [
-        "Spider-Man"
-      ],
-      "external_id": "CBMivgFBVV95cUxPa0tMWDRaMlQyVjhJeVFSOXcwclFBeGRXOU03YVNIbS1FbHFCeGN5ZlJiNjZTX0hlUXNGc1FMdVY2c0l4a0hQd3ZlemhzQ3pfLTZuMjVRTzQwMk1jemRzcU9GeV9zanBoaFIzRzZIeXpiTXRya1V0eWY2RWZ5ODg1MjFXOE1yRjQ4QkY1Y1FRZ280",
       "synopsis": "",
       "synopsis_status": "pending"
     }
