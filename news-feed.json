@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T20:27:41.221845+00:00",
+  "generated_at": "2026-11-08T23:53:26.786984+00:00",
   "source_count": 15,
   "search_topics": [
     "Marvel Universe",
@@ -26,6 +26,52 @@
   "article_count": 150,
   "articles": [
     {
+      "id": "marvelconfirmsthesingleshockingcomicitwillbegivingawayforfreesoon",
+      "title": "Marvel Confirms The Single Shocking Comic It Will Be Giving Away For Free Soon",
+      "summary": "Marvel Confirms The Single Shocking Comic It Will Be Giving Away For Free Soon Comic Book Resources",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xdm5UN3JyWWlVQjNaNFN6d015bjRnZUZRVm91bDA0XzJOSDc4bmMwY0p4bFkwX0l2SWxYMG4zWTBOaDdRZG9aZ0lZb0NpZHFTM0xFcTluR1phZzJwS3ZUa2VPR28?oc=5",
+      "source": "CBR",
+      "source_id": "cbr",
+      "category": "Comics",
+      "published_at": "2026-11-08T22:00:12+00:00",
+      "status": "reported",
+      "tags": [],
+      "related_characters": [],
+      "external_id": "CBMiZEFVX3lxTE0xdm5UN3JyWWlVQjNaNFN6d015bjRnZUZRVm91bDA0XzJOSDc4bmMwY0p4bFkwX0l2SWxYMG4zWTBOaDdRZG9aZ0lZb0NpZHFTM0xFcTluR1phZzJwS3ZUa2VPR28",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "visionquestofficiallyrewritesavengersinfinitywarsceneafterbiggestreveal",
+      "title": "VisionQuest Officially Rewrites Avengers: Infinity War Scene After Biggest Reveal",
+      "summary": "VisionQuest Officially Rewrites Avengers: Infinity War Scene After Biggest Reveal IMDb",
+      "coverage_tags": [
+        "Series: VisionQuest",
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwWTNpQ0pTM0o2MGI4RGdMSll3SFQ3RTlPbTZXRDBsWGUxSW94cGlFRGFEX1VpSkVxMjdMVWhfN2p4VE9YdFktRkROZTVsMTNCSkRpUXZMbHlEZ0xJMDVkaE5vLUI1Nnc?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-08T21:42:03+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Vision"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Vision"
+      ],
+      "external_id": "CBMiZ0FVX3lxTFAwWTNpQ0pTM0o2MGI4RGdMSll3SFQ3RTlPbTZXRDBsWGUxSW94cGlFRGFEX1VpSkVxMjdMVWhfN2p4VE9YdFktRkROZTVsMTNCSkRpUXZMbHlEZ0xJMDVkaE5vLUI1Nnc",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
       "id": "9masterpiecesuperheromoviesbetterthanspidermanbrandnewdayaccordingtoletterboxd",
       "title": "9 Masterpiece Superhero Movies Better Than Spider-Man: Brand New Day, According to Letterboxd",
       "summary": "9 Masterpiece Superhero Movies Better Than Spider-Man: Brand New Day, According to Letterboxd Comic Book Resources",
@@ -44,34 +90,6 @@
         "Spider-Man"
       ],
       "external_id": "CBMihgFBVV95cUxPZzFJUXN3c3JSTFNyTUczVDRFV25PUmhRSi1ZellFSTdtSmxqVUNyRXBIS3Y3dTZoRnJ1Q1RveTVXclJMWm9aOFRFcVN4QWpIZTRudW9GRHZ0UUxXN2hHVjcwYUVvZDh0ZHNHUng5OG9RbnVLSkkwVjN6ZHYzOVdaYVlxcGl0Zw",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "visionquestofficiallyrewritesavengersinfinitywarsceneafterbiggestreveal",
-      "title": "VisionQuest Officially Rewrites Avengers: Infinity War Scene After Biggest Reveal",
-      "summary": "VisionQuest Officially Rewrites Avengers: Infinity War Scene After Biggest Reveal IMDb",
-      "coverage_tags": [
-        "Series: VisionQuest",
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwWTNpQ0pTM0o2MGI4RGdMSll3SFQ3RTlPbTZXRDBsWGUxSW94cGlFRGFEX1VpSkVxMjdMVWhfN2p4VE9YdFktRkROZTVsMTNCSkRpUXZMbHlEZ0xJMDVkaE5vLUI1Nnc?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-08T18:46:09+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Vision"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Vision"
-      ],
-      "external_id": "CBMiZ0FVX3lxTFAwWTNpQ0pTM0o2MGI4RGdMSll3SFQ3RTlPbTZXRDBsWGUxSW94cGlFRGFEX1VpSkVxMjdMVWhfN2p4VE9YdFktRkROZTVsMTNCSkRpUXZMbHlEZ0xJMDVkaE5vLUI1Nnc",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -99,6 +117,31 @@
         "Doom"
       ],
       "external_id": "CBMiZ0FVX3lxTE9BTUpiWWVKMkl0bzc3WFFRejBPZU9GckNaUGRUbEdtLXJjR3FROFowWnFMd0xhM3Q3a1BBQjB2dUZzT0pFRkJGU1FMVzUtNV8xV1pDY25Pc1JaQXl0SG5jNEtxRFJiWVk",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "xmenthelaststand",
+      "title": "X-Men: The Last Stand",
+      "summary": "X-Men: The Last Stand Rotten Tomatoes",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "Rotten Tomatoes"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTelkzQXVTWFo2SHZZejFoLVNlcHdhTlNuUUc0QzBqQTllQkRDN0p4a2dfUS03WFIyRFA5MU5FTllQMHhfVFJNUlhaRUZDNFd5RHlha1ZxRC01WGJHdnZoc1ROdWJiQQ?oc=5",
+      "source": "Rotten Tomatoes",
+      "source_id": "rotten_tomatoes",
+      "category": "Marvel",
+      "published_at": "2026-11-08T16:48:38+00:00",
+      "status": "reported",
+      "tags": [
+        "X-Men"
+      ],
+      "related_characters": [
+        "X-Men"
+      ],
+      "external_id": "CBMiZkFVX3lxTFBTelkzQXVTWFo2SHZZejFoLVNlcHdhTlNuUUc0QzBqQTllQkRDN0p4a2dfUS03WFIyRFA5MU5FTllQMHhfVFJNUlhaRUZDNFd5RHlha1ZxRC01WGJHdnZoc1ROdWJiQQ",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -253,7 +296,25 @@
       ],
       "external_id": "CBMinAFBVV95cUxNWWk0QnNBMG1xOGItT3o4aGZTQ1NvTTdER2hFbEpqSGk3aGJHQmRQa0pLTUNZRTJrVnQ5TmplR1hvdExXRTNzMDVSbmQ0T2hmZ09RTV9OazlBblE3OGlYQUM5UjdfQk53U25DcmVOVVNfNzZZdmNmTW1rcTMtNnhZYnZnNXZZdURxMktrTmJCaFpz",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "10marvelcharacterswhosecomicidentitychangedaftertheirmcudebut",
+      "title": "10 Marvel Characters Whose Comic Identity Changed After Their MCU Debut",
+      "summary": "10 Marvel Characters Whose Comic Identity Changed After Their MCU Debut Comic Book Resources",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdmR2bkw5a0hpN3IzN2lKcEpmNkFLRTR6WXBlOHlhZWFSWDVIdWNFcnU1MG5rbTlmUGxTdHg1SzZsZEJTSjRETktWMERnamtvbnpEU2tucURCVmtHVGlGU1phMXRRVjE2UTlJWnlMU2xrTXdKa2lWd2NRLUJRbldjVDhvTkZ2bmFZMDZ4dnNCWU5xREU?oc=5",
+      "source": "CBR",
+      "source_id": "cbr",
+      "category": "Comics",
+      "published_at": "2026-11-08T01:00:00+00:00",
+      "status": "reported",
+      "tags": [],
+      "related_characters": [],
+      "external_id": "CBMikwFBVV95cUxPdmR2bkw5a0hpN3IzN2lKcEpmNkFLRTR6WXBlOHlhZWFSWDVIdWNFcnU1MG5rbTlmUGxTdHg1SzZsZEJTSjRETktWMERnamtvbnpEU2tucURCVmtHVGlGU1phMXRRVjE2UTlJWnlMU2xrTXdKa2lWd2NRLUJRbldjVDhvTkZ2bmFZMDZ4dnNCWU5x",
+      "synopsis": "",
+      "synopsis_status": "pending"
     },
     {
       "id": "marvelofficiallyrevivesfemaleapacheghostriderbeforeavengersdoomsday",
@@ -303,7 +364,7 @@
       "related_characters": [],
       "external_id": "CBMia0FVX3lxTE1KY3JIN1JWZ1pMZnRHTjJfVWRqaE55OXVKRnZweTlEOWRseURzbTdxSXc0ZEU2aEdpeTVRT054RUZ3ZmxRZVJjY0VUSTVUVUVqRnUwWWdhV1lCVVlSRDJ5YjVGNDA4dGJYV0Rr",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "thunderboltsstoryboardsrevealamajormarvelcharacterwascutfromtheteam",
@@ -2746,31 +2807,6 @@
       "synopsis_status": "pending"
     },
     {
-      "id": "xmenthelaststand",
-      "title": "X-Men: The Last Stand",
-      "summary": "X-Men: The Last Stand Rotten Tomatoes",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "Rotten Tomatoes"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTelkzQXVTWFo2SHZZejFoLVNlcHdhTlNuUUc0QzBqQTllQkRDN0p4a2dfUS03WFIyRFA5MU5FTllQMHhfVFJNUlhaRUZDNFd5RHlha1ZxRC01WGJHdnZoc1ROdWJiQQ?oc=5",
-      "source": "Rotten Tomatoes",
-      "source_id": "rotten_tomatoes",
-      "category": "Marvel",
-      "published_at": "2026-11-04T21:02:52+00:00",
-      "status": "reported",
-      "tags": [
-        "X-Men"
-      ],
-      "related_characters": [
-        "X-Men"
-      ],
-      "external_id": "CBMiZkFVX3lxTFBTelkzQXVTWFo2SHZZejFoLVNlcHdhTlNuUUc0QzBqQTllQkRDN0p4a2dfUS03WFIyRFA5MU5FTllQMHhfVFJNUlhaRUZDNFd5RHlha1ZxRC01WGJHdnZoc1ROdWJiQQ",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
       "id": "marvelsnewdisneyseriesvisionquestofficiallysetsimdbrecordwithnewepisode",
       "title": "Marvel's New Disney Series VisionQuest Officially Sets IMDb Record With New Episode",
       "summary": "Marvel's New Disney Series VisionQuest Officially Sets IMDb Record With New Episode ScreenRant",
@@ -3724,62 +3760,6 @@
       "external_id": "CBMiZ0FVX3lxTE1kX0NvM0YySkQzZlBxMjNneTdlbm91elN0QnZvQjI2X1pqeTd4R3BQeTFpVUtmU2hNZEd4WmZlRGNGOUgzTUF0NTE1Y2FrbnlaYVNuVU52VFR1Qi1XR0dDX1NIVXh2VFU",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "wweandmarvelcollideavengersdoomsdaytakesoverworldscollideinasurprisedisneyworldc",
-      "title": "WWE and Marvel Collide: ‘Avengers: Doomsday’ Takes Over Worlds Collide in a Surprise Disney World Crossover",
-      "summary": "WWE and Marvel Collide: ‘Avengers: Doomsday’ Takes Over Worlds Collide in a Surprise Disney World Crossover IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xWEFiOWtrMDR1Ny1TUWhBOGNTX3QzWkZxbkZjVno0SnJ6VWg4VkVJY2h6UWtabWt3dHJYU1EyOEJ2VXF6WVRsLTVCNHBZTUdOT1g2RVI2dHZlM2EtaUNiUkFvaUFaN2s?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Events",
-      "published_at": "2026-11-03T15:03:17+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE0xWEFiOWtrMDR1Ny1TUWhBOGNTX3QzWkZxbkZjVno0SnJ6VWg4VkVJY2h6UWtabWt3dHJYU1EyOEJ2VXF6WVRsLTVCNHBZTUdOT1g2RVI2dHZlM2EtaUNiUkFvaUFaN2s",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "newavengersdoomsdaypromoartframesdoomthexmenandwakandasheroesinstrikingcircularp",
-      "title": "New ‘Avengers: Doomsday’ Promo Art Frames Doom, the X-Men and Wakanda’s Heroes in Striking Circular Portraits",
-      "summary": "New ‘Avengers: Doomsday’ Promo Art Frames Doom, the X-Men and Wakanda’s Heroes in Striking Circular Portraits IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Zjg1QXVXU25yMFYxSnQ2UC1QdUpSekE1N1FOY05oeEF5N09VS19zZmlpTElKNUpwaEVFTnlSdWN5VTBvcS1GclVKbi1fb0FWNUpKaUtsQ0NOU1VFeEVzbHFFamdULTg?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-03T15:00:38+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "X-Men",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "X-Men",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE54Zjg1QXVXU25yMFYxSnQ2UC1QdUpSekE1N1FOY05oeEF5N09VS19zZmlpTElKNUpwaEVFTnlSdWN5VTBvcS1GclVKbi1fb0FWNUpKaUtsQ0NOU1VFeEVzbHFFamdULTg",
-      "synopsis": "",
-      "synopsis_status": "pending"
     }
   ],
   "synopsis_engine": "Free local TextRank-style source extraction (no API key)"
