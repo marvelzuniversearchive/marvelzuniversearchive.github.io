@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T23:18:09.840276+00:00",
+  "generated_at": "2026-11-08T02:37:15.114240+00:00",
   "source_count": 15,
   "search_topics": [
     "Marvel Universe",
@@ -303,7 +303,7 @@
       ],
       "external_id": "CBMiZ0FVX3lxTE5BelVMVTFLcE43cS1IZldoRlBxcS15MnB6c2FpYXRnTEtsenlJTVZRVHJnR1EzLVZNeGZGNXR6OEl2YWxjdXdvX1JlT1lWc3hWTVk3VXdsUUFNM0NMQm1aU0lXNG1WZUE",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "theavengersdoomsdaylatveriamapisfullofcomicbookeastereggs",
@@ -330,7 +330,7 @@
       ],
       "external_id": "CBMiZ0FVX3lxTE9JLTRQLVMzNXVtUEtGemthN2czLU9tcmlDMGo5VkJYSFJ3MmcyNnhOcE9KcmdOREFKX052SXBMZWR1ZWJ2TjRadVB5bVpmRmdRNDN3LVpEeDdCclp0N3ViOV9nZmdPeHc",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "avengersdoomsdaylatveriamaprevealsdoctordoomskingdomfromdoomstadttodoomwoodfores",
@@ -3406,11 +3406,11 @@
         "IMDb"
       ],
       "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KSktqNHZ0TWVIQWh2S0JXNnRabjFfSGdUaTNzVlJqRUZGYjNhaTVvb1BYTVQzeHhIQ2NDMm44WU1MUXB4M2NhdGJ3RjZsbzkwNXNXVER6NWhMM2ZuNHRObndwMS1GOUNUaGc?oc=5",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9pb3RsRkp3OUdJTHo4SWNId3hsTVJXdGVCZzJ3clRlclBfSkl5ckFLWFk4Mks2WURaUjRfM3JyQUdhOWRNVEVpOE41REl2c1NwM1JXOGlONnozRWtBQndfVHZ2X2MtaTgzY1E?oc=5",
       "source": "IMDb",
       "source_id": "imdb",
       "category": "Marvel",
-      "published_at": "2026-11-03T16:05:14+00:00",
+      "published_at": "2026-11-03T16:06:08+00:00",
       "status": "reported",
       "tags": [
         "Avengers",
@@ -3420,7 +3420,7 @@
         "Avengers",
         "Doom"
       ],
-      "external_id": "CBMiakFVX3lxTE5KSktqNHZ0TWVIQWh2S0JXNnRabjFfSGdUaTNzVlJqRUZGYjNhaTVvb1BYTVQzeHhIQ2NDMm44WU1MUXB4M2NhdGJ3RjZsbzkwNXNXVER6NWhMM2ZuNHRObndwMS1GOUNUaGc",
+      "external_id": "CBMiakFVX3lxTE9pb3RsRkp3OUdJTHo4SWNId3hsTVJXdGVCZzJ3clRlclBfSkl5ckFLWFk4Mks2WURaUjRfM3JyQUdhOWRNVEVpOE41REl2c1NwM1JXOGlONnozRWtBQndfVHZ2X2MtaTgzY1E",
       "synopsis": "",
       "synopsis_status": "pending"
     },
