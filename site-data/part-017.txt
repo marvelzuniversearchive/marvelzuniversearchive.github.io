@@ -166,17 +166,22 @@ function organizationView(){
  '<div class="pager"><button class="btn" data-action="prev-page" '+(S.page<=1?'disabled':'')+'>← Previous</button><span>Page '+S.page+' of '+pages+' · '+num(list.length)+' total results</span><button class="btn" data-action="next-page" '+(S.page>=pages?'disabled':'')+'>Next →</button></div>';
 }
 const COMIC_ARCHIVE={loaded:false,loading:false,items:[],error:'',progress:'',loadedByCategory:{},loadingByCategory:{}};
-async function comicCategoryMembers(category){
+async function comicCategoryMembers(category,onBatch){
  const all=new Map();let cont=null,pages=0;
  do{
   const p=new URLSearchParams({action:'query',list:'categorymembers',cmtitle:category,cmlimit:'500',cmtype:'page',format:'json',origin:'*'});
   if(cont)Object.entries(cont).forEach(([k,v])=>p.set(k,v));
   let response;
-  for(let attempt=0;attempt<3;attempt++){try{response=await fetch('https://marvel.fandom.com/api.php?'+p.toString(),{headers:{Accept:'application/json'}});if(response.ok)break;}catch(err){if(attempt===2)throw err;}if(attempt===2)throw new Error('Marvel Database API returned HTTP '+response.status);await new Promise(resolve=>setTimeout(resolve,700*(attempt+1)));}
+  for(let attempt=0;attempt<3;attempt++){
+   try{response=await fetch('https://marvel.fandom.com/api.php?'+p.toString(),{headers:{Accept:'application/json'},cache:'force-cache'});if(response.ok)break;}
+   catch(err){if(attempt===2)throw err;}
+   if(attempt===2)throw new Error('Marvel Database API returned HTTP '+response.status);
+   await new Promise(resolve=>setTimeout(resolve,400*(attempt+1)));
+  }
   const j=await response.json();if(j.error)throw new Error(j.error.info||'Marvel Database API error');
   for(const x of (j.query?.categorymembers||[])){if(x.ns===0&&x.title)all.set(norm(x.title),{name:x.title,category:category.replace('Category:',''),source:'Marvel Database · '+category.replace('Category:','')})}
   cont=j.continue||null;pages++;
-  if(pages%10===0){COMIC_ARCHIVE.progress=category.replace('Category:','')+' · '+num(all.size)+' indexed';}
+  if(onBatch&&(pages===1||pages%5===0||!cont))onBatch([...all.values()],pages,!!cont);
  }while(cont);
  return [...all.values()];
 }
@@ -194,6 +199,19 @@ async function loadComicArchive(force=false,category=S.comicKind||'Comics'){
   if(S.view==='comics')render();
   if(fresh)return;
  }
+ if(!force){
+  const legacy=stored('mua_comics_archive_v1',null);
+  if(legacy&&Array.isArray(legacy.items)){
+   const legacyItems=legacy.items.map(x=>Array.isArray(x)?({name:x[1],category:x[0]==='C'?'Comics':x[0]==='A'?'Story Arcs':'Storylines',source:'Marvel Database'}):x).filter(x=>x.category===category);
+   if(legacyItems.length){
+    COMIC_ARCHIVE.items=COMIC_ARCHIVE.items.filter(x=>x.category!==category).concat(legacyItems);
+    COMIC_ARCHIVE.loadedByCategory[category]=true;COMIC_ARCHIVE.loaded=true;
+    save(cacheKey,{version:2,savedAt:legacy.savedAt||Date.now(),items:legacyItems.map(x=>x.name)});
+    if(S.view==='comics')render();
+    if((legacy.savedAt||0)>Date.now()-30*86400000)return;
+   }
+  }
+ }
  if(!force&&COMIC_ARCHIVE.loadedByCategory[category])return;
  COMIC_ARCHIVE.loadingByCategory[category]=true;
  COMIC_ARCHIVE.loading=true;
@@ -202,7 +220,13 @@ async function loadComicArchive(force=false,category=S.comicKind||'Comics'){
  if(S.comicKind===category||!S.comicKind)COMIC_ARCHIVE.loaded=false;
  if(S.view==='comics')render();
  try{
-  const entries=await comicCategoryMembers('Category:'+category);
+  const entries=await comicCategoryMembers('Category:'+category,(batch,pages,more)=>{
+   COMIC_ARCHIVE.items=COMIC_ARCHIVE.items.filter(x=>x.category!==category).concat(batch);
+   COMIC_ARCHIVE.items.sort((a,b)=>a.name.localeCompare(b.name));
+   COMIC_ARCHIVE.loadedByCategory[category]=true;COMIC_ARCHIVE.loaded=true;
+   COMIC_ARCHIVE.progress=more?'Loaded '+num(batch.length)+' entries · fetching more…':'Index complete';
+   if(S.view==='comics')render();
+  });
   COMIC_ARCHIVE.items=COMIC_ARCHIVE.items.filter(x=>x.category!==category).concat(entries);
   COMIC_ARCHIVE.items.sort((a,b)=>a.name.localeCompare(b.name));
   COMIC_ARCHIVE.loadedByCategory[category]=true;
