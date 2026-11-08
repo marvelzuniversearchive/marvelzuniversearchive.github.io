@@ -165,7 +165,7 @@ function organizationView(){
  '<div class="org-grid">'+(cards||'<div class="empty glass" style="grid-column:1/-1"><strong>No matching groups</strong><p>Try another name or member.</p></div>')+'</div>'+
  '<div class="pager"><button class="btn" data-action="prev-page" '+(S.page<=1?'disabled':'')+'>← Previous</button><span>Page '+S.page+' of '+pages+' · '+num(list.length)+' total results</span><button class="btn" data-action="next-page" '+(S.page>=pages?'disabled':'')+'>Next →</button></div>';
 }
-const COMIC_ARCHIVE={loaded:false,loading:false,items:[],error:'',progress:''};
+const COMIC_ARCHIVE={loaded:false,loading:false,items:[],error:'',progress:'',loadedByCategory:{},loadingByCategory:{}};
 async function comicCategoryMembers(category){
  const all=new Map();let cont=null,pages=0;
  do{
@@ -176,24 +176,46 @@ async function comicCategoryMembers(category){
   const j=await response.json();if(j.error)throw new Error(j.error.info||'Marvel Database API error');
   for(const x of (j.query?.categorymembers||[])){if(x.ns===0&&x.title)all.set(norm(x.title),{name:x.title,category:category.replace('Category:',''),source:'Marvel Database · '+category.replace('Category:','')})}
   cont=j.continue||null;pages++;
-  if(pages%10===0){COMIC_ARCHIVE.progress=category.replace('Category:','')+' · '+num(all.size)+' indexed';if(S.view==='comics')render()}
+  if(pages%10===0){COMIC_ARCHIVE.progress=category.replace('Category:','')+' · '+num(all.size)+' indexed';}
  }while(cont);
  return [...all.values()];
 }
-async function loadComicArchive(force=false){
- if(COMIC_ARCHIVE.loading)return;
- const cached=stored('mua_comics_archive_v1',null);
- if(!force&&cached&&cached.version===1&&Array.isArray(cached.items)&&cached.savedAt>Date.now()-7*86400000){COMIC_ARCHIVE.items=cached.items.map(x=>Array.isArray(x)?({name:x[1],category:x[0]==='C'?'Comics':x[0]==='A'?'Story Arcs':'Storylines',source:'Marvel Database'}):x);COMIC_ARCHIVE.loaded=true;if(S.view==='comics')render();return}
- COMIC_ARCHIVE.loading=true;COMIC_ARCHIVE.error='';COMIC_ARCHIVE.progress='Connecting to Marvel Database public indexes…';if(S.view==='comics')render();
- const roots=['Category:Comics','Category:Story Arcs','Category:Storylines'];
- const results=await Promise.allSettled(roots.map(comicCategoryMembers));
- const merged=new Map();const failures=[];
- results.forEach((result,i)=>{if(result.status==='fulfilled')result.value.forEach(x=>merged.set(roots[i]+'|'+norm(x.name),x));else failures.push(roots[i].replace('Category:','')+': '+String(result.reason?.message||result.reason))});
- COMIC_ARCHIVE.items=[...merged.values()].sort((a,b)=>a.name.localeCompare(b.name));
- COMIC_ARCHIVE.loaded=true;COMIC_ARCHIVE.loading=false;COMIC_ARCHIVE.progress='';
- COMIC_ARCHIVE.error=failures.join(' · ');
- if(COMIC_ARCHIVE.items.length)save('mua_comics_archive_v1',{version:1,savedAt:Date.now(),items:COMIC_ARCHIVE.items.map(x=>[x.category==='Comics'?'C':x.category==='Story Arcs'?'A':'S',x.name])});
+async function loadComicArchive(force=false,category=S.comicKind||'Comics'){
+ const key=category==='Comics'?'C':category==='Story Arcs'?'A':'S';
+ const cacheKey='mua_comics_archive_v2_'+key;
+ if(COMIC_ARCHIVE.loadingByCategory[category])return;
+ const cached=stored(cacheKey,null);
+ if(!force&&cached&&Array.isArray(cached.items)){
+  const fresh=cached.savedAt>Date.now()-30*86400000;
+  const categoryItems=cached.items.map(name=>({name,category,source:'Marvel Database'}));
+  COMIC_ARCHIVE.items=COMIC_ARCHIVE.items.filter(x=>x.category!==category).concat(categoryItems);
+  COMIC_ARCHIVE.loadedByCategory[category]=true;
+  if(S.comicKind===category||!S.comicKind)COMIC_ARCHIVE.loaded=true;
+  if(S.view==='comics')render();
+  if(fresh)return;
+ }
+ if(!force&&COMIC_ARCHIVE.loadedByCategory[category])return;
+ COMIC_ARCHIVE.loadingByCategory[category]=true;
+ COMIC_ARCHIVE.loading=true;
+ COMIC_ARCHIVE.error='';
+ COMIC_ARCHIVE.progress='Loading '+category+' index…';
+ if(S.comicKind===category||!S.comicKind)COMIC_ARCHIVE.loaded=false;
  if(S.view==='comics')render();
+ try{
+  const entries=await comicCategoryMembers('Category:'+category);
+  COMIC_ARCHIVE.items=COMIC_ARCHIVE.items.filter(x=>x.category!==category).concat(entries);
+  COMIC_ARCHIVE.items.sort((a,b)=>a.name.localeCompare(b.name));
+  COMIC_ARCHIVE.loadedByCategory[category]=true;
+  save(cacheKey,{version:2,savedAt:Date.now(),items:entries.map(x=>x.name)});
+ }catch(err){
+  COMIC_ARCHIVE.error=String(err?.message||err);
+ }finally{
+  COMIC_ARCHIVE.loadingByCategory[category]=false;
+  COMIC_ARCHIVE.loading=Object.values(COMIC_ARCHIVE.loadingByCategory).some(Boolean);
+  COMIC_ARCHIVE.progress='';
+  if(S.comicKind===category||!S.comicKind)COMIC_ARCHIVE.loaded=!!COMIC_ARCHIVE.loadedByCategory[category];
+  if(S.view==='comics')render();
+ }
 }
 function comicDetailView(){
  const item=COMIC_ARCHIVE.items.find(x=>x.name===S.selectedComic);
@@ -216,7 +238,7 @@ function comicsView(){
  const tabs=['Comics','Story Arcs','Storylines'];
  return `${titleBlock('MARVEL PUBLICATION ARCHIVE','Comics & Storylines','Searchable indexes sourced from Marvel Database public category listings. Comic entries are issue pages; story arcs and storylines are separate indexes.')}
  <div class="toolbar" style="flex-wrap:wrap;gap:10px"><input class="field search" id="comicSearch" placeholder="Search titles, issues and storylines…" value="${esc(S.comicQ||'')}" style="min-width:220px;flex:1"><button class="btn" data-action="comic-refresh" ${COMIC_ARCHIVE.loading?'disabled':''}>↻ Refresh source index</button></div>
- <div class="toolbar" style="flex-wrap:wrap;gap:8px">${tabs.map(t=>`<button class="btn ${kind===t?'primary':''}" data-action="comic-kind" data-kind="${t}">${t}${COMIC_ARCHIVE.loaded?' · '+num(COMIC_ARCHIVE.items.filter(x=>x.category===t).length):''}</button>`).join('')}</div>
+ <div class="toolbar" style="flex-wrap:wrap;gap:8px">${tabs.map(t=>`<button class="btn ${kind===t?'primary':''}" data-action="comic-kind" data-kind="${t}">${t}${COMIC_ARCHIVE.loadedByCategory[t]?' · '+num(COMIC_ARCHIVE.items.filter(x=>x.category===t).length):''}</button>`).join('')}</div>
  ${COMIC_ARCHIVE.loading?`<div class="warning">Loading public indexes… ${esc(COMIC_ARCHIVE.progress||'Fetching category pages')}</div>`:''}
  ${COMIC_ARCHIVE.error?`<div class="warning">Some source indexes could not be loaded: ${esc(COMIC_ARCHIVE.error)}. Available results are still shown; use Refresh to retry.</div>`:''}
  ${!COMIC_ARCHIVE.loaded&&!COMIC_ARCHIVE.loading?`<div class="empty glass"><strong>Load the Marvel publication index</strong><p>The archive retrieves comic issues, story arcs and storylines from the public Marvel Database index. This is a metadata catalogue, not hosted comic-book pages.</p><button class="btn primary" data-action="comic-refresh">Load comics & storylines</button></div>`:''}
@@ -233,7 +255,7 @@ function openTeam(name){S.selectedTeam=name;S.view='team-profile';render();if(!O
 function modal(){let root=$('#modalRoot');if(!S.modal){root.innerHTML='';return}let type=S.modal.type;let q=S.modalQ;let list=type==='team'?D.teams:D.characters;let matches=q?matchNames(list,q).slice(0,60):list.slice(0,60);root.innerHTML=`<div class="modal-backdrop" data-action="close-modal"><div class="modal glass"><div class="modal-head"><h3>${type==='team'?'Choose team / group':'Choose character'} · Slot ${(S.modal.slot??0)+1}</h3><button class="icon-btn" data-action="close-modal">×</button></div><input class="field" id="modalSearch" style="width:100%" value="${esc(q)}" placeholder="Search the complete ${type==='team'?'3,138-team':'51,910-character'} registry…" autofocus><div class="modal-results">${matches.map(n=>`<button data-action="modal-select" data-name="${esc(n)}">${esc(n)}</button>`).join('')||'<span class="tag">No matches</span>'}</div><p class="panel-sub" style="margin-top:12px">Showing ${matches.length} result${matches.length===1?'':'s'}; type to search the complete registry.</p></div></div>`;$('#modalSearch')?.focus()}
 function toggleFav(kind,name){let a=FAV(),key=(kind==='team'?'t:':'c:')+name;if(a.has(key))a.delete(key);else a.add(key);save('mua_favs',[...a]);render()}
 function download(name,content,type='text/plain;charset=utf-8'){let blob=new Blob([content],{type}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
-document.addEventListener('click',e=>{if(e.target.closest('.modal')&&!e.target.closest('button[data-action]'))return;let b=e.target.closest('button,[data-view],[data-action]');if(!b)return;let view=b.dataset.view,act=b.dataset.action;if(view){navigate(view);return}if(!act)return;switch(act){case'mobile-menu':$('#sidebar').classList.toggle('open');$('#mobileOverlay').classList.toggle('show');break;case'search-suggestion':$('#globalSuggestions').hidden=true;openChar(b.dataset.name);break;case'open-char':openChar(b.dataset.name);break;case'open-team':openTeam(b.dataset.name);break;case'load-marvel-org-index':loadOrganizationIndex();break;case'comic-refresh':loadComicArchive(true);break;case'comic-open':S.selectedComic=b.dataset.name;render();window.scrollTo(0,0);break;case'comic-back':S.selectedComic='';render();window.scrollTo(0,0);break;case'comic-kind':S.comicKind=b.dataset.kind;S.comicPage=1;S.comicAlpha='';render();break;case'comic-alpha':S.comicAlpha=b.dataset.letter;S.comicPage=1;render();break;case'comic-prev':S.comicPage=Math.max(1,(S.comicPage||1)-1);render();break;case'comic-next':S.comicPage=(S.comicPage||1)+1;render();break;case'load-organization-roster':loadOrganizationRoster(b.dataset.name);break;case'fav':toggleFav(b.dataset.kind,b.dataset.name);break;case'alpha':S.alpha=b.dataset.letter;S.page=1;render();break;case'clear-search':S.q='';S.alpha='';S.page=1;render();break;case'prev-page':S.page=Math.max(1,S.page-1);render();break;case'next-page':S.page++;render();break;case'spot-another':{let current=S.spotOverride||getSpotlight(0),pool=D.characters.filter(n=>n!==current);S.spotOverride=pool[Math.floor(Math.random()*pool.length)];render();break}case'compare-mode':S.compareMode=b.dataset.mode;S.compare=[null,null,null,null];render();break;case'choose-slot':S.modal={type:S.compareMode==='teams'?'team':'character',slot:Number(b.dataset.slot)};S.modalQ='';modal();break;case'remove-slot':S.compare[Number(b.dataset.slot)]=null;render();break;case'modal-select':S.compare[S.modal.slot]=b.dataset.name;S.modal=null;modal();render();break;case'close-modal':if(e.target.classList.contains('modal-backdrop')||b.dataset.action==='close-modal'){S.modal=null;modal()}break;case'compare-add':S.compareMode='characters';{let i=S.compare.findIndex(x=>!x);if(i<0)i=0;S.compare[i]=b.dataset.name}S.view='compare';render();break;case'team-compare':S.compareMode='teams';{let i=S.compare.findIndex(x=>!x);if(i<0)i=0;S.compare[i]=b.dataset.name}S.view='compare';render();break;case'relationship-find':S.relationshipName=$('#relationshipSearch')?.value.trim()||S.relationshipName;render();break;case'export-characters':download('marvel_character_names_51910.txt',D.characters.join('\n'));break;case'export-teams':download('marvel_team_group_names_3138.csv','Team_Name\n'+D.teams.map(x=>'"'+x.replace(/"/g,'""')+'"').join('\n'),'text/csv;charset=utf-8');break;case'export-favs':download('marvel_archive_favourites.json',JSON.stringify({favourites:[...FAV()],recent:REC()},null,2),'application/json');break;}}
+document.addEventListener('click',e=>{if(e.target.closest('.modal')&&!e.target.closest('button[data-action]'))return;let b=e.target.closest('button,[data-view],[data-action]');if(!b)return;let view=b.dataset.view,act=b.dataset.action;if(view){navigate(view);return}if(!act)return;switch(act){case'mobile-menu':$('#sidebar').classList.toggle('open');$('#mobileOverlay').classList.toggle('show');break;case'search-suggestion':$('#globalSuggestions').hidden=true;openChar(b.dataset.name);break;case'open-char':openChar(b.dataset.name);break;case'open-team':openTeam(b.dataset.name);break;case'load-marvel-org-index':loadOrganizationIndex();break;case'comic-refresh':loadComicArchive(true,S.comicKind||'Comics');break;case'comic-open':S.selectedComic=b.dataset.name;render();window.scrollTo(0,0);break;case'comic-back':S.selectedComic='';render();window.scrollTo(0,0);break;case'comic-kind':S.comicKind=b.dataset.kind;S.comicPage=1;S.comicAlpha='';COMIC_ARCHIVE.loaded=!!COMIC_ARCHIVE.loadedByCategory[S.comicKind];render();if(!COMIC_ARCHIVE.loaded)loadComicArchive(false,S.comicKind);break;case'comic-alpha':S.comicAlpha=b.dataset.letter;S.comicPage=1;render();break;case'comic-prev':S.comicPage=Math.max(1,(S.comicPage||1)-1);render();break;case'comic-next':S.comicPage=(S.comicPage||1)+1;render();break;case'load-organization-roster':loadOrganizationRoster(b.dataset.name);break;case'fav':toggleFav(b.dataset.kind,b.dataset.name);break;case'alpha':S.alpha=b.dataset.letter;S.page=1;render();break;case'clear-search':S.q='';S.alpha='';S.page=1;render();break;case'prev-page':S.page=Math.max(1,S.page-1);render();break;case'next-page':S.page++;render();break;case'spot-another':{let current=S.spotOverride||getSpotlight(0),pool=D.characters.filter(n=>n!==current);S.spotOverride=pool[Math.floor(Math.random()*pool.length)];render();break}case'compare-mode':S.compareMode=b.dataset.mode;S.compare=[null,null,null,null];render();break;case'choose-slot':S.modal={type:S.compareMode==='teams'?'team':'character',slot:Number(b.dataset.slot)};S.modalQ='';modal();break;case'remove-slot':S.compare[Number(b.dataset.slot)]=null;render();break;case'modal-select':S.compare[S.modal.slot]=b.dataset.name;S.modal=null;modal();render();break;case'close-modal':if(e.target.classList.contains('modal-backdrop')||b.dataset.action==='close-modal'){S.modal=null;modal()}break;case'compare-add':S.compareMode='characters';{let i=S.compare.findIndex(x=>!x);if(i<0)i=0;S.compare[i]=b.dataset.name}S.view='compare';render();break;case'team-compare':S.compareMode='teams';{let i=S.compare.findIndex(x=>!x);if(i<0)i=0;S.compare[i]=b.dataset.name}S.view='compare';render();break;case'relationship-find':S.relationshipName=$('#relationshipSearch')?.value.trim()||S.relationshipName;render();break;case'export-characters':download('marvel_character_names_51910.txt',D.characters.join('\n'));break;case'export-teams':download('marvel_team_group_names_3138.csv','Team_Name\n'+D.teams.map(x=>'"'+x.replace(/"/g,'""')+'"').join('\n'),'text/csv;charset=utf-8');break;case'export-favs':download('marvel_archive_favourites.json',JSON.stringify({favourites:[...FAV()],recent:REC()},null,2),'application/json');break;}}
 );
 document.addEventListener('submit',e=>{if(e.target.id==='globalForm'){e.preventDefault();S.q=$('#globalSearch').value.trim();$('#globalSuggestions').hidden=true;S.view='search';render();window.scrollTo(0,0)}});
 document.addEventListener('input',e=>{if(e.target.id==='globalSearch'){S.q=e.target.value;globalSuggestions(S.q);if(!S.q){if(S.view==='search')render();return}}if(e.target.id==='organizationSearch'){S.q=e.target.value;let pos=e.target.selectionStart;render();let el=$('#organizationSearch');el?.focus();el?.setSelectionRange(pos,pos)}if(e.target.id==='directorySearch'){S.q=e.target.value;S.page=1;let pos=e.target.selectionStart;render();let el=$('#directorySearch');el?.focus();el?.setSelectionRange(pos,pos)}if(e.target.id==='comicSearch'){S.comicQ=e.target.value;S.comicPage=1;let pos=e.target.selectionStart;render();let el=$('#comicSearch');el?.focus();el?.setSelectionRange(pos,pos)}if(e.target.id==='pageSize'){S.pageSize=Number(e.target.value)||48;render()}if(e.target.id==='modalSearch'){let pos=e.target.selectionStart??e.target.value.length;S.modalQ=e.target.value;modal();let next=$('#modalSearch');next?.focus();next?.setSelectionRange(pos,pos)} });
