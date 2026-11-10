@@ -31,6 +31,9 @@ FIELD_MAP = {
     "current_alias": ("CurrentAlias",),
     "aliases": ("Codenames", "Aliases", "EditorialNames", "Nicknames", "Titles"),
     "affiliations": ("Affiliation",),
+    "family": ("Pets", "PetOf", "Ancestors", "Grandparents", "Parents", "Clones", "Siblings", "Spouses", "Children", "Descendants", "InLaw", "Relatives", "Hosts", "HostOf"),
+    "marital_status": ("MaritalStatus",),
+    "publisher": ("Publisher", "Marvel"),
     "gender": ("Gender",),
     "height": ("Height",),
     "weight": ("Weight",),
@@ -356,17 +359,27 @@ def make_record(name: str, page: dict[str, Any] | None, row: dict[str, Any] | No
         wikitext = slot.get("content") or slot.get("*") or revision.get("content") or revision.get("*") or ""
         params = parse_template_params(find_infobox(wikitext))
 
+        list_fields = {"aliases", "affiliations", "family", "powers", "abilities", "weaknesses",
+                       "equipment", "transportation", "weapons"}
         for field, aliases in FIELD_MAP.items():
+            collected = []
             for alias in aliases:
                 value = params.get(re.sub(r"[\s_-]+", "", alias).lower())
                 if value:
-                    # Keep multi-value fields as arrays; other attributes remain readable strings.
-                    if field in ("aliases", "affiliations", "powers", "abilities", "weaknesses",
-                                 "equipment", "transportation", "weapons"):
-                        fields[field] = split_values(value)
-                    else:
-                        fields[field] = value
-                    break
+                    collected.extend(split_values(value) if field in list_fields else [value])
+            if collected:
+                if field in list_fields:
+                    fields[field] = list(dict.fromkeys(collected))[:30]
+                else:
+                    fields[field] = collected[0]
+
+        # Story-arc categories give a conservative story index without invented titles.
+        storyline_categories = [
+            x for x in categories
+            if re.search(r"(storyline|storylines|story arc|story arcs)", x, re.I)
+        ]
+        if storyline_categories:
+            fields["major_storylines"] = storyline_categories[:20]
 
         # The wiki's own category labels provide a useful backup for team memberships.
         if not fields.get("affiliations"):
