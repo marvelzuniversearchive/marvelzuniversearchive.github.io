@@ -606,6 +606,9 @@ def fetch_pages(session: requests.Session, titles: list[str]) -> dict[str, dict[
                         candidate = fallback_pages.get(norm(fallback_title))
                         if candidate and not candidate.get("missing") and not is_disambiguation_page(candidate):
                             pages_by_norm[norm(original)] = candidate
+                        else:
+                            # Never present an unresolved disambiguation index as a character biography.
+                            pages_by_norm.pop(norm(original), None)
                 except Exception as exc:
                     print(f"Earth-616 fallback lookup skipped for {len(group)} ambiguous names: {exc}", file=sys.stderr)
                 time.sleep(0.20)
