@@ -27,7 +27,7 @@ USER_AGENT = "MarvelUniverseArchiveResearch/1.0 (public character archive; conta
 PAGE_BATCH = 20
 
 FIELD_MAP = {
-    "real_name": ("Name", "RealName", "Real Name"),
+    "real_name": ("RealName", "Real Name"),
     "current_alias": ("CurrentAlias",),
     "aliases": ("Codenames", "Aliases", "EditorialNames", "Nicknames", "Titles"),
     "affiliations": ("Affiliation",),
@@ -220,6 +220,55 @@ def clean_wikitext(value: str) -> str:
     return value[:5000]
 
 
+def strip_nested_templates(value: str) -> str:
+    """Remove nested MediaWiki templates without leaving their inner parameters."""
+    out = []
+    i = 0
+    while i < len(value):
+        if value.startswith("{{", i):
+            depth = 1
+            i += 2
+            while i < len(value) and depth:
+                if value.startswith("{{", i):
+                    depth += 1
+                    i += 2
+                elif value.startswith("}}", i):
+                    depth -= 1
+                    i += 2
+                else:
+                    i += 1
+            out.append(" ")
+        else:
+            out.append(value[i])
+            i += 1
+    return "".join(out)
+
+
+def extract_section(wikitext: str, headings: tuple[str, ...]) -> str:
+    """Extract a named top-level character-history section from wikitext."""
+    pattern = re.compile(r"(?im)^==+\\s*([^=]+?)\\s*==+\\s*$")
+    matches = list(pattern.finditer(wikitext or ""))
+    wanted = {norm(x) for x in headings}
+    for index, match in enumerate(matches):
+        if norm(match.group(1)) in wanted:
+            end = matches[index + 1].start() if index + 1 < len(matches) else len(wikitext)
+            body = wikitext[match.end():end]
+            body = re.sub(r"(?im)^==+.*?==+\\s*$", " ", body)
+            return clean_wikitext(strip_nested_templates(body))
+    return ""
+
+
+def extract_lead_biography(wikitext: str) -> str:
+    """Build a readable lead biography from the source page when API extracts are absent."""
+    text = strip_nested_templates(wikitext or "")
+    text = re.split(r"(?m)^==+\\s*[^=].*?==+\\s*$", text, maxsplit=1)[0]
+    text = re.sub(r"(?im)^\\s*\\[\\[Category:[^]]+\\]\\]\\s*$", " ", text)
+    text = clean_wikitext(text)
+    if len(text) < 80:
+        return ""
+    return text[:2400].rsplit(" ", 1)[0]
+
+
 def find_infobox(wikitext: str) -> str:
     candidates = []
     pattern = re.compile(r"\{\{\s*([A-Za-z][A-Za-z0-9 _:/-]{1,80})")
@@ -358,6 +407,12 @@ def make_record(name: str, page: dict[str, Any] | None, row: dict[str, Any] | No
         slot = (revision.get("slots") or {}).get("main") or {}
         wikitext = slot.get("content") or slot.get("*") or revision.get("content") or revision.get("*") or ""
         params = parse_template_params(find_infobox(wikitext))
+        if not bio:
+            bio = extract_lead_biography(wikitext)
+        if not params.get("history"):
+            history_text = extract_section(wikitext, ("History", "Biography", "Origin"))
+            if history_text:
+                fields["history"] = history_text[:5000]
 
         list_fields = {"aliases", "affiliations", "family", "powers", "abilities", "weaknesses",
                        "equipment", "transportation", "weapons"}
@@ -427,7 +482,9 @@ def make_record(name: str, page: dict[str, Any] | None, row: dict[str, Any] | No
     if current_alias and current_alias not in aliases:
         aliases.insert(0, current_alias)
 
-    origin = fields.get("history") or bio or fields.get("origin") or ""
+    origin = fields.get("history") or fields.get("origin") or ""
+    if fields.get("real_name") and norm(fields["real_name"]) == norm(name):
+        fields.pop("real_name", None)
     affiliations = as_list(fields.get("affiliations"))
     return {
         "name": name,
