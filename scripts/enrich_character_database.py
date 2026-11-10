@@ -53,8 +53,10 @@ def base_norm(s):
     return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
 
 def bucket(name):
-    c = (name or "").strip()[:1].upper()
-    return c.lower() if "A" <= c <= "Z" else ("0-9" if c.isdigit() else "other")
+    chars = re.sub(r"[^a-z0-9]", "", (name or "").lower())
+    if len(chars) >= 2: return chars[:2]
+    if chars: return chars + "_"
+    return "other"
 
 def clean(value):
     if value is None: return ""
