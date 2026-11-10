@@ -21,7 +21,7 @@ concurrency:
 jobs:
   enrich:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 360
     steps:
       - name: Check out archive
         uses: actions/checkout@v4
@@ -36,29 +36,32 @@ jobs:
       - name: Install importer dependency
         run: python -m pip install --disable-pip-version-check requests
 
-      - name: Import next character batch
-        run: python scripts/enrich_marvel_characters.py --batch-size 1000
-
-      - name: Commit imported profile data
+      - name: Process the entire remaining character index
         run: |
-          git add site-data/character-enrichment
-          if git diff --cached --quiet; then
-            echo "No new character data was generated."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Populate next Marvel character profile batch"
-          for attempt in 1 2 3; do
-            if git push origin HEAD:main; then
-              exit 0
-            fi
-            git fetch origin main
-            if ! git rebase origin/main; then
-              git rebase --abort || true
-              echo "Another enrichment run advanced the same batch; upstream progress is preserved."
-              exit 0
+          set -euo pipefail
+          batch_count=0
+          while true; do
+            NEXT=$(python -c 'import json,pathlib; p=pathlib.Path("site-data/character-enrichment/progress.json"); d=json.loads(p.read_text()) if p.exists() else {}; print(int(d.get("next_index",0)))')
+            TOTAL=$(python -c 'import json,pathlib; p=pathlib.Path("site-data/character-enrichment/progress.json"); d=json.loads(p.read_text()) if p.exists() else {}; print(int(d.get("total",0)))')
+            if [ "$TOTAL" -gt 0 ] && [ "$NEXT" -ge "$TOTAL" ]; then break; fi
+            python scripts/enrich_marvel_characters.py --batch-size 1000
+            batch_count=$((batch_count+1))
+            if [ "$batch_count" -ge 5 ]; then
+              git add site-data/character-enrichment
+              if ! git diff --cached --quiet; then
+                git config user.name "github-actions[bot]"
+                git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                git commit -m "Populate Marvel character research batches"
+                git push origin HEAD:main
+              fi
+              batch_count=0
             fi
           done
-          echo "Could not push after three retries."
-          exit 1
+          git add site-data/character-enrichment
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Complete Marvel character index enrichment pass"
+            git push origin HEAD:main
+          fi
+          python -c 'import json,pathlib; d=json.loads(pathlib.Path("site-data/character-enrichment/progress.json").read_text()); assert d.get("completed") and d.get("next_index")==d.get("total"), d; print("All indexed character names attempted:",d["total"])'
