@@ -42,7 +42,7 @@ jobs:
           from pathlib import Path
           import re
           source = Path("site-data/part-017.txt").read_text(encoding="utf-8")
-          scripts = [s for s in re.findall(r"<script\\b[^>]*>([\\s\\S]*?)</script>", source, re.I) if s.strip()]
+          scripts = [s for s in re.findall(r"<script\b[^>]*>([\s\S]*?)</script>", source, re.I) if s.strip()]
           if not scripts:
               raise SystemExit("No inline JavaScript blocks found")
           Path("/tmp/mua-main.js").write_text(scripts[0], encoding="utf-8")
