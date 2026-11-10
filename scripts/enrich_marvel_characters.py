@@ -247,14 +247,14 @@ def strip_nested_templates(value: str) -> str:
 
 def extract_section(wikitext: str, headings: tuple[str, ...]) -> str:
     """Extract a named top-level character-history section from wikitext."""
-    pattern = re.compile(r"(?im)^==+\\s*([^=]+?)\\s*==+\\s*$")
+    pattern = re.compile(r"(?im)^==+\s*([^=]+?)\s*==+\s*$")
     matches = list(pattern.finditer(wikitext or ""))
     wanted = {norm(x) for x in headings}
     for index, match in enumerate(matches):
         if norm(match.group(1)) in wanted:
             end = matches[index + 1].start() if index + 1 < len(matches) else len(wikitext)
             body = wikitext[match.end():end]
-            body = re.sub(r"(?im)^==+.*?==+\\s*$", " ", body)
+            body = re.sub(r"(?im)^==+.*?==+\s*$", " ", body)
             return clean_wikitext(strip_nested_templates(body))
     return ""
 
@@ -262,8 +262,8 @@ def extract_section(wikitext: str, headings: tuple[str, ...]) -> str:
 def extract_lead_biography(wikitext: str) -> str:
     """Build a readable lead biography from the source page when API extracts are absent."""
     text = strip_nested_templates(wikitext or "")
-    text = re.split(r"(?m)^==+\\s*[^=].*?==+\\s*$", text, maxsplit=1)[0]
-    text = re.sub(r"(?im)^\\s*\\[\\[Category:[^]]+\\]\\]\\s*$", " ", text)
+    text = re.split(r"(?m)^==+\s*[^=].*?==+\s*$", text, maxsplit=1)[0]
+    text = re.sub(r"(?im)^\s*\[\[Category:[^]]+\]\]\s*$", " ", text)
     text = clean_wikitext(text)
     if len(text) < 80:
         return ""
