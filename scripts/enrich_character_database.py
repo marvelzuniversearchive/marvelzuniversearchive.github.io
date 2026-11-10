@@ -14,7 +14,7 @@ UA = "MarvelUniverseArchive/1.0 (character reference import; educational fan arc
 FIELDS = [
  "Real name","Aliases","Creators","First appearance","Publication date","Publisher",
  "Occupation","Species","Nationality","Base of operations","Affiliations","Teams",
- "Powers","Abilities","Weapons and equipment","Weaknesses","Major storylines",
+ "Powers","Abilities","Weaknesses","Major storylines",
  "Appearances","Family","Allies","Enemies","Identity","Status","Gender",
  "Eye colour","Hair","Alignment","Biography"
 ]
@@ -33,7 +33,6 @@ MAP = {
  "Teams":["team","teams"],
  "Powers":["powers","superpowers","power"],
  "Abilities":["abilities","skills","special abilities"],
- "Weapons and equipment":["weapons","equipment","weapon"],
  "Weaknesses":["weaknesses","weakness"],
  "Major storylines":["major storylines","story arcs","notable stories"],
  "Appearances":["appearances","comics"],
