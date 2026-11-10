@@ -496,6 +496,11 @@ def make_record(name: str, page: dict[str, Any] | None, row: dict[str, Any] | No
         aliases.insert(0, current_alias)
 
     origin = fields.get("history") or fields.get("origin") or ""
+    # A source biography lead is ideal; when the source has no lead extract,
+    # reuse its actual character-history text as the biography rather than
+    # leaving the biography column empty or inventing prose.
+    if not bio and len(origin) >= 80:
+        bio = origin
     if fields.get("real_name") and norm(fields["real_name"]) == norm(name):
         fields.pop("real_name", None)
     affiliations = as_list(fields.get("affiliations"))
@@ -607,11 +612,11 @@ def main() -> int:
     state = read_progress(len(names))
     # Version 2 fixes lead-biography and history-heading extraction. Rebuild
     # every shard once so records created by the earlier broken extractor are replaced.
-    if state.get("extractor_version") != 2:
+    if state.get("extractor_version") != 3:
         state.update({
             "next_index": 0,
             "completed": False,
-            "extractor_version": 2,
+            "extractor_version": 3,
             "rebuild_started_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         })
     start = int(state.get("next_index") or 0)
@@ -659,7 +664,7 @@ def main() -> int:
         "next_index": end,
         "total": len(names),
         "batch_size": batch_size,
-        "extractor_version": 2,
+        "extractor_version": 3,
         "completed": end >= len(names),
         "runs": int(state.get("runs", 0)) + 1,
         "last_batch": {
