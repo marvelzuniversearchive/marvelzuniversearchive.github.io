@@ -610,8 +610,8 @@ def main() -> int:
         if row.get("Character_Name")
     }
     state = read_progress(len(names))
-    # Version 2 fixes lead-biography and history-heading extraction. Rebuild
-    # every shard once so records created by the earlier broken extractor are replaced.
+    # Version 3 fills missing biography leads from source-history text. Rebuild
+    # every shard once so earlier blank biography fields are replaced.
     if state.get("extractor_version") != 3:
         state.update({
             "next_index": 0,
