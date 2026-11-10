@@ -557,7 +557,10 @@ def main() -> int:
         page = pages.get(norm(name))
         row = row_map.get(norm(name))
         record = make_record(name, page, row)
-        records[norm(name)] = record
+        record_key = norm(name)
+        if record_key in records:
+            record_key = f"{record_key}__{record.get('page_id') or start + len(records)}"
+        records[record_key] = record
 
     shard_index = start // batch_size
     shard_path = DATA_DIR / f"characters-{shard_index:03d}.json"
