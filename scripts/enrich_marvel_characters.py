@@ -593,6 +593,15 @@ def main() -> int:
         if row.get("Character_Name")
     }
     state = read_progress(len(names))
+    # Version 2 fixes lead-biography and history-heading extraction. Rebuild
+    # every shard once so records created by the earlier broken extractor are replaced.
+    if state.get("extractor_version") != 2:
+        state.update({
+            "next_index": 0,
+            "completed": False,
+            "extractor_version": 2,
+            "rebuild_started_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+        })
     start = int(state.get("next_index") or 0)
     if state.get("completed") or start >= len(names):
         print(f"Character enrichment already complete: {len(names)} indexed names.")
@@ -638,6 +647,7 @@ def main() -> int:
         "next_index": end,
         "total": len(names),
         "batch_size": batch_size,
+        "extractor_version": 2,
         "completed": end >= len(names),
         "runs": int(state.get("runs", 0)) + 1,
         "last_batch": {
