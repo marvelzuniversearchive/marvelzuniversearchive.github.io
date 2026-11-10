@@ -667,6 +667,17 @@ def main() -> int:
             "end": end,
             "records": len(records),
             "matched_source_pages": sum(1 for x in records.values() if x.get("page_id")),
+            "biographies": sum(1 for x in records.values() if len(x.get("bio", "")) >= 80),
+            "history_records": sum(1 for x in records.values() if len(x.get("origin", "")) >= 80),
+            "nonempty_fields": sum(
+                1 for x in records.values()
+                for value in (x.get("fields") or {}).values()
+                if usable(value) if not isinstance(value, list)
+            ) + sum(
+                1 for x in records.values()
+                for value in (x.get("fields") or {}).values()
+                if isinstance(value, list) for item in value if usable(item)
+            ),
             "generated_at": shard["generated_at"],
         },
     })
@@ -674,6 +685,8 @@ def main() -> int:
     print(
         f"Imported character records {start + 1}-{end} of {len(names)}; "
         f"Marvel Database pages matched: {state['last_batch']['matched_source_pages']}; "
+        f"biographies: {state['last_batch']['biographies']}; "
+        f"history records: {state['last_batch']['history_records']}; "
         f"complete={state['completed']}."
     )
     return 0
