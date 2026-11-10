@@ -1,14 +1,14 @@
 {
-  "next_index": 1000,
+  "next_index": 2000,
   "total": 51910,
   "batch_size": 1000,
   "completed": false,
-  "runs": 1,
+  "runs": 2,
   "last_batch": {
-    "start": 0,
-    "end": 1000,
-    "records": 999,
-    "matched_source_pages": 0,
-    "generated_at": "2026-11-10T11:55:30.210432+00:00"
+    "start": 1000,
+    "end": 2000,
+    "records": 1000,
+    "matched_source_pages": 807,
+    "generated_at": "2026-11-10T12:00:21.740359+00:00"
   }
 }
