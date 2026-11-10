@@ -36,6 +36,26 @@ jobs:
       - name: Install importer dependency
         run: python -m pip install --disable-pip-version-check requests
 
+      - name: Validate importer and biography extraction
+        run: |
+          python -m py_compile scripts/enrich_marvel_characters.py
+          python - <<'PY'
+          import importlib.util
+          spec = importlib.util.spec_from_file_location("mua_enricher", "scripts/enrich_marvel_characters.py")
+          module = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(module)
+          sample = """{{Character Infobox|realname=Peter Parker}}
+          Peter Parker is a fictional superhero who protects New York City.
+          == History ==
+          Peter gained his abilities after a radioactive spider bite.
+          """
+          lead = module.extract_lead_biography(sample)
+          history = module.extract_section(sample, ("History", "Biography", "Origin"))
+          assert "Peter Parker" in lead and len(lead) >= 40, lead
+          assert "radioactive spider bite" in history, history
+          print("Biography lead and history extraction checks passed.")
+          PY
+
       - name: Validate inline JavaScript before publishing
         run: |
           python - <<'PY'
