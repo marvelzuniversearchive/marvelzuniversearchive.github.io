@@ -482,7 +482,7 @@ def fetch_pages(session: requests.Session, titles: list[str]) -> dict[str, dict[
         except Exception as exc:
             if attempt == 3:
                 print(f"API batch failed ({len(titles)} titles): {exc}", file=sys.stderr)
-                return {}
+                raise RuntimeError(f"Marvel Database API batch failed; progress was not advanced: {exc}")
             time.sleep(2 ** attempt)
     return {}
 
