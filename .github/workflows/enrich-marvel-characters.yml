@@ -54,7 +54,18 @@ jobs:
           history = module.extract_section(sample, ("History", "Biography", "Origin"))
           assert "Peter Parker" in lead and len(lead) >= 40, lead
           assert "radioactive spider bite" in history, history
-          print("Biography lead and history extraction checks passed.")
+          assert module.is_disambiguation_page({"categories": [{"title": "Category:Disambiguation Pages"}]})
+          assert not module.is_disambiguation_page({"categories": [{"title": "Category:Characters"}]})
+          fallback_page = {
+              "title": "Test Character",
+              "pageid": 1,
+              "extract": "",
+              "categories": [],
+              "revisions": [{"slots": {"main": {"content": "== History ==\\nTest Character was a member of an established team and appeared in several documented adventures across the Marvel Universe."}}}],
+          }
+          record = module.make_record("Test Character", fallback_page, None)
+          assert len(record["bio"]) >= 80 and record["bio"] == record["origin"], record
+          print("Biography, history fallback and disambiguation checks passed.")
           PY
 
       - name: Validate inline JavaScript before publishing
