@@ -446,7 +446,7 @@ def make_record(name: str, page: dict[str, Any] | None, row: dict[str, Any] | No
         "weaknesses": as_list(fields.get("weaknesses")),
         "aliases": aliases,
         "affiliations": affiliations,
-        "major_storylines": [],
+        "major_storylines": fields.get("major_storylines") or [],
         "fields": fields,
         "categories": categories[:100],
         "source_url": page_url,
