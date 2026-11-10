@@ -102,6 +102,7 @@ def request_pages(names):
             try:
                 with urllib.request.urlopen(req, timeout=35) as response:
                     payload = json.loads(response.read().decode("utf-8"))
+                page_records = {}
                 for page in payload.get("query",{}).get("pages",[]):
                     if page.get("missing") is not True:
                         raw = ""
@@ -109,10 +110,17 @@ def request_pages(names):
                         if revisions:
                             slot = revisions[0].get("slots",{}).get("main",{})
                             raw = slot.get("content") or slot.get("*") or revisions[0].get("*") or ""
-                        result[norm(page.get("title"))] = {
+                        record = {
                           "title":page.get("title",""),"extract":page.get("extract",""),
                           "raw":raw,"categories":[x.get("title","").replace("Category:","") for x in page.get("categories",[])]
                         }
+                        page_records[norm(page.get("title"))] = record
+                        result[norm(page.get("title"))] = record
+                query = payload.get("query",{})
+                for alias in query.get("redirects",[]) + query.get("normalized",[]):
+                    target = page_records.get(norm(alias.get("to")))
+                    if target:
+                        result[norm(alias.get("from"))] = target
                 break
             except Exception:
                 if attempt == 3: break
