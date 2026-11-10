@@ -672,7 +672,7 @@ def main() -> int:
             "nonempty_fields": sum(
                 1 for x in records.values()
                 for value in (x.get("fields") or {}).values()
-                if usable(value) if not isinstance(value, list)
+                if not isinstance(value, list) and usable(value)
             ) + sum(
                 1 for x in records.values()
                 for value in (x.get("fields") or {}).values()
