@@ -45,6 +45,10 @@ MAP = {
 }
 
 def norm(s):
+    s = re.sub(r"\s*\(Earth[- ]?\d+\)\s*$", "", str(s or ""), flags=re.I)
+    return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
+
+def base_norm(s):
     s = re.sub(r"\s*\([^)]*\)\s*", " ", str(s or ""))
     s = re.sub(r"earth[- ]?\d+", " ", s, flags=re.I)
     return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
@@ -185,17 +189,23 @@ def main():
         return
     source = load_source_data()
     row_map = {}
+    base_map = {}
     for row in source.get("characterRows",[]):
         key = norm(row.get("Character_Name"))
+        base = base_norm(row.get("Character_Name"))
         if key:
             old = row_map.get(key)
             if not old or float(row.get("APPEARANCES") or 0) > float(old.get("APPEARANCES") or 0):
                 row_map[key] = row
+        if base:
+            old = base_map.get(base)
+            if not old or float(row.get("APPEARANCES") or 0) > float(old.get("APPEARANCES") or 0):
+                base_map[base] = row
     batch = names[cursor:cursor+BATCH]
     pages = request_pages(batch)
     changed = {}
     for name in batch:
-        row = row_map.get(norm(name))
+        row = row_map.get(norm(name)) or base_map.get(base_norm(name))
         page = pages.get(norm(name))
         record = build_record(name,row,page)
         b = bucket(name)
