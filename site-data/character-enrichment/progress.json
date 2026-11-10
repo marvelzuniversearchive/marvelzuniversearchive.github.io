@@ -1,20 +1,20 @@
 {
-  "next_index": 20000,
+  "next_index": 25000,
   "total": 51910,
   "batch_size": 1000,
   "completed": false,
-  "runs": 92,
+  "runs": 97,
   "rebuild_started_at": "2026-11-10T15:20:56.351606+00:00",
   "previous_completed_at": "2026-11-10T14:46:05.779157+00:00",
   "last_batch": {
-    "start": 19000,
-    "end": 20000,
+    "start": 24000,
+    "end": 25000,
     "records": 1000,
-    "matched_source_pages": 715,
-    "biographies": 524,
-    "history_records": 524,
-    "nonempty_fields": 9862,
-    "generated_at": "2026-11-10T15:34:53.355840+00:00"
+    "matched_source_pages": 771,
+    "biographies": 572,
+    "history_records": 572,
+    "nonempty_fields": 10687,
+    "generated_at": "2026-11-10T15:38:32.348465+00:00"
   },
   "extractor_version": 4
 }
