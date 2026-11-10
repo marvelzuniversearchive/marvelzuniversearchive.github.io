@@ -530,6 +530,15 @@ def make_record(name: str, page: dict[str, Any] | None, row: dict[str, Any] | No
     }
 
 
+def is_disambiguation_page(page: dict[str, Any] | None) -> bool:
+    if not page:
+        return False
+    return any(
+        norm(item.get("title", "").replace("Category:", "")) == "disambiguation pages"
+        for item in (page.get("categories") or [])
+    )
+
+
 def fetch_pages(session: requests.Session, titles: list[str]) -> dict[str, dict[str, Any]]:
     pages_by_norm: dict[str, dict[str, Any]] = {}
     params = {
@@ -566,6 +575,40 @@ def fetch_pages(session: requests.Session, titles: list[str]) -> dict[str, dict[
             for original, resolved_title in resolved.items():
                 if resolved_title in pages_by_norm:
                     pages_by_norm[original] = pages_by_norm[resolved_title]
+
+            # Plain character names sometimes resolve to disambiguation pages.
+            # Prefer the canonical Earth-616 entry when that happens.
+            ambiguous = [
+                title for title in titles
+                if is_disambiguation_page(pages_by_norm.get(norm(title)))
+            ]
+            for offset in range(0, len(ambiguous), PAGE_BATCH):
+                group = ambiguous[offset:offset + PAGE_BATCH]
+                fallback_titles = [f"{title} (Earth-616)" for title in group]
+                fallback_params = dict(params)
+                fallback_params["titles"] = "|".join(fallback_titles)
+                try:
+                    fallback_response = session.get(API, params=fallback_params, timeout=(20, 75))
+                    fallback_response.raise_for_status()
+                    fallback_data = fallback_response.json()
+                    fallback_pages: dict[str, dict[str, Any]] = {}
+                    fallback_resolved: dict[str, str] = {}
+                    for item in fallback_data.get("query", {}).get("normalized", []):
+                        fallback_resolved[norm(item.get("from", ""))] = norm(item.get("to", ""))
+                    for item in fallback_data.get("query", {}).get("redirects", []):
+                        fallback_resolved[norm(item.get("from", ""))] = norm(item.get("to", ""))
+                    for page in fallback_data.get("query", {}).get("pages", []):
+                        fallback_pages[norm(page.get("title", ""))] = page
+                    for original, resolved_title in fallback_resolved.items():
+                        if resolved_title in fallback_pages:
+                            fallback_pages[original] = fallback_pages[resolved_title]
+                    for original, fallback_title in zip(group, fallback_titles):
+                        candidate = fallback_pages.get(norm(fallback_title))
+                        if candidate and not candidate.get("missing") and not is_disambiguation_page(candidate):
+                            pages_by_norm[norm(original)] = candidate
+                except Exception as exc:
+                    print(f"Earth-616 fallback lookup skipped for {len(group)} ambiguous names: {exc}", file=sys.stderr)
+                time.sleep(0.20)
             return pages_by_norm
         except Exception as exc:
             if attempt == 3:
@@ -610,13 +653,13 @@ def main() -> int:
         if row.get("Character_Name")
     }
     state = read_progress(len(names))
-    # Version 3 fills missing biography leads from source-history text. Rebuild
-    # every shard once so earlier blank biography fields are replaced.
-    if state.get("extractor_version") != 3:
+    # Version 4 also replaces disambiguation pages with Earth-616 character pages.
+    # Rebuild every shard so earlier incomplete matches are replaced.
+    if state.get("extractor_version") != 4:
         state.update({
             "next_index": 0,
             "completed": False,
-            "extractor_version": 3,
+            "extractor_version": 4,
             "rebuild_started_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         })
     start = int(state.get("next_index") or 0)
@@ -664,7 +707,7 @@ def main() -> int:
         "next_index": end,
         "total": len(names),
         "batch_size": batch_size,
-        "extractor_version": 3,
+        "extractor_version": 4,
         "completed": end >= len(names),
         "runs": int(state.get("runs", 0)) + 1,
         "last_batch": {
