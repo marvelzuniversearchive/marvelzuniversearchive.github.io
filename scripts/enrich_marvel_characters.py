@@ -2,8 +2,9 @@
 """Bulk-import character profile facts from Marvel Database (Fandom).
 
 The archive is split into site-data/part-NNN.txt files. Each execution imports
-one persistent batch and writes a compact JSON shard. GitHub Actions resumes
-from progress.json until all indexed character names have been attempted.
+one persistent batch and writes a compact JSON shard. Biography lead text and
+history sections are extracted from page wikitext when API extracts are absent.
+GitHub Actions resumes from progress.json until the complete index is rebuilt.
 """
 from __future__ import annotations
 
