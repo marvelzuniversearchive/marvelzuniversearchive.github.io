@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:51:12.851292+00:00",
+  "generated_at": "2026-11-10T20:08:02.548805+00:00",
   "source_count": 15,
   "search_topics": [
     "Marvel Universe",
@@ -26,6 +26,138 @@
   "article_count": 150,
   "articles": [
     {
+      "id": "milesmoralesisofficiallyfightingspidermanstruevillainthatbrokepeterparker",
+      "title": "Miles Morales Is Officially Fighting Spider-Man’s True Villain That Broke Peter Parker",
+      "summary": "Miles Morales Is Officially Fighting Spider-Man’s True Villain That Broke Peter Parker IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GRnBtNmVHNmxOQnpRN2U2dWVCWmJjdl9jUnVGaXBMeElDV0FDbGRmRlUzSXZteE5SYzZaY2tzTlZlMDNsV3FILW02NTBkM2dfcmdqRVM4aVFTeTFJZUM4eTYtNFdWYWs?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-10T18:32:05+00:00",
+      "status": "reported",
+      "tags": [
+        "Spider-Man",
+        "Miles Morales"
+      ],
+      "related_characters": [
+        "Spider-Man",
+        "Miles Morales"
+      ],
+      "external_id": "CBMiZ0FVX3lxTE5GRnBtNmVHNmxOQnpRN2U2dWVCWmJjdl9jUnVGaXBMeElDV0FDbGRmRlUzSXZteE5SYzZaY2tzTlZlMDNsV3FILW02NTBkM2dfcmdqRVM4aVFTeTFJZUM4eTYtNFdWYWs",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "jamesgunnandpetersafranoutatdcstudiosasmarvelveterantakesoversupermansuniverse",
+      "title": "James Gunn And Peter Safran OUT At DC Studios As Marvel Veteran Takes Over Superman's Universe",
+      "summary": "James Gunn And Peter Safran OUT At DC Studios As Marvel Veteran Takes Over Superman's Universe The Times of India",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNcm54UGpMc3JkNjdxUXBDbHl0eG0yM2puSVN5Y28tMTViajlJdFJIREZnRHVjNWJhbjBDQjhWXy1yTUR3cUVoV1VjeUF1VVpCNUNFOVlKcEZ3TXpHd2hBcGp4VndmdUt1ZDFXVkZvT1N5aWxyVEtma0NWamc2Uk1KYUtiamZLSjE3XzNzaWoyWmVHbjY2ekx4RGlucTVjYlo5TXNWaWdNNDJEbHZzUDJuaTJULVZqdmFQYmdTenF3d2ZpcUpoT3RpQWFHbkpwOUFsMlZRYXF2LWRIdTk3NDVlSUF3MGtKelNaWEZla3loYW5yMEhCTEpHbUt6WUNaVEkxRGxj0gGIAkFVX3lxTE5EYlJkcTRPLXNZd1V0Y0JMMzRhTWZFU3AzZjN5azFYVC12T1pwNUlvTFFtcS16UFgxQ3g5SFdua3pCcWRWQ281WE1IY0ZPV29XTklfOXVSam1objNDRjVabjdyLTdDdFlKTVY1T0c5V01QX3BxaTM3VWpoS2dYejRXcmIxaWF6TXJmTF8zcGVKa0t6clhYS3dmeEJValBkd1V1Z1BJcTBHUTVJVlpPWmhsOFRjNEowQjZEN1ZLUm1kV2VDcm5iZjhIUm9vRVh4OHZnWkI1amRRWERPeTNJUlNyOEx4clFYNnFxTk1DWFdGYko1OVpZQ0JJZ0VXUUZ6V29aTFc4TnlHcg?oc=5",
+      "source": "Times of India",
+      "source_id": "times_of_india",
+      "category": "Marvel",
+      "published_at": "2026-11-10T18:13:41+00:00",
+      "status": "reported",
+      "tags": [],
+      "related_characters": [],
+      "external_id": "CBMigwJBVV95cUxNcm54UGpMc3JkNjdxUXBDbHl0eG0yM2puSVN5Y28tMTViajlJdFJIREZnRHVjNWJhbjBDQjhWXy1yTUR3cUVoV1VjeUF1VVpCNUNFOVlKcEZ3TXpHd2hBcGp4VndmdUt1ZDFXVkZvT1N5aWxyVEtma0NWamc2Uk1KYUtiamZLSjE3XzNzaWoyWmVH",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "marvelrivalsofficialnightcrawlercharacterrevealtrailer",
+      "title": "Marvel Rivals - Official Nightcrawler Character Reveal Trailer",
+      "summary": "Marvel Rivals - Official Nightcrawler Character Reveal Trailer IGN India",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQ1hfMzUydEg5R0Y5WEpwZVNZeWpmMDRETG96R0FhdDVBcnZUSmdaaEF6NVNQZEE1aFRuQ1RzY2VEUHllYkhmSzNkN29FYzV5a25LZHhaMnM4eUlFX3pFd0IyQkp2U19XVjlIR1QwbWY0NjA1VHlObVFVeERIQ05IOGQtS292M2RLTl91QW94Qy1INU1mYWt4Wm1VekV2V1ZrT0E?oc=5",
+      "source": "IGN",
+      "source_id": "ign",
+      "category": "Trailers",
+      "published_at": "2026-11-10T17:06:20+00:00",
+      "status": "reported",
+      "tags": [],
+      "related_characters": [],
+      "external_id": "CBMiogFBVV95cUxNQ1hfMzUydEg5R0Y5WEpwZVNZeWpmMDRETG96R0FhdDVBcnZUSmdaaEF6NVNQZEE1aFRuQ1RzY2VEUHllYkhmSzNkN29FYzV5a25LZHhaMnM4eUlFX3pFd0IyQkp2U19XVjlIR1QwbWY0NjA1VHlObVFVeERIQ05IOGQtS292M2RLTl91QW94Qy1I",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "marvelcinematicuniversethecompletetimelinetophase4blackwidowspidermannowayhomemo",
+      "title": "Marvel Cinematic Universe, The Complete Timeline to Phase 4: ‘Black Widow,’ ‘Spider-Man: No Way Home’ & More",
+      "summary": "Marvel Cinematic Universe, The Complete Timeline to Phase 4: ‘Black Widow,’ ‘Spider-Man: No Way Home’ & More IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zZE1QUjZyQVl0RzJhajYzS29FOUVwbXZVQWpRUVk5b05MWFlXUFNOd3pLalEta1pfQjRSbnpuSnBOUGtXMkVubUR4Ry1ZdU9hOGFrRnJPX1dTZFNiREhmOXJxX2tROXRac3c?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-10T16:27:14+00:00",
+      "status": "reported",
+      "tags": [
+        "Spider-Man"
+      ],
+      "related_characters": [
+        "Spider-Man"
+      ],
+      "external_id": "CBMiakFVX3lxTE8zZE1QUjZyQVl0RzJhajYzS29FOUVwbXZVQWpRUVk5b05MWFlXUFNOd3pLalEta1pfQjRSbnpuSnBOUGtXMkVubUR4Ry1ZdU9hOGFrRnJPX1dTZFNiREhmOXJxX2tROXRac3c",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "marvelrivalsofficialdoomsdayseason11trailer",
+      "title": "Marvel Rivals - Official Doomsday Season 11 Trailer",
+      "summary": "Marvel Rivals - Official Doomsday Season 11 Trailer IGN India",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMEMwTUZGRUF0b0xlSjltR3dZWHo3NWNKZFYyaEJHbnBYb1ZYMEtDLUdYU211QllKbGdSQ2ZHSGV0eTFNX2pBQ2MtVmVVcWhjU0FDc1FCS0VkRXduS0VfdGg1MzhjSkJmR3VWMU81X1c3eGp4NUVoelNkNmNvNkZLekdQd3ZGRFZTcnQ1WENNR3VuOTA?oc=5",
+      "source": "IGN",
+      "source_id": "ign",
+      "category": "Trailers",
+      "published_at": "2026-11-10T16:07:55+00:00",
+      "status": "reported",
+      "tags": [
+        "Doom"
+      ],
+      "related_characters": [
+        "Doom"
+      ],
+      "external_id": "CBMikwFBVV95cUxNMEMwTUZGRUF0b0xlSjltR3dZWHo3NWNKZFYyaEJHbnBYb1ZYMEtDLUdYU211QllKbGdSQ2ZHSGV0eTFNX2pBQ2MtVmVVcWhjU0FDc1FCS0VkRXduS0VfdGg1MzhjSkJmR3VWMU81X1c3eGp4NUVoelNkNmNvNkZLekdQd3ZGRFZTcnQ1WENNR3Vu",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "marvelcosmicinvasionofficialthesiegeofcastledoomdlc2launchtrailer",
+      "title": "Marvel Cosmic Invasion - Official The Siege of Castle Doom DLC 2 Launch Trailer",
+      "summary": "Marvel Cosmic Invasion - Official The Siege of Castle Doom DLC 2 Launch Trailer IGN India",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZ3h4UHF6c1RiNFJyMUVwdzByeC1YRDk1UGhyMnJkd1pnMDZPakZyTEZYNG5KV1BGWVdzSm1lQ3lwdWRRRVZGWDhkTG5OMUF6X09fYVhUc1RiaTJaR18waEZaQ2szTmJqNVo1eE9xcS1VVWJONFFhNXVwZmlialNBUGduZ2xBbmtwM3VuN1BUeFZrQVdNYnV2MV9iVHJTaTAwLU5YWGxqcnFjb3JCTlhoNzlnam1YY19icG5fY2lKRXFsS3ZU?oc=5",
+      "source": "IGN",
+      "source_id": "ign",
+      "category": "Trailers",
+      "published_at": "2026-11-10T15:34:24+00:00",
+      "status": "reported",
+      "tags": [
+        "Doom"
+      ],
+      "related_characters": [
+        "Doom"
+      ],
+      "external_id": "CBMixAFBVV95cUxPZ3h4UHF6c1RiNFJyMUVwdzByeC1YRDk1UGhyMnJkd1pnMDZPakZyTEZYNG5KV1BGWVdzSm1lQ3lwdWRRRVZGWDhkTG5OMUF6X09fYVhUc1RiaTJaR18waEZaQ2szTmJqNVo1eE9xcS1VVWJONFFhNXVwZmlialNBUGduZ2xBbmtwM3VuN1BUeFZr",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
       "id": "marvelworldwideboxofficefromthemarvelstoquantumania3mcusequelsthatearnedsignific",
       "title": "Marvel Worldwide Box Office: From The Marvels To Quantumania, 3 MCU Sequels That Earned Significantly Less Than Their Og Films!",
       "summary": "Marvel Worldwide Box Office: From The Marvels To Quantumania, 3 MCU Sequels That Earned Significantly Less Than Their Og Films! IMDb",
@@ -34,15 +166,15 @@
         "IMDb"
       ],
       "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE91UnNnbFJrQ3c4aDRPQVJDam5FeFFYV3VDWnREdGFzZzZKUVE3eHRnZE9zdHNWLWR6MTZTQ0JMeGxmZGlieG5lVjcyYWZVRUVNSk12NmJYcGpockdNOWllUGszQ0FyNHJMU21Z?oc=5",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjVVBueEo2UkFHMzlWbmRuVGQ1X0FOVVozR1l3Vy1JQWxycEhPdmd1XzUxV0QzN3c4WHFTWml2TEgzV2ZxQ3BLS0dsYWpWeThvY1VVc1pJV2luREs1bi1LTjNJVjkwQWc?oc=5",
       "source": "IMDb",
       "source_id": "imdb",
       "category": "Movies",
-      "published_at": "2026-11-10T12:41:04+00:00",
+      "published_at": "2026-11-10T13:22:44+00:00",
       "status": "reported",
       "tags": [],
       "related_characters": [],
-      "external_id": "CBMia0FVX3lxTE91UnNnbFJrQ3c4aDRPQVJDam5FeFFYV3VDWnREdGFzZzZKUVE3eHRnZE9zdHNWLWR6MTZTQ0JMeGxmZGlieG5lVjcyYWZVRUVNSk12NmJYcGpockdNOWllUGszQ0FyNHJMU21Z",
+      "external_id": "CBMiZ0FVX3lxTFBjVVBueEo2UkFHMzlWbmRuVGQ1X0FOVVozR1l3Vy1JQWxycEhPdmd1XzUxV0QzN3c4WHFTWml2TEgzV2ZxQ3BLS0dsYWpWeThvY1VVc1pJV2luREs1bi1LTjNJVjkwQWc",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -122,23 +254,24 @@
       "synopsis_status": "publisher_unavailable"
     },
     {
-      "id": "thisclassicmarvelvillaincouldreshapethemcuandintroducenova",
-      "title": "This Classic Marvel Villain Could Reshape The MCU — And Introduce Nova",
-      "summary": "This Classic Marvel Villain Could Reshape The MCU — And Introduce Nova IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
+      "id": "marvelsnewxmenmoviewillfeature5mutantsubspecies",
+      "title": "Marvel's New X-Men Movie Will Feature 5 Mutant Subspecies",
+      "summary": "Marvel's New X-Men Movie Will Feature 5 Mutant Subspecies The Direct",
+      "coverage_tags": [],
       "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CWk95VENiOV9rWE9GV1FZdnZpeG1rLVFmdUhEd0UwWWR4NmVsbjUzNDZoSzkzYWdPZ2hKRWtHeTI5emVfUFBWNGhLS2hTSDl1SGlObjR5bzB2b1lreVNWdkNyd3NuQQ?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-10T02:24:59+00:00",
+      "article_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1KODdINDdwTDJwdHdvWFE2SF9JTmlHVnZ3dEFoUmxGcmtuQ0lsZHo3bGN6SHJpQ2hoYnhFUm03ZXVlUEt0VDJfNXA2YlA3dnNmeHhkT1dxTlB4VnVBblJuSm04UHIwOEFBaTQwYlRTVDRmNjFW?oc=5",
+      "source": "The Direct",
+      "source_id": "the_direct",
+      "category": "Movies",
+      "published_at": "2026-11-10T04:38:42+00:00",
       "status": "reported",
-      "tags": [],
-      "related_characters": [],
-      "external_id": "CBMiZkFVX3lxTE5CWk95VENiOV9rWE9GV1FZdnZpeG1rLVFmdUhEd0UwWWR4NmVsbjUzNDZoSzkzYWdPZ2hKRWtHeTI5emVfUFBWNGhLS2hTSDl1SGlObjR5bzB2b1lreVNWdkNyd3NuQQ",
+      "tags": [
+        "X-Men"
+      ],
+      "related_characters": [
+        "X-Men"
+      ],
+      "external_id": "CBMidEFVX3lxTE1KODdINDdwTDJwdHdvWFE2SF9JTmlHVnZ3dEFoUmxGcmtuQ0lsZHo3bGN6SHJpQ2hoYnhFUm03ZXVlUEt0VDJfNXA2YlA3dnNmeHhkT1dxTlB4VnVBblJuSm04UHIwOEFBaTQwYlRTVDRmNjFW",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -162,6 +295,27 @@
       "external_id": "CBMiZ0FVX3lxTE44a0N6bktMcWFoajA0TzJObGFtUmdpTUZianF2R2ZvNER0a0hEVjV0MVNZUG1id1A5VkZMV0MzTE9qbVdBVjB3d1VfUzFuMzNnajBhay1YZ01VeVZFdG9vdnhqVXB1ZEE",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "thisclassicmarvelvillaincouldreshapethemcuandintroducenova",
+      "title": "This Classic Marvel Villain Could Reshape The MCU — And Introduce Nova",
+      "summary": "This Classic Marvel Villain Could Reshape The MCU — And Introduce Nova IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NUzJERmI0X0dGMkY5V1g4T0ZxWEhLYTNBQlVFVXZpR09takhKd0pjQ0lCMFowZm5ZTlBOWS1ieC0wZjFvMThXZmdEZk9ET29YWm9tNlpKeXM1aDIzamt6ZGVScExpTWhlOVE?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-10T01:55:07+00:00",
+      "status": "reported",
+      "tags": [],
+      "related_characters": [],
+      "external_id": "CBMiakFVX3lxTE9NUzJERmI0X0dGMkY5V1g4T0ZxWEhLYTNBQlVFVXZpR09takhKd0pjQ0lCMFowZm5ZTlBOWS1ieC0wZjFvMThXZmdEZk9ET29YWm9tNlpKeXM1aDIzamt6ZGVScExpTWhlOVE",
+      "synopsis": "",
+      "synopsis_status": "pending"
     },
     {
       "id": "themcusrumoredwolverinecastingconfirmsanhistoricshiftinmarvelsxmenstrategy",
@@ -239,7 +393,7 @@
       ],
       "external_id": "CBMirwFBVV95cUxNdFVqelFlTUJFc1NPckc5ellMMDVpTEhCQTg3WWpIRTdXc05nSjdjV1dMQXJmSjlELXhObmNINVBMOWhBNEtPZTVNdTBOcXp1SHFDUG00bVdOejNpYkRienQySXE2WXYwQTJYYVNKelhWV29GTjEyekJzVmY5NExlYjZCTXR6Snh0TEhuY0wtckE5",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "skydancereplacesjamesgunnpetersafranwithmarvelveteranjeremylatchamtosteerdc",
@@ -311,27 +465,6 @@
       "synopsis_status": "publisher_unavailable"
     },
     {
-      "id": "dcshockerjamesgunnpetersafranoutascochairmenmarvelveteranjeremylatchamtoleadcomi",
-      "title": "DC Shocker: James Gunn, Peter Safran Out as Co-Chairmen, Marvel Veteran Jeremy Latcham to Lead Comic Book Studio",
-      "summary": "DC Shocker: James Gunn, Peter Safran Out as Co-Chairmen, Marvel Veteran Jeremy Latcham to Lead Comic Book Studio IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBheEphTzVhZHlsamtOMVk5bDhMNFJTTlBmYlpMUjUxeDRKNUxITVJpdzl3OHlpRThuUnhVQm9UaUFBdE03WGp6eXQ0aXlPS1Z1dERPOGVnWXRLWEdwdTJ3cDJlYjB6QQ?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Comics",
-      "published_at": "2026-11-10T00:08:23+00:00",
-      "status": "reported",
-      "tags": [],
-      "related_characters": [],
-      "external_id": "CBMiZkFVX3lxTFBheEphTzVhZHlsamtOMVk5bDhMNFJTTlBmYlpMUjUxeDRKNUxITVJpdzl3OHlpRThuUnhVQm9UaUFBdE03WGp6eXQ0aXlPS1Z1dERPOGVnWXRLWEdwdTJ3cDJlYjB6QQ",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
       "id": "itsofficialwolverineisfinallyanavengerinthecomics",
       "title": "It's Official: Wolverine Is Finally An Avenger In The Comics",
       "summary": "It's Official: Wolverine Is Finally An Avenger In The Comics Comic Book Resources",
@@ -352,6 +485,27 @@
       "external_id": "CBMia0FVX3lxTE12OWQ2ZFR1NHgyZHlOUGFzTDFEdE94VU5EZk9wVm5McHJEeHlYOUs3Y2ZVQVc2NlFWdnlGeV9Jc0VpcUxjLTZlMl9RX0dNQmVBRlRfaFpRS0VpTmpOMXptT0l5YXRFLV9XZGU4",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "dcshockerjamesgunnpetersafranoutascochairmenmarvelveteranjeremylatchamtoleadcomi",
+      "title": "DC Shocker: James Gunn, Peter Safran Out as Co-Chairmen, Marvel Veteran Jeremy Latcham to Lead Comic Book Studio",
+      "summary": "DC Shocker: James Gunn, Peter Safran Out as Co-Chairmen, Marvel Veteran Jeremy Latcham to Lead Comic Book Studio IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rWHBuVHo2c1hGQXR2Z1FxdlF0bDhnR2pkME1YQkJzdk9qME4xUlNrSFQ5LWFrU1k0cEF6SGtzX2hUVmNRRHhZUmVNTlJ5a2JMN2txLVo4S3JJcDJkZTM4dTBBX1Rmc0o4Snc?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Comics",
+      "published_at": "2026-11-09T23:34:34+00:00",
+      "status": "reported",
+      "tags": [],
+      "related_characters": [],
+      "external_id": "CBMiakFVX3lxTE5rWHBuVHo2c1hGQXR2Z1FxdlF0bDhnR2pkME1YQkJzdk9qME4xUlNrSFQ5LWFrU1k0cEF6SGtzX2hUVmNRRHhZUmVNTlJ5a2JMN2txLVo4S3JJcDJkZTM4dTBBX1Rmc0o4Snc",
+      "synopsis": "",
+      "synopsis_status": "pending"
     },
     {
       "id": "tekkenmarvelvscapcomandsoulcaliburarenowavailableinbrowser",
@@ -894,6 +1048,24 @@
       "synopsis_status": "pending"
     },
     {
+      "id": "upcomingsuperheromovieseverymarveldcandcomicbookmoviein2026andbeyond",
+      "title": "Upcoming superhero movies: every Marvel, DC, and comic book movie in 2026 and beyond",
+      "summary": "Upcoming superhero movies: every Marvel, DC, and comic book movie in 2026 and beyond GamesRadar+",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6SFlQTWYySjU3Z1RjX0dhdzZOVHhTVkVKQ2NaTlNVY0FaVy0yclpXdkluYlFFcDliNmVVUzJKNzFwNFU0QndkVURXOVhHUk9zTy02ckZtTm9STEZ3YTFhc3NaMA?oc=5",
+      "source": "GamesRadar+",
+      "source_id": "gamesradar",
+      "category": "Comics",
+      "published_at": "2026-11-09T05:19:43+00:00",
+      "status": "reported",
+      "tags": [],
+      "related_characters": [],
+      "external_id": "CBMiY0FVX3lxTFB6SFlQTWYySjU3Z1RjX0dhdzZOVHhTVkVKQ2NaTlNVY0FaVy0yclpXdkluYlFFcDliNmVVUzJKNzFwNFU0QndkVURXOVhHUk9zTy02ckZtTm9STEZ3YTFhc3NaMA",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
       "id": "visionquestofficiallyrewritesavengersinfinitywarsceneafterbiggestreveal",
       "title": "VisionQuest Officially Rewrites Avengers: Infinity War Scene After Biggest Reveal",
       "summary": "VisionQuest Officially Rewrites Avengers: Infinity War Scene After Biggest Reveal IMDb",
@@ -920,6 +1092,28 @@
       "external_id": "CBMiZ0FVX3lxTFAwWTNpQ0pTM0o2MGI4RGdMSll3SFQ3RTlPbTZXRDBsWGUxSW94cGlFRGFEX1VpSkVxMjdMVWhfN2p4VE9YdFktRkROZTVsMTNCSkRpUXZMbHlEZ0xJMDVkaE5vLUI1Nnc",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "guardiansofthegalaxystarkarengillanonherfutureasnebulainthemcuihavedefinitelyspo",
+      "title": "Guardians of the Galaxy Star Karen Gillan on Her Future As Nebula In The MCU: 'I Have Definitely Spoken To Marvel'",
+      "summary": "Guardians of the Galaxy Star Karen Gillan on Her Future As Nebula In The MCU: 'I Have Definitely Spoken To Marvel' The Direct",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNjRudGM0dFRFcEk3NDBvQjlMMTVpYmNlZzl5dkIzRWd3MnRBMGtWZTR3eHJhbG9WMm9qMzVra3IzRi0tOV9LUW1yc3VfU2VOT09nbmpUd1hqdDRJYllNYlZTT1hLVVdhUFJORVZERTNXMjJxMlQ1RUQxOWpBejZ5cTRqN1RqTGRkb1c2MQ?oc=5",
+      "source": "The Direct",
+      "source_id": "the_direct",
+      "category": "Marvel",
+      "published_at": "2026-11-09T01:52:53+00:00",
+      "status": "reported",
+      "tags": [
+        "Guardians of the Galaxy"
+      ],
+      "related_characters": [
+        "Guardians of the Galaxy"
+      ],
+      "external_id": "CBMijAFBVV95cUxQNjRudGM0dFRFcEk3NDBvQjlMMTVpYmNlZzl5dkIzRWd3MnRBMGtWZTR3eHJhbG9WMm9qMzVra3IzRi0tOV9LUW1yc3VfU2VOT09nbmpUd1hqdDRJYllNYlZTT1hLVVdhUFJORVZERTNXMjJxMlQ1RUQxOWpBejZ5cTRqN1RqTGRkb1c2MQ",
+      "synopsis": "",
+      "synopsis_status": "pending"
     },
     {
       "id": "deadpool2srobdelaneydebunkspopularxmenfantheoryabouthischaracterpeter",
@@ -1214,24 +1408,6 @@
         "X-Men"
       ],
       "external_id": "CBMiZEFVX3lxTE12N0QwR29IVS1WLWNtbkx0clFmc1FHcGd6RlJHajNXQTV4dkRBUU9kS09vOXFDbjhnVGxMYVRLR1BSdDBfLWZ3M3hRMS1BRk9EcHdsMEVkYjRNM0haM3VRMVdwSkw",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "upcomingsuperheromovieseverymarveldcandcomicbookmoviein2026andbeyond",
-      "title": "Upcoming superhero movies: every Marvel, DC, and comic book movie in 2026 and beyond",
-      "summary": "Upcoming superhero movies: every Marvel, DC, and comic book movie in 2026 and beyond GamesRadar+",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6SFlQTWYySjU3Z1RjX0dhdzZOVHhTVkVKQ2NaTlNVY0FaVy0yclpXdkluYlFFcDliNmVVUzJKNzFwNFU0QndkVURXOVhHUk9zTy02ckZtTm9STEZ3YTFhc3NaMA?oc=5",
-      "source": "GamesRadar+",
-      "source_id": "gamesradar",
-      "category": "Comics",
-      "published_at": "2026-11-08T08:00:00+00:00",
-      "status": "reported",
-      "tags": [],
-      "related_characters": [],
-      "external_id": "CBMiY0FVX3lxTFB6SFlQTWYySjU3Z1RjX0dhdzZOVHhTVkVKQ2NaTlNVY0FaVy0yclpXdkluYlFFcDliNmVVUzJKNzFwNFU0QndkVURXOVhHUk9zTy02ckZtTm9STEZ3YTFhc3NaMA",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -3508,206 +3684,6 @@
         "Doom"
       ],
       "external_id": "CBMiZ0FVX3lxTE5XNjU0ZWtEcWkwS2hkeU5HM25Xdlp3LXVjZ0xrQ3RUSmJnS0E1R1ZHVmhJZ243RjdlMHZoVlg1T3FVdEtra0tweXZhVGF1Q2J2Z21qaW1lckVLT0IxS2Fwcl9mbnkweEk",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "newavengersdoomsdaysynopsisteasesanexistentialthreatandthefutureofthemultiverse",
-      "title": "New Avengers: Doomsday synopsis teases an \"existential threat\" and the \"future of the Multiverse\"",
-      "summary": "New Avengers: Doomsday synopsis teases an \"existential threat\" and the \"future of the Multiverse\" GamesRadar+",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYlROX0t0VkJ4ajJrWFBPLXNrR3NmZDdSTU50d2pkOHF2c0puTmdZMUpFT0VJdmpBU2tpNWs0TGpVb2dfV0paSnU5V0k2TjRiNmF1S3RxMEVrejFYdUFucFREa08zYkdpN1RvRWIyQ1M5Nkc2dVBVZFhlTThyX25lSGdXMDROSUw0dlFuVlp6VlJCZXF1M2lLaWpZeTFPaHI0QzJ0X0VhRlc4c0ZsczFhZ0NrY1dBWUhrUmFsRlMyMWRrdUZBcXIxZm42cHE5Y3FCdHNLTVl4YXRIa2FCZTQ5RjZR?oc=5",
-      "source": "GamesRadar+",
-      "source_id": "gamesradar",
-      "category": "Marvel",
-      "published_at": "2026-11-05T12:29:08+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMi4gFBVV95cUxNYlROX0t0VkJ4ajJrWFBPLXNrR3NmZDdSTU50d2pkOHF2c0puTmdZMUpFT0VJdmpBU2tpNWs0TGpVb2dfV0paSnU5V0k2TjRiNmF1S3RxMEVrejFYdUFucFREa08zYkdpN1RvRWIyQ1M5Nkc2dVBVZFhlTThyX25lSGdXMDROSUw0dlFuVlp6VlJC",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersdoomsdaysfinalwritingcreditsrevealedandrumorhasitthesetwoactorsalsocontr",
-      "title": "Avengers: Doomsday's Final Writing Credits Revealed — And Rumor Has It These Two Actors Also Contributed",
-      "summary": "Avengers: Doomsday's Final Writing Credits Revealed — And Rumor Has It These Two Actors Also Contributed IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zS2VDMTZLQ2RSVmFoYm5yUm5Cb0R4OVItemlnM3AyTnNjdGtxWm5ZMTZLb3YwOVVRY0MzcUJqYzhjbklkdWliSXBvbDZPWEQ2TkFHNTJWNDlSdTFBcTNNcHVyTkV3UWs?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Announcements",
-      "published_at": "2026-11-05T10:39:09+00:00",
-      "status": "rumour",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE0zS2VDMTZLQ2RSVmFoYm5yUm5Cb0R4OVItemlnM3AyTnNjdGtxWm5ZMTZLb3YwOVVRY0MzcUJqYzhjbklkdWliSXBvbDZPWEQ2TkFHNTJWNDlSdTFBcTNNcHVyTkV3UWs",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "sonypicturesq2profitssoarsto581millionduetospidermanbrandnewday",
-      "title": "Sony Pictures Q2 Profits Soars to $581 Million Due to ‘Spider-Man: Brand New Day’",
-      "summary": "Sony Pictures Q2 Profits Soars to $581 Million Due to ‘Spider-Man: Brand New Day’ The Hollywood Reporter",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORk5Ka1Y0V3RNdzdZV0RMc3UzbjdxVGtqUVdxdzI0N2dNeFJtcmUxVk1Ma2Y1TmpibXdVU2Z3Q0dER0l4QUFXekx2SGNRV2xYdzdGdE9hOFI4bDBJbXIyYkdMaVg0N1F1MXBZUlhuVVNTNGxYcURHTkl5VzFtZlpJYmxZRmZvQ19Wb01CWXFmLUVIV05mUllBWFVTYXhRbTlEUGdOQjNoeXBiRk8wSmM3clNYcmJoSUpz?oc=5",
-      "source": "The Hollywood Reporter",
-      "source_id": "the_hollywood_reporter",
-      "category": "Marvel",
-      "published_at": "2026-11-05T09:59:34+00:00",
-      "status": "reported",
-      "tags": [
-        "Spider-Man"
-      ],
-      "related_characters": [
-        "Spider-Man"
-      ],
-      "external_id": "CBMiuAFBVV95cUxORk5Ka1Y0V3RNdzdZV0RMc3UzbjdxVGtqUVdxdzI0N2dNeFJtcmUxVk1Ma2Y1TmpibXdVU2Z3Q0dER0l4QUFXekx2SGNRV2xYdzdGdE9hOFI4bDBJbXIyYkdMaVg0N1F1MXBZUlhuVVNTNGxYcURHTkl5VzFtZlpJYmxZRmZvQ19Wb01CWXFmLUVI",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "spidermanbrandnewdayswingspastavengersendgameasmarvelsbiggesthitoutsidechina",
-      "title": "‘Spider-Man: Brand New Day’ Swings Past ‘Avengers: Endgame’ as Marvel’s Biggest Hit Outside China",
-      "summary": "‘Spider-Man: Brand New Day’ Swings Past ‘Avengers: Endgame’ as Marvel’s Biggest Hit Outside China IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzU2FmUnREdmpVOWVSN250SWREU3M4QXJKZ1BsM1hpLVJXM1BOcW9rTmRsVElubGpQSXo5bk0xbS1JYUpjVE5wTV9jSGNIdUtadHJiSzdyU3BnOXpVVWVSaFJiVlFSQ0U?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-05T09:04:37+00:00",
-      "status": "reported",
-      "tags": [
-        "Spider-Man",
-        "Avengers"
-      ],
-      "related_characters": [
-        "Spider-Man",
-        "Avengers"
-      ],
-      "external_id": "CBMiZ0FVX3lxTFAzU2FmUnREdmpVOWVSN250SWREU3M4QXJKZ1BsM1hpLVJXM1BOcW9rTmRsVElubGpQSXo5bk0xbS1JYUpjVE5wTV9jSGNIdUtadHJiSzdyU3BnOXpVVWVSaFJiVlFSQ0U",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersdoomsdaysynopsisteasesanuneasymultiversalteamuptosavethefuture",
-      "title": "‘Avengers: Doomsday’ Synopsis Teases an Uneasy Multiversal Team-up To Save the Future",
-      "summary": "‘Avengers: Doomsday’ Synopsis Teases an Uneasy Multiversal Team-up To Save the Future IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE43YUdBY1pJSHRuRHZaQ3lPNmFmNVlCVUxRTk1nVWJYc1RxME50aml4QWhndUVqd3Z0QjZtN01BQjZHWjk4bGxYdTFCUXNZUEVTcHE4Y25FUWd6RWliek1SeWtjTHNGWXM?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-05T08:56:10+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE43YUdBY1pJSHRuRHZaQ3lPNmFmNVlCVUxRTk1nVWJYc1RxME50aml4QWhndUVqd3Z0QjZtN01BQjZHWjk4bGxYdTFCUXNZUEVTcHE4Y25FUWd6RWliek1SeWtjTHNGWXM",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "newavengersdoomsdaysynopsisrevealstheheroesdeadliestenemymaybeeachother",
-      "title": "New ‘Avengers: Doomsday’ Synopsis Reveals the Heroes’ Deadliest Enemy May Be Each Other",
-      "summary": "New ‘Avengers: Doomsday’ Synopsis Reveals the Heroes’ Deadliest Enemy May Be Each Other IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3NDdScFRualM2LXFHSU1iTWtlZktHVzUzSHMxbXFwLTB1MHJhWUh5VXJjdU1LRmZUU1dUaFc5SW9HaXdGZUJJTzlWd0xnclZOZEpIQS02NUgyNmlDeFEwZlNYUWFmaWM?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Announcements",
-      "published_at": "2026-11-05T08:50:15+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTFB3NDdScFRualM2LXFHSU1iTWtlZktHVzUzSHMxbXFwLTB1MHJhWUh5VXJjdU1LRmZUU1dUaFc5SW9HaXdGZUJJTzlWd0xnclZOZEpIQS02NUgyNmlDeFEwZlNYUWFmaWM",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "marvelsmutanterareportedlygetsbiggerwithbothxforceandalphaflightmoviesintheworks",
-      "title": "Marvel’s Mutant Era Reportedly Gets Bigger With Both ‘X-Force’ and ‘Alpha Flight’ Movies in the Works",
-      "summary": "Marvel’s Mutant Era Reportedly Gets Bigger With Both ‘X-Force’ and ‘Alpha Flight’ Movies in the Works IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5jN2dZM2ZSZkdPMUhMb2JpZGRzclpDWWotLWNxNDdiOXZKMkw0S3dDdXpIcW9nMnlxREhwNnlCTTMwRi1GTENKMGFTeDZlczYwa2Z4bVZFcWtWYldtbEtZRTczR3FVV0U?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-05T08:18:54+00:00",
-      "status": "rumour",
-      "tags": [],
-      "related_characters": [],
-      "external_id": "CBMiZ0FVX3lxTE5jN2dZM2ZSZkdPMUhMb2JpZGRzclpDWWotLWNxNDdiOXZKMkw0S3dDdXpIcW9nMnlxREhwNnlCTTMwRi1GTENKMGFTeDZlczYwa2Z4bVZFcWtWYldtbEtZRTczR3FVV0U",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "spidermanbrandnewdayspinsupmassivenumbersforsonysquarterlyearnings",
-      "title": "‘Spider-Man: Brand New Day’ Spins Up Massive Numbers for Sony’s Quarterly Earnings",
-      "summary": "‘Spider-Man: Brand New Day’ Spins Up Massive Numbers for Sony’s Quarterly Earnings IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWQ29fWVJiZDFoalQ3dlplakNLQTZKMjEtOXZKT2dUZFo0NzVqb3U5d2VldmZYVG92ZmlxNW9MeEpvalNobXZEQ3JlazhFOEFHVzVvZ25ELXVmTDA2MTRSYnZNMkpBaGF4dWc?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-05T07:58:42+00:00",
-      "status": "reported",
-      "tags": [
-        "Spider-Man"
-      ],
-      "related_characters": [
-        "Spider-Man"
-      ],
-      "external_id": "CBMiakFVX3lxTFBWQ29fWVJiZDFoalQ3dlplakNLQTZKMjEtOXZKT2dUZFo0NzVqb3U5d2VldmZYVG92ZmlxNW9MeEpvalNobXZEQ3JlazhFOEFHVzVvZ25ELXVmTDA2MTRSYnZNMkpBaGF4dWc",
       "synopsis": "",
       "synopsis_status": "pending"
     }
