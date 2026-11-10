@@ -111,6 +111,18 @@ def norm(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
+PLACEHOLDER_VALUES = {
+    "unknown", "not listed", "not available", "not applicable",
+    "not specified", "no information", "information unavailable",
+    "n a", "na", "tbd",
+}
+
+
+def usable(value: Any) -> bool:
+    text = str(value or "").strip()
+    return bool(text) and norm(text) not in PLACEHOLDER_VALUES
+
+
 def repair_unescaped_quotes(raw: str) -> str:
     """Repair the one known malformed CSV-derived quote in the embedded JSON."""
     out: list[str] = []
@@ -332,7 +344,7 @@ def split_values(value: str) -> list[str]:
     seen = set()
     for part in parts:
         item = clean_wikitext(part)
-        if not item or len(item) > 240:
+        if not usable(item) or len(item) > 240:
             continue
         key = norm(item)
         if key not in seen:
@@ -421,7 +433,7 @@ def make_record(name: str, page: dict[str, Any] | None, row: dict[str, Any] | No
             collected = []
             for alias in aliases:
                 value = params.get(re.sub(r"[\s_-]+", "", alias).lower())
-                if value:
+                if usable(value):
                     collected.extend(split_values(value) if field in list_fields else [value])
             if collected:
                 if field in list_fields:
