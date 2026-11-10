@@ -36,6 +36,19 @@ jobs:
       - name: Install importer dependency
         run: python -m pip install --disable-pip-version-check requests
 
+      - name: Validate inline JavaScript before publishing
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          source = Path("site-data/part-017.txt").read_text(encoding="utf-8")
+          scripts = [s for s in re.findall(r"<script\\b[^>]*>([\\s\\S]*?)</script>", source, re.I) if s.strip()]
+          if not scripts:
+              raise SystemExit("No inline JavaScript blocks found")
+          Path("/tmp/mua-main.js").write_text(scripts[0], encoding="utf-8")
+          PY
+          node --check /tmp/mua-main.js
+
       - name: Process the entire remaining character index
         run: |
           set -euo pipefail
@@ -52,7 +65,18 @@ jobs:
                 git config user.name "github-actions[bot]"
                 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
                 git commit -m "Populate Marvel character research batches"
-                git push origin HEAD:main
+                for attempt in 1 2 3 4 5; do
+                  if git push origin HEAD:main; then
+                    break
+                  fi
+                  git fetch origin main
+                  git rebase origin/main
+                  if [ "$attempt" -eq 5 ]; then
+                    echo "Push failed after five rebase attempts."
+                    exit 1
+                  fi
+                  sleep $((attempt * 2))
+                done
               fi
               batch_count=0
             fi
