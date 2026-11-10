@@ -70,7 +70,7 @@ async function orgCategoryMembers(category,deep=false,base='https://marvel.fando
  return [...all.values()];
 }
 async function orgPageDetails(name,base){
- const p=new URLSearchParams({action:'query',prop:'extracts|categories|pageprops',titles:name,redirects:'1',exintro:'1',explaintext:'1',exchars:'5000',cllimit:'150',format:'json',origin:'*'});
+ const p=new URLSearchParams({action:'query',prop:'extracts|categories|pageprops',titles:name,redirects:'1',exintro:'1',explaintext:'1',exchars:'900',cllimit:'150',format:'json',origin:'*'});
  const r=await fetch(base+'/api.php?'+p.toString(),{headers:{Accept:'application/json'}});
  if(!r.ok)throw new Error('Could not read organization profile for '+name+' (HTTP '+r.status+')');
  const j=await r.json();if(j.error)throw new Error(j.error.info||'Organization profile API error');
