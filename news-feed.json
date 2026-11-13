@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T23:47:03.087484+00:00",
+  "generated_at": "2026-11-13T04:26:04.620817+00:00",
   "source_count": 15,
   "search_topics": [
     "Marvel Universe",
@@ -25,6 +25,85 @@
   },
   "article_count": 150,
   "articles": [
+    {
+      "id": "avengersdoomsdaysofficialwritingcreditsconfirmtwomajormarvelcameos",
+      "title": "Avengers: Doomsday's Official Writing Credits Confirm Two Major Marvel Cameos",
+      "summary": "Avengers: Doomsday's Official Writing Credits Confirm Two Major Marvel Cameos IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5zQmlhQnpCTWM1SGE2blpEdUZZdDFCaG13M3VVTXd4Rmp2QkFCNjZweFVPR181US1uaUYtSWpuQ3gyenpScmIwX3FjdkhNOFdUYTdhNkRkZ2gwbW5XVGk3SE9aSFdSZw?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-13T01:35:13+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiZkFVX3lxTE5zQmlhQnpCTWM1SGE2blpEdUZZdDFCaG13M3VVTXd4Rmp2QkFCNjZweFVPR181US1uaUYtSWpuQ3gyenpScmIwX3FjdkhNOFdUYTdhNkRkZ2gwbW5XVGk3SE9aSFdSZw",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "avengersdoomsdaywillwandagetherfamilybackexploringthemarvelcomicsconnection",
+      "title": "Avengers: Doomsday: Will Wanda Get Her Family Back? Exploring The Marvel Comics Connection",
+      "summary": "Avengers: Doomsday: Will Wanda Get Her Family Back? Exploring The Marvel Comics Connection IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWcmxoMTRLZVV3czlMTkxwNWR4dC1Ha3dVN29mSHB4SnhEOUdydmotLTZjUzdXSWRJZDdFS3FOT3JtMS1jOVRraW43VWJiRERpWnRzQXFzQWctSVA2c0QxV21R?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Comics",
+      "published_at": "2026-11-13T01:09:15+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiYkFVX3lxTFBWcmxoMTRLZVV3czlMTkxwNWR4dC1Ha3dVN29mSHB4SnhEOUdydmotLTZjUzdXSWRJZDdFS3FOT3JtMS1jOVRraW43VWJiRERpWnRzQXFzQWctSVA2c0QxV21R",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "spidermanbrandnewdayisheadingbacktotheaterswithanewnameandmoretosee",
+      "title": "‘Spider-Man: Brand New Day’ Is Heading Back to Theaters With a New Name and More to See",
+      "summary": "‘Spider-Man: Brand New Day’ Is Heading Back to Theaters With a New Name and More to See IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Oc3dyX1Ewc1R4QVRGZllWcUJsd2k4ZmJ2RUVXcmN3UU9nUUxuMGZETm50MGRWS3lHZlZzME9Cdl8zSXlmZDd4aXV1d0Z0d1JhZUVpSkt4cmJSUU1MbkI4cmFrbDZIMjQ?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-13T00:33:45+00:00",
+      "status": "reported",
+      "tags": [
+        "Spider-Man"
+      ],
+      "related_characters": [
+        "Spider-Man"
+      ],
+      "external_id": "CBMiZ0FVX3lxTE1Oc3dyX1Ewc1R4QVRGZllWcUJsd2k4ZmJ2RUVXcmN3UU9nUUxuMGZETm50MGRWS3lHZlZzME9Cdl8zSXlmZDd4aXV1d0Z0d1JhZUVpSkt4cmJSUU1MbkI4cmFrbDZIMjQ",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
     {
       "id": "chrisprattsaysmarvelhastakenhardactiononstarlordsreturn",
       "title": "Chris Pratt Says Marvel Has Taken “Hard Action” on Star-Lord’s Return",
@@ -241,7 +320,31 @@
       ],
       "external_id": "CBMiakFVX3lxTFA4TFhiRjZoN3JJdkhGTUxwTmN3eFlHdFBmbXJnbFpaamdIMi1Hb19OSUFnTVRRN2ZJYVRhTk9fbjJmeFRBSzBodlZOMk5ObHlBZ05lZURIMnozaTEtRlFLVFZZX2o1SmtHS0E",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "kevinfeigedebunksmassivedoctordoomfantheoryaheadofavengersdoomsday",
+      "title": "Kevin Feige Debunks Massive Doctor Doom Fan Theory Ahead of Avengers: Doomsday",
+      "summary": "Kevin Feige Debunks Massive Doctor Doom Fan Theory Ahead of Avengers: Doomsday IGN",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVmlLLUlKckU2ZmVRVFlHMElFNnVxVGRNVTdSS3BsMFpkdUtjVkR3UFRyc05OeTlJSnJXZ1RsT3d3aW5kUWdiMW1PanJSY2lkc3J5YTdtOUlhOEQtOVZUbWpFMjd3dnhQXzczM2lxaXB6VzFpa1RLREFyMTVGWWxLNUExdXhBck5rbEpBT2NDMWxVTW94eGpEaDJ2bGdiMzlGWkxvUngteWdJdm9lS3A0?oc=5",
+      "source": "IGN",
+      "source_id": "ign",
+      "category": "Marvel",
+      "published_at": "2026-11-12T19:09:47+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMirwFBVV95cUxPVmlLLUlKckU2ZmVRVFlHMElFNnVxVGRNVTdSS3BsMFpkdUtjVkR3UFRyc05OeTlJSnJXZ1RsT3d3aW5kUWdiMW1PanJSY2lkc3J5YTdtOUlhOEQtOVZUbWpFMjd3dnhQXzczM2lxaXB6VzFpa1RLREFyMTVGWWxLNUExdXhBck5rbEpBT2NDMWxV",
+      "synopsis": "",
+      "synopsis_status": "pending"
     },
     {
       "id": "avengersdoomsdaygiveswritingcredittoryanreynoldshughjackmaneventhoughtheyrenoton",
@@ -268,7 +371,7 @@
       ],
       "external_id": "CBMiZkFVX3lxTE1Xek90dXNNallIVktydFN3VDg0VWZBZC1uT0ZxdFRzbDAxZmlrR2RYS3NncnR6ZFMtQ1ZHeThaTllldm5ac3hRQTBBaXhVMFdaeW1hQ2tsRlI4T0s4dnh5U0x5ejJCZw",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "hughjackmanryanreynoldsavengersdoomsdayrolesrevealed",
@@ -615,6 +718,31 @@
       "synopsis_status": "publisher_unavailable"
     },
     {
+      "id": "daredevilbornagainstarcastinexcitingnewthrillerseriesafterseason3endingconfirmat",
+      "title": "Daredevil: Born Again Star Cast In Exciting New Thriller Series After Season 3 Ending Confirmation",
+      "summary": "Daredevil: Born Again Star Cast In Exciting New Thriller Series After Season 3 Ending Confirmation IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5fSS1RdVc0NC1ZckdqdUQwQmoxRWdJWkFDOEkxanVMMDZlRWpvTnlpeTNUWU8xNWtOSWZSaUd1YzR1WGtRc0hHOEU2SXJRNWVrSkQ1RFFhcjJNS2lYU2MyRjRIU0M?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Casting",
+      "published_at": "2026-11-12T05:51:28+00:00",
+      "status": "reported",
+      "tags": [
+        "Daredevil"
+      ],
+      "related_characters": [
+        "Daredevil"
+      ],
+      "external_id": "CBMiZEFVX3lxTE5fSS1RdVc0NC1ZckdqdUQwQmoxRWdJWkFDOEkxanVMMDZlRWpvTnlpeTNUWU8xNWtOSWZSaUd1YzR1WGtRc0hHOEU2SXJRNWVrSkQ1RFFhcjJNS2lYU2MyRjRIU0M",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
       "id": "avengersendgameencorestreamsondisneyfridaynov13",
       "title": "Avengers: Endgame Encore streams on Disney+ Friday, Nov. 13",
       "summary": "Avengers: Endgame Encore streams on Disney+ Friday, Nov. 13 IMDb",
@@ -848,31 +976,6 @@
         "Doom"
       ],
       "external_id": "CBMihgFBVV95cUxORERQQ2RXLU0yQnNuaG9pN1VZRl9fYVVXUm9TaWQtOXZlSlJFeGhQWUlMRVEzNm1JZHl1WlVtb25MaFNRNGl3RmpvRTdCNWo4c1JoNGtKaDZvVzZaZnhWVXJSY3Zzbjh2X2k5NEZnVkpkWVEtV2RuQUlKLXRfWkdLNnVxdmlHdw",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "daredevilbornagainstarcastinexcitingnewthrillerseriesafterseason3endingconfirmat",
-      "title": "Daredevil: Born Again Star Cast In Exciting New Thriller Series After Season 3 Ending Confirmation",
-      "summary": "Daredevil: Born Again Star Cast In Exciting New Thriller Series After Season 3 Ending Confirmation IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uVzNobW1aWlBIaTB0YXdqd3R0b1dPdnR5SDJPM3VvLWwyY2NrWWxvOGxuSzRrNXYzTmlPT0YxRDlrbnhpTks2bWJSUmp1d01SdkJnVmRBcTM1QzN1aTdWdQ?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Casting",
-      "published_at": "2026-11-11T22:29:59+00:00",
-      "status": "reported",
-      "tags": [
-        "Daredevil"
-      ],
-      "related_characters": [
-        "Daredevil"
-      ],
-      "external_id": "CBMiYEFVX3lxTE1uVzNobW1aWlBIaTB0YXdqd3R0b1dPdnR5SDJPM3VvLWwyY2NrWWxvOGxuSzRrNXYzTmlPT0YxRDlrbnhpTks2bWJSUmp1d01SdkJnVmRBcTM1QzN1aTdWdQ",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -3556,110 +3659,6 @@
         "Ghost Rider"
       ],
       "external_id": "CBMiakFVX3lxTE9NaVQ4MTBCd3YtMFZwcVVQbHBxdzBMYlgzZnZUWjktUTZOUW9oX1lvbENpSm1ONUFtOVAxUzY2cGZ2Y3dnOVBscEtUbVlvdzZTZXRPZDhwSVhiV0JXTVdpYWlFS3RfYXBlM0E",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersdoomsdaydoomstadtdescriptionrevealedstatueoffersdetailednewlookatdoctord",
-      "title": "Avengers: Doomsday Doomstadt Description Revealed; Statue Offers Detailed New Look At Doctor Doom",
-      "summary": "Avengers: Doomsday Doomstadt Description Revealed; Statue Offers Detailed New Look At Doctor Doom IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMWTN1T2RCcWcwcG53dWpMdjljR0xkZjFwN2xjZnJLdU9nWUg0ekh3YzlSMk5ocjVrVzVxQXM5XzhtTG9vd1Jtdnc0YTNSQXNtUnZfN2hiWDJraWdJa3h1MUI5R2M3b0E?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Announcements",
-      "published_at": "2026-11-08T14:29:43+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTFBMWTN1T2RCcWcwcG53dWpMdjljR0xkZjFwN2xjZnJLdU9nWUg0ekh3YzlSMk5ocjVrVzVxQXM5XzhtTG9vd1Jtdnc0YTNSQXNtUnZfN2hiWDJraWdJa3h1MUI5R2M3b0E",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "xmencastmeettheactorsplayingjeangreycyclopsandmoreinthemcu",
-      "title": "‘X-Men’ cast: Meet the actors playing Jean Grey, Cyclops, and more in the MCU",
-      "summary": "‘X-Men’ cast: Meet the actors playing Jean Grey, Cyclops, and more in the MCU Entertainment Weekly",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12N0QwR29IVS1WLWNtbkx0clFmc1FHcGd6RlJHajNXQTV4dkRBUU9kS09vOXFDbjhnVGxMYVRLR1BSdDBfLWZ3M3hRMS1BRk9EcHdsMEVkYjRNM0haM3VRMVdwSkw?oc=5",
-      "source": "Entertainment Weekly",
-      "source_id": "entertainment_weekly",
-      "category": "Casting",
-      "published_at": "2026-11-08T12:30:00+00:00",
-      "status": "reported",
-      "tags": [
-        "X-Men"
-      ],
-      "related_characters": [
-        "X-Men"
-      ],
-      "external_id": "CBMiZEFVX3lxTE12N0QwR29IVS1WLWNtbkx0clFmc1FHcGd6RlJHajNXQTV4dkRBUU9kS09vOXFDbjhnVGxMYVRLR1BSdDBfLWZ3M3hRMS1BRk9EcHdsMEVkYjRNM0haM3VRMVdwSkw",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "newavengersdoomsdaydoctordoomdescriptionconfirmslatveriaisoutsidethefuturefounda",
-      "title": "New ‘Avengers: Doomsday’ Doctor Doom Description Confirms Latveria Is Outside the Future Foundation",
-      "summary": "New ‘Avengers: Doomsday’ Doctor Doom Description Confirms Latveria Is Outside the Future Foundation IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RNXVtS0NsZElUdFZGUGttekYzNGl3cWNOdTVwdlZUTkdFWkJaSkVHcGNGdmFyYndBQlNFTnh3cTVaZXFRQTJ0YnBYbGo3TWxDdFRkQklLZ29RVTYxVmY1RkZIUklFNTA?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-08T07:27:28+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE9RNXVtS0NsZElUdFZGUGttekYzNGl3cWNOdTVwdlZUTkdFWkJaSkVHcGNGdmFyYndBQlNFTnh3cTVaZXFRQTJ0YnBYbGo3TWxDdFRkQklLZ29RVTYxVmY1RkZIUklFNTA",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "marvelstudiosbossshutsdownclaimsthatthemcushomeworkproblemisarealissueforvisionq",
-      "title": "Marvel Studios Boss Shuts Down Claims That The MCU's \"Homework Problem\" Is A Real Issue For 'VisionQuest', Despite Paul Bettany Series' Lore-Heavy Connections to Iron Man, Avengers & Wider Universe",
-      "summary": "Marvel Studios Boss Shuts Down Claims That The MCU's \"Homework Problem\" Is A Real Issue For 'VisionQuest', Despite Paul Bettany Series' Lore-Heavy Connections to Iron Man, Avengers & Wider Universe The Direct",
-      "coverage_tags": [
-        "Series: VisionQuest"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTVpXbFZLbkZuaGtDaWVLWEpjTFdnejEzRHdYSUw4NlBaa2lLaVBnZWRYb1loNEx0MGpsREZicHVwLUlUOGpReU83SmtiX3JNdGN1SzBkQ3FhN2REazNaR3BoZE1pLU1HdktXWlBCZUFBUVBpcGhRbjdZelNGRTEtZ2RFNUl3V1dTOE1GLXdfbTIwTWp4b3JGQmZmV05EV1BGel85WGNEMDlPT1RoaFBBbnFn?oc=5",
-      "source": "The Direct",
-      "source_id": "the_direct",
-      "category": "TV",
-      "published_at": "2026-11-08T07:00:22+00:00",
-      "status": "reported",
-      "tags": [
-        "Iron Man",
-        "Avengers",
-        "Vision"
-      ],
-      "related_characters": [
-        "Iron Man",
-        "Avengers",
-        "Vision"
-      ],
-      "external_id": "CBMisgFBVV95cUxOTVpXbFZLbkZuaGtDaWVLWEpjTFdnejEzRHdYSUw4NlBaa2lLaVBnZWRYb1loNEx0MGpsREZicHVwLUlUOGpReU83SmtiX3JNdGN1SzBkQ3FhN2REazNaR3BoZE1pLU1HdktXWlBCZUFBUVBpcGhRbjdZelNGRTEtZ2RFNUl3V1dTOE1GLXdfbTIw",
       "synopsis": "",
       "synopsis_status": "pending"
     }
