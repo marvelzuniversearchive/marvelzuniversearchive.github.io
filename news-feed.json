@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:07:16.105477+00:00",
+  "generated_at": "2026-11-14T19:08:18.513507+00:00",
   "source_count": 15,
   "search_topics": [
     "Marvel Universe",
@@ -25,6 +25,85 @@
   },
   "article_count": 150,
   "articles": [
+    {
+      "id": "marvelcinematicuniversethecompletetimelinetophase6fantasticfourdoomsdaymore",
+      "title": "Marvel Cinematic Universe, The Complete Timeline to Phase 6: ‘Fantastic Four,’ ‘Doomsday’ & More",
+      "summary": "Marvel Cinematic Universe, The Complete Timeline to Phase 6: ‘Fantastic Four,’ ‘Doomsday’ & More IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YdXROOGdxZUlYeGUzd3NNaUhxd1Q4cXg5aDFFR0JIajByVHBhT0lHT0VzV2RnZGJhWlRHRGM4WkFmamZ2WHV0WExGaHpQUUVINVIyaWZTclBuQ0hGMjMyM0F3aGdkb1NHU0E?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-14T18:56:17+00:00",
+      "status": "reported",
+      "tags": [
+        "Fantastic Four",
+        "Doom"
+      ],
+      "related_characters": [
+        "Fantastic Four",
+        "Doom"
+      ],
+      "external_id": "CBMiakFVX3lxTE1YdXROOGdxZUlYeGUzd3NNaUhxd1Q4cXg5aDFFR0JIajByVHBhT0lHT0VzV2RnZGJhWlRHRGM4WkFmamZ2WHV0WExGaHpQUUVINVIyaWZTclBuQ0hGMjMyM0F3aGdkb1NHU0E",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "avengersdoomsdaycountdowntoavengersdoomsdaypromo",
+      "title": "Avengers: Doomsday: Countdown to Avengers: Doomsday - Promo",
+      "summary": "Avengers: Doomsday: Countdown to Avengers: Doomsday - Promo IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uYS1xLUwxWWdCRTRTSmhpVlREcjJ5b3RPSk9SSmMzUDdHcm8yZTVhRjM1eEVEa0k5WDlJYVJnOTk4cmU1WjR1UTE5ai1qbUdYa0E?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-14T17:03:50+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiUkFVX3lxTE1uYS1xLUwxWWdCRTRTSmhpVlREcjJ5b3RPSk9SSmMzUDdHcm8yZTVhRjM1eEVEa0k5WDlJYVJnOTk4cmU1WjR1UTE5ai1qbUdYa0E",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "avengersendgameencoreisnowstreamingondisney",
+      "title": "Avengers Endgame: Encore Is Now Streaming on Disney+",
+      "summary": "Avengers Endgame: Encore Is Now Streaming on Disney+ IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WM3VlSVFrUGpRVkJpakRFNHlhR3hfMDczRTlBRkFHNWVYazBhY1lGOGc3emlOZ2hGWGk4dTd4Q0oyMUFvdXVJM3gwWDd4aFRQRjVPMjMwa2NpRTJiUi1WajJTRlFHdw?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "TV",
+      "published_at": "2026-11-14T16:24:21+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers"
+      ],
+      "related_characters": [
+        "Avengers"
+      ],
+      "external_id": "CBMiZkFVX3lxTE9WM3VlSVFrUGpRVkJpakRFNHlhR3hfMDczRTlBRkFHNWVYazBhY1lGOGc3emlOZ2hGWGk4dTd4Q0oyMUFvdXVJM3gwWDd4aFRQRjVPMjMwa2NpRTJiUi1WajJTRlFHdw",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
     {
       "id": "xmenfanartmaygiveusanideaofhowrebootscastwilllookasthemcusmutantheroes",
       "title": "X-Men Fan-Art May Give Us An Idea Of How Reboot's Cast Will Look As The McU's Mutant Heroes",
@@ -80,51 +159,29 @@
       "synopsis_status": "publisher_unavailable"
     },
     {
-      "id": "shopmarvelmusthavesprepareforavengersdoomsdaywithofficialdoctordoomtoysandmerch",
-      "title": "Shop Marvel Must Haves: Prepare for ‘Avengers: Doomsday’ with Official Doctor Doom Toys and Merch",
-      "summary": "Shop Marvel Must Haves: Prepare for ‘Avengers: Doomsday’ with Official Doctor Doom Toys and Merch Marvel.com",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQN21jZ3U1NlpMUTliWWFrdnp3VWRmZEhIOWxkNVZLVV9xS3JSRmxIRlljSmpzTlBObFo2bEpnemNVVlY3LU1za1RtMzlwQS1iS2h6RUg2M0hnNFYyQ1hDXy1PVENyaVBpQ195TFNQQ3BlQXVpNTBhVmNPTEZLamxmT3Q2WUFvb29KSlNrLTBnb2x4MUg4NXRFbmlQaS1oS1ZhYkRxblhxQjNMTFdkaWc?oc=5",
-      "source": "Marvel",
-      "source_id": "marvel",
-      "category": "Marvel",
-      "published_at": "2026-11-14T10:59:43+00:00",
-      "status": "official",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMirgFBVV95cUxQN21jZ3U1NlpMUTliWWFrdnp3VWRmZEhIOWxkNVZLVV9xS3JSRmxIRlljSmpzTlBObFo2bEpnemNVVlY3LU1za1RtMzlwQS1iS2h6RUg2M0hnNFYyQ1hDXy1PVENyaVBpQ195TFNQQ3BlQXVpNTBhVmNPTEZLamxmT3Q2WUFvb29KSlNrLTBnb2x4",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "avengersendgameencoreisnowstreamingondisney",
-      "title": "Avengers Endgame: Encore Is Now Streaming on Disney+",
-      "summary": "Avengers Endgame: Encore Is Now Streaming on Disney+ IMDb",
+      "id": "chrisevansandletitiawrightsurpriseayoungsuperfanwithanavengersdoomsdayredcarpeti",
+      "title": "Chris Evans and Letitia Wright Surprise a Young Superfan With an ‘Avengers: Doomsday’ Red Carpet Invite",
+      "summary": "Chris Evans and Letitia Wright Surprise a Young Superfan With an ‘Avengers: Doomsday’ Red Carpet Invite IMDb",
       "coverage_tags": [
         "Ratings & Reviews",
         "IMDb"
       ],
       "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WM3VlSVFrUGpRVkJpakRFNHlhR3hfMDczRTlBRkFHNWVYazBhY1lGOGc3emlOZ2hGWGk4dTd4Q0oyMUFvdXVJM3gwWDd4aFRQRjVPMjMwa2NpRTJiUi1WajJTRlFHdw?oc=5",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OMzZLN2M3UGdia3lzcHc4ekhVc3YtRTA0YjRXN1RhZnVkZ2tlMXFoYTRITlgxbUZpWldBSXFnb2Zncm5SZWp0NGR2T1BCaXp0YTdwdGJCNm1xbUVidmx2aFczLXJ5b1U?oc=5",
       "source": "IMDb",
       "source_id": "imdb",
-      "category": "TV",
-      "published_at": "2026-11-14T09:36:30+00:00",
+      "category": "Marvel",
+      "published_at": "2026-11-14T10:46:58+00:00",
       "status": "reported",
       "tags": [
-        "Avengers"
+        "Avengers",
+        "Doom"
       ],
       "related_characters": [
-        "Avengers"
+        "Avengers",
+        "Doom"
       ],
-      "external_id": "CBMiZkFVX3lxTE9WM3VlSVFrUGpRVkJpakRFNHlhR3hfMDczRTlBRkFHNWVYazBhY1lGOGc3emlOZ2hGWGk4dTd4Q0oyMUFvdXVJM3gwWDd4aFRQRjVPMjMwa2NpRTJiUi1WajJTRlFHdw",
+      "external_id": "CBMiZ0FVX3lxTE5OMzZLN2M3UGdia3lzcHc4ekhVc3YtRTA0YjRXN1RhZnVkZ2tlMXFoYTRITlgxbUZpWldBSXFnb2Zncm5SZWp0NGR2T1BCaXp0YTdwdGJCNm1xbUVidmx2aFczLXJ5b1U",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -326,7 +383,7 @@
       ],
       "external_id": "CBMijAFBVV95cUxPR2szOGFWZExfaXZQNHVDT1lOdlJKakhQTXU2bnJVVU5ydGZKOGhFTWF1SkdqTlpqX0ZWQk1XSW5Ba09QVFdlVnA1Y283QWtJMExlUDJ1WmVXNDdSUkVwRTZ3eVVQcUtBR0tPSm1HeGZPV1NsQWx5b0ZNb1FRTVRDNi1sQm9TVFh5TWFEMA",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "sonystomrothmanwantsspidermanbrandnewdaytocrashtheoscarsbestpicturerace",
@@ -790,6 +847,32 @@
       "synopsis_status": "pending"
     },
     {
+      "id": "captainamericasavengersteamrosterconfirms5mcuheroesaheadofdoomsday",
+      "title": "Captain America’s Avengers Team Roster Confirms 5 MCU Heroes Ahead Of Doomsday",
+      "summary": "Captain America’s Avengers Team Roster Confirms 5 MCU Heroes Ahead Of Doomsday ScreenRant",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONzh1YjJvalRNOUlud05hUG4xWDBaZGFYRHRFd1hNbll6cFNObEpEUXFfdlZXWlYzSWp5dUtkNTZZU2NVNGpKSXpVeE5tYlFFZEJaUnFWaDBVVzlaNE94RElZRk5KYTJCdENNNEx2MkJxdVFyWWRsSHJmaTQ5ZF9VVmJaRQ?oc=5",
+      "source": "Screen Rant",
+      "source_id": "screen_rant",
+      "category": "Marvel",
+      "published_at": "2026-11-13T16:16:54+00:00",
+      "status": "reported",
+      "tags": [
+        "Captain America",
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Captain America",
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMigwFBVV95cUxONzh1YjJvalRNOUlud05hUG4xWDBaZGFYRHRFd1hNbll6cFNObEpEUXFfdlZXWlYzSWp5dUtkNTZZU2NVNGpKSXpVeE5tYlFFZEJaUnFWaDBVVzlaNE94RElZRk5KYTJCdENNNEx2MkJxdVFyWWRsSHJmaTQ5ZF9VVmJaRQ",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
       "id": "tomhollandspidermanmoviewithnewscenesofficiallyconfirmedfordecember2026",
       "title": "Tom Holland Spider-Man Movie With New Scenes Officially Confirmed For December 2026",
       "summary": "Tom Holland Spider-Man Movie With New Scenes Officially Confirmed For December 2026 IMDb",
@@ -858,31 +941,29 @@
       "synopsis_status": "publisher_unavailable"
     },
     {
-      "id": "ryanreynoldsandhughjackmanjointhewritersroomforavengersdoomsday",
-      "title": "Ryan Reynolds and Hugh Jackman Join the Writers’ Room for ‘Avengers: Doomsday’",
-      "summary": "Ryan Reynolds and Hugh Jackman Join the Writers’ Room for ‘Avengers: Doomsday’ IMDb",
+      "id": "thorloveandthunderaudiencereviews",
+      "title": "Thor: Love and Thunder | Audience Reviews",
+      "summary": "Thor: Love and Thunder | Audience Reviews Rotten Tomatoes",
       "coverage_tags": [
         "Ratings & Reviews",
-        "IMDb"
+        "Rotten Tomatoes"
       ],
       "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96NTlaSUxVek44dDcyNS1JejNuRnZreE50eWg2YlQwelJ4OXQzMndPSzBSX3RUcXdHenhIR2MxQUYxZXhqMFZORTZPRkJkcEhQeUtRdTE2ZmNIU2ptTktGNHhnei1qcFB5ang0?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-13T11:10:36+00:00",
+      "article_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVGtPM1lYalI2cmpydUNCV2Zqa1UzTVBBR3ktRXhHOXc3VmJ2aGc5Yko5RnJ6aFFVQWt0aXUtbDF5eTI3QVFmUW85N0FEOTBvQ3N2ZGRhNnZzUl9WN0lmRmNpRTN2bUgybHlCdHYyclp6WUZFUXA1T0hkZ0otdzRFeQ?oc=5",
+      "source": "Rotten Tomatoes",
+      "source_id": "rotten_tomatoes",
+      "category": "Ratings",
+      "published_at": "2026-11-13T13:49:07+00:00",
       "status": "reported",
       "tags": [
-        "Avengers",
-        "Doom"
+        "Thor"
       ],
       "related_characters": [
-        "Avengers",
-        "Doom"
+        "Thor"
       ],
-      "external_id": "CBMia0FVX3lxTE96NTlaSUxVek44dDcyNS1JejNuRnZreE50eWg2YlQwelJ4OXQzMndPSzBSX3RUcXdHenhIR2MxQUYxZXhqMFZORTZPRkJkcEhQeUtRdTE2ZmNIU2ptTktGNHhnei1qcFB5ang0",
+      "external_id": "CBMigAFBVV95cUxQVGtPM1lYalI2cmpydUNCV2Zqa1UzTVBBR3ktRXhHOXc3VmJ2aGc5Yko5RnJ6aFFVQWt0aXUtbDF5eTI3QVFmUW85N0FEOTBvQ3N2ZGRhNnZzUl9WN0lmRmNpRTN2bUgybHlCdHYyclp6WUZFUXA1T0hkZ0otdzRFeQ",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "avengersendgameencoresendingandavengersdoomsdaytieinpostcreditsscenesreleasedinh",
@@ -1093,6 +1174,57 @@
       "synopsis_status": "pending"
     },
     {
+      "id": "ryanreynoldsandhughjackmanjointhewritersroomforavengersdoomsday",
+      "title": "Ryan Reynolds and Hugh Jackman Join the Writers’ Room for ‘Avengers: Doomsday’",
+      "summary": "Ryan Reynolds and Hugh Jackman Join the Writers’ Room for ‘Avengers: Doomsday’ IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1RcWNxZHVTRURoeHAwdGMzWkVmT183QUVRMzVKanVzUkpvajNnajVVLXBsU2l3Z2YxYjZJVnFobGMtd21va1RIeFZsOHBCbXgwdmZTN1lKeWh4ZjlZRkhYTA?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-13T08:11:56+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiYEFVX3lxTE1RcWNxZHVTRURoeHAwdGMzWkVmT183QUVRMzVKanVzUkpvajNnajVVLXBsU2l3Z2YxYjZJVnFobGMtd21va1RIeFZsOHBCbXgwdmZTN1lKeWh4ZjlZRkhYTA",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "shopmarvelmusthavesprepareforavengersdoomsdaywithofficialdoctordoomtoysandmerch",
+      "title": "Shop Marvel Must Haves: Prepare for ‘Avengers: Doomsday’ with Official Doctor Doom Toys and Merch",
+      "summary": "Shop Marvel Must Haves: Prepare for ‘Avengers: Doomsday’ with Official Doctor Doom Toys and Merch Marvel.com",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQN21jZ3U1NlpMUTliWWFrdnp3VWRmZEhIOWxkNVZLVV9xS3JSRmxIRlljSmpzTlBObFo2bEpnemNVVlY3LU1za1RtMzlwQS1iS2h6RUg2M0hnNFYyQ1hDXy1PVENyaVBpQ195TFNQQ3BlQXVpNTBhVmNPTEZLamxmT3Q2WUFvb29KSlNrLTBnb2x4MUg4NXRFbmlQaS1oS1ZhYkRxblhxQjNMTFdkaWc?oc=5",
+      "source": "Marvel",
+      "source_id": "marvel",
+      "category": "Marvel",
+      "published_at": "2026-11-13T08:00:00+00:00",
+      "status": "official",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMirgFBVV95cUxQN21jZ3U1NlpMUTliWWFrdnp3VWRmZEhIOWxkNVZLVV9xS3JSRmxIRlljSmpzTlBObFo2bEpnemNVVlY3LU1za1RtMzlwQS1iS2h6RUg2M0hnNFYyQ1hDXy1PVENyaVBpQ195TFNQQ3BlQXVpNTBhVmNPTEZLamxmT3Q2WUFvb29KSlNrLTBnb2x4",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
       "id": "godzillaminuszeronorthamericaboxofficelessthan2mawayfrombeatingavengersendgameen",
       "title": "Godzilla Minus Zero North America Box Office: Less Than $2M Away From Beating Avengers: Endgame Encore!",
       "summary": "Godzilla Minus Zero North America Box Office: Less Than $2M Away From Beating Avengers: Endgame Encore! IMDb",
@@ -1267,31 +1399,6 @@
         "Spider-Man"
       ],
       "external_id": "CBMiZ0FVX3lxTE1Oc3dyX1Ewc1R4QVRGZllWcUJsd2k4ZmJ2RUVXcmN3UU9nUUxuMGZETm50MGRWS3lHZlZzME9Cdl8zSXlmZDd4aXV1d0Z0d1JhZUVpSkt4cmJSUU1MbkI4cmFrbDZIMjQ",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "thorloveandthunderaudiencereviews",
-      "title": "Thor: Love and Thunder | Audience Reviews",
-      "summary": "Thor: Love and Thunder | Audience Reviews Rotten Tomatoes",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "Rotten Tomatoes"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVGtPM1lYalI2cmpydUNCV2Zqa1UzTVBBR3ktRXhHOXc3VmJ2aGc5Yko5RnJ6aFFVQWt0aXUtbDF5eTI3QVFmUW85N0FEOTBvQ3N2ZGRhNnZzUl9WN0lmRmNpRTN2bUgybHlCdHYyclp6WUZFUXA1T0hkZ0otdzRFeQ?oc=5",
-      "source": "Rotten Tomatoes",
-      "source_id": "rotten_tomatoes",
-      "category": "Ratings",
-      "published_at": "2026-11-12T23:30:46+00:00",
-      "status": "reported",
-      "tags": [
-        "Thor"
-      ],
-      "related_characters": [
-        "Thor"
-      ],
-      "external_id": "CBMigAFBVV95cUxQVGtPM1lYalI2cmpydUNCV2Zqa1UzTVBBR3ktRXhHOXc3VmJ2aGc5Yko5RnJ6aFFVQWt0aXUtbDF5eTI3QVFmUW85N0FEOTBvQ3N2ZGRhNnZzUl9WN0lmRmNpRTN2bUgybHlCdHYyclp6WUZFUXA1T0hkZ0otdzRFeQ",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -2241,30 +2348,6 @@
       "synopsis_status": "pending"
     },
     {
-      "id": "avengersendgameencoreofficiallysetsdisneystreamingreleasedate1monthbeforedoomsda",
-      "title": "Avengers: Endgame Encore Officially Sets Disney+ Streaming Release Date 1 Month Before Doomsday",
-      "summary": "Avengers: Endgame Encore Officially Sets Disney+ Streaming Release Date 1 Month Before Doomsday Comic Book Resources",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORERQQ2RXLU0yQnNuaG9pN1VZRl9fYVVXUm9TaWQtOXZlSlJFeGhQWUlMRVEzNm1JZHl1WlVtb25MaFNRNGl3RmpvRTdCNWo4c1JoNGtKaDZvVzZaZnhWVXJSY3Zzbjh2X2k5NEZnVkpkWVEtV2RuQUlKLXRfWkdLNnVxdmlHdw?oc=5",
-      "source": "CBR",
-      "source_id": "cbr",
-      "category": "TV",
-      "published_at": "2026-11-11T22:58:34+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMihgFBVV95cUxORERQQ2RXLU0yQnNuaG9pN1VZRl9fYVVXUm9TaWQtOXZlSlJFeGhQWUlMRVEzNm1JZHl1WlVtb25MaFNRNGl3RmpvRTdCNWo4c1JoNGtKaDZvVzZaZnhWVXJSY3Zzbjh2X2k5NEZnVkpkWVEtV2RuQUlKLXRfWkdLNnVxdmlHdw",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
       "id": "daredevilbornagainstarcastinexcitingnewthrillerseriesafterseason3endingconfirmat",
       "title": "Daredevil: Born Again Star Cast In Exciting New Thriller Series After Season 3 Ending Confirmation",
       "summary": "Daredevil: Born Again Star Cast In Exciting New Thriller Series After Season 3 Ending Confirmation IMDb",
@@ -2841,6 +2924,33 @@
         "Doom"
       ],
       "external_id": "CBMi0AFBVV95cUxOMk5WWEhvTnRHSVJTdnZrdV9maEhfenpVZlk0MHZwbDJ0NlFpcG1oZFhqMV91MTkzblVrRXB2YnM2QlYyUkFIMkhnbXNTbWJFZzJIUlQteUc1Mk0xdkdGUG9TSnpJYlJGYTJyU0NVNk1FN240amJySVRZVnBZMnB3TWxPUjI0VGhadW5BT1poT0o1",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "avengersendgameencoreofficiallysetsdisneystreamingreleasedate1monthbeforedoomsda",
+      "title": "Avengers: Endgame Encore Officially Sets Disney+ Streaming Release Date 1 Month Before Doomsday",
+      "summary": "Avengers: Endgame Encore Officially Sets Disney+ Streaming Release Date 1 Month Before Doomsday IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YZGR0X21yOTFuSGx1Zm5Oa1JqY3ZWdnVBMERkNE42dVl1NXQwNTl3Ri1aSlg3a0hDc0NTUU11X3JYdXFveGw3eWlNSkJuQTVmZW4wN1FzaUlDUHQ2OVVFSzhtZGpjLUE?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "TV",
+      "published_at": "2026-11-11T08:00:00+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiZ0FVX3lxTE1YZGR0X21yOTFuSGx1Zm5Oa1JqY3ZWdnVBMERkNE42dVl1NXQwNTl3Ri1aSlg3a0hDc0NTUU11X3JYdXFveGw3eWlNSkJuQTVmZW4wN1FzaUlDUHQ2OVVFSzhtZGpjLUE",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -3632,89 +3742,6 @@
       "external_id": "CBMiZ0FVX3lxTE5GRnBtNmVHNmxOQnpRN2U2dWVCWmJjdl9jUnVGaXBMeElDV0FDbGRmRlUzSXZteE5SYzZaY2tzTlZlMDNsV3FILW02NTBkM2dfcmdqRVM4aVFTeTFJZUM4eTYtNFdWYWs",
       "synopsis": "",
       "synopsis_status": "pending"
-    },
-    {
-      "id": "jamesgunnandpetersafranoutatdcstudiosasmarvelveterantakesoversupermansuniverse",
-      "title": "James Gunn And Peter Safran OUT At DC Studios As Marvel Veteran Takes Over Superman's Universe",
-      "summary": "James Gunn And Peter Safran OUT At DC Studios As Marvel Veteran Takes Over Superman's Universe The Times of India",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNcm54UGpMc3JkNjdxUXBDbHl0eG0yM2puSVN5Y28tMTViajlJdFJIREZnRHVjNWJhbjBDQjhWXy1yTUR3cUVoV1VjeUF1VVpCNUNFOVlKcEZ3TXpHd2hBcGp4VndmdUt1ZDFXVkZvT1N5aWxyVEtma0NWamc2Uk1KYUtiamZLSjE3XzNzaWoyWmVHbjY2ekx4RGlucTVjYlo5TXNWaWdNNDJEbHZzUDJuaTJULVZqdmFQYmdTenF3d2ZpcUpoT3RpQWFHbkpwOUFsMlZRYXF2LWRIdTk3NDVlSUF3MGtKelNaWEZla3loYW5yMEhCTEpHbUt6WUNaVEkxRGxj0gGIAkFVX3lxTE5EYlJkcTRPLXNZd1V0Y0JMMzRhTWZFU3AzZjN5azFYVC12T1pwNUlvTFFtcS16UFgxQ3g5SFdua3pCcWRWQ281WE1IY0ZPV29XTklfOXVSam1objNDRjVabjdyLTdDdFlKTVY1T0c5V01QX3BxaTM3VWpoS2dYejRXcmIxaWF6TXJmTF8zcGVKa0t6clhYS3dmeEJValBkd1V1Z1BJcTBHUTVJVlpPWmhsOFRjNEowQjZEN1ZLUm1kV2VDcm5iZjhIUm9vRVh4OHZnWkI1amRRWERPeTNJUlNyOEx4clFYNnFxTk1DWFdGYko1OVpZQ0JJZ0VXUUZ6V29aTFc4TnlHcg?oc=5",
-      "source": "Times of India",
-      "source_id": "times_of_india",
-      "category": "Marvel",
-      "published_at": "2026-11-10T18:13:41+00:00",
-      "status": "reported",
-      "tags": [],
-      "related_characters": [],
-      "external_id": "CBMigwJBVV95cUxNcm54UGpMc3JkNjdxUXBDbHl0eG0yM2puSVN5Y28tMTViajlJdFJIREZnRHVjNWJhbjBDQjhWXy1yTUR3cUVoV1VjeUF1VVpCNUNFOVlKcEZ3TXpHd2hBcGp4VndmdUt1ZDFXVkZvT1N5aWxyVEtma0NWamc2Uk1KYUtiamZLSjE3XzNzaWoyWmVH",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "marvelrivalsofficialnightcrawlercharacterrevealtrailer",
-      "title": "Marvel Rivals - Official Nightcrawler Character Reveal Trailer",
-      "summary": "Marvel Rivals - Official Nightcrawler Character Reveal Trailer IGN",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV2Nnb25KWlNObXJINEczSWhZbVF4UzRwVkZ6dU96Rnl1MG16QzJGa2RGTFFpSF9MZzF4bEdTQ2U5OGpCaTE0RTh0Ni00Yjd3aEUxMW9IajJHeGl2WUIwQXBlUTJVZmNBTC1FYmJhaDZ5MGZXckxWZG01empJaXN5WDY4WEhRQzdFSFBUTUNrS0o?oc=5",
-      "source": "IGN",
-      "source_id": "ign",
-      "category": "Trailers",
-      "published_at": "2026-11-10T17:06:20+00:00",
-      "status": "reported",
-      "tags": [],
-      "related_characters": [],
-      "external_id": "CBMikAFBVV95cUxQV2Nnb25KWlNObXJINEczSWhZbVF4UzRwVkZ6dU96Rnl1MG16QzJGa2RGTFFpSF9MZzF4bEdTQ2U5OGpCaTE0RTh0Ni00Yjd3aEUxMW9IajJHeGl2WUIwQXBlUTJVZmNBTC1FYmJhaDZ5MGZXckxWZG01empJaXN5WDY4WEhRQzdFSFBUTUNrS0o",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "marvelcinematicuniversethecompletetimelinetophase4blackwidowspidermannowayhomemo",
-      "title": "Marvel Cinematic Universe, The Complete Timeline to Phase 4: ‘Black Widow,’ ‘Spider-Man: No Way Home’ & More",
-      "summary": "Marvel Cinematic Universe, The Complete Timeline to Phase 4: ‘Black Widow,’ ‘Spider-Man: No Way Home’ & More IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zZE1QUjZyQVl0RzJhajYzS29FOUVwbXZVQWpRUVk5b05MWFlXUFNOd3pLalEta1pfQjRSbnpuSnBOUGtXMkVubUR4Ry1ZdU9hOGFrRnJPX1dTZFNiREhmOXJxX2tROXRac3c?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-10T16:27:14+00:00",
-      "status": "reported",
-      "tags": [
-        "Spider-Man"
-      ],
-      "related_characters": [
-        "Spider-Man"
-      ],
-      "external_id": "CBMiakFVX3lxTE8zZE1QUjZyQVl0RzJhajYzS29FOUVwbXZVQWpRUVk5b05MWFlXUFNOd3pLalEta1pfQjRSbnpuSnBOUGtXMkVubUR4Ry1ZdU9hOGFrRnJPX1dTZFNiREhmOXJxX2tROXRac3c",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "marvelrivalsofficialdoomsdayseason11trailer",
-      "title": "Marvel Rivals - Official Doomsday Season 11 Trailer",
-      "summary": "Marvel Rivals - Official Doomsday Season 11 Trailer IGN India",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMEMwTUZGRUF0b0xlSjltR3dZWHo3NWNKZFYyaEJHbnBYb1ZYMEtDLUdYU211QllKbGdSQ2ZHSGV0eTFNX2pBQ2MtVmVVcWhjU0FDc1FCS0VkRXduS0VfdGg1MzhjSkJmR3VWMU81X1c3eGp4NUVoelNkNmNvNkZLekdQd3ZGRFZTcnQ1WENNR3VuOTA?oc=5",
-      "source": "IGN",
-      "source_id": "ign",
-      "category": "Trailers",
-      "published_at": "2026-11-10T16:07:55+00:00",
-      "status": "reported",
-      "tags": [
-        "Doom"
-      ],
-      "related_characters": [
-        "Doom"
-      ],
-      "external_id": "CBMikwFBVV95cUxNMEMwTUZGRUF0b0xlSjltR3dZWHo3NWNKZFYyaEJHbnBYb1ZYMEtDLUdYU211QllKbGdSQ2ZHSGV0eTFNX2pBQ2MtVmVVcWhjU0FDc1FCS0VkRXduS0VfdGg1MzhjSkJmR3VWMU81X1c3eGp4NUVoelNkNmNvNkZLekdQd3ZGRFZTcnQ1WENNR3Vu",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
     }
   ],
   "synopsis_engine": "Free local TextRank-style source extraction (no API key)"
