@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T19:08:18.513507+00:00",
+  "generated_at": "2026-11-14T22:57:37.684432+00:00",
   "source_count": 15,
   "search_topics": [
     "Marvel Universe",
@@ -26,6 +26,135 @@
   "article_count": 150,
   "articles": [
     {
+      "id": "newavengersreleaseconquersdisneyaheadofdoomsday",
+      "title": "New Avengers Release Conquers Disney+ Ahead Of Doomsday",
+      "summary": "New Avengers Release Conquers Disney+ Ahead Of Doomsday IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XekZOTVJXMnNoUTRydXZydkJUU0xRLWk5UDdfQ083Y0I1U2p0T25uRlBKbURWTkdDTG9KVHFaTzNlWGNwSm5xbXlhWkcyUTZJaGZ4cWg5OGNsVnB1ZU85RGlDdWRVSUU?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-14T21:10:53+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiZ0FVX3lxTE5XekZOTVJXMnNoUTRydXZydkJUU0xRLWk5UDdfQ083Y0I1U2p0T25uRlBKbURWTkdDTG9KVHFaTzNlWGNwSm5xbXlhWkcyUTZJaGZ4cWg5OGNsVnB1ZU85RGlDdWRVSUU",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "ryangoslingsghostriderconfirmsdirectionofmcumoviestone",
+      "title": "Ryan Gosling’s Ghost Rider Confirms Direction Of MCU Movie’s Tone",
+      "summary": "Ryan Gosling’s Ghost Rider Confirms Direction Of MCU Movie’s Tone IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tZDZGTTZyZDk2Y193WTFieFJDV2lwcDZFMHZyOERMY3RpV1kwTXFsMTZad2t3OC1JOHhLcVZyUDBPYk5xR0ZvQkZWa01CR2poaThDbHVVS0hHT1hxeVVZU0FQci0yWkk?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Movies",
+      "published_at": "2026-11-14T20:40:56+00:00",
+      "status": "reported",
+      "tags": [
+        "Ghost Rider"
+      ],
+      "related_characters": [
+        "Ghost Rider"
+      ],
+      "external_id": "CBMiZ0FVX3lxTE9tZDZGTTZyZDk2Y193WTFieFJDV2lwcDZFMHZyOERMY3RpV1kwTXFsMTZad2t3OC1JOHhLcVZyUDBPYk5xR0ZvQkZWa01CR2poaThDbHVVS0hHT1hxeVVZU0FQci0yWkk",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "ghostridercinematographerwantsmarvelsspiritofvengeancetofeelgroundedandemotional",
+      "title": "‘Ghost Rider’ Cinematographer Wants Marvel’s Spirit of Vengeance to Feel Grounded and Emotional",
+      "summary": "‘Ghost Rider’ Cinematographer Wants Marvel’s Spirit of Vengeance to Feel Grounded and Emotional IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5COHplaUZ0cEhCd3VoVmUwb1JMc0xVWlNKS2FiWjBsbEV1ZzM4YnlzM0NNd3N6VjlPOUtEZklCRFZDVW1SXzB0SGY2Tk1fclB3blpJWVZYbDM5djlvQjVzNm9xQno0ZEk?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-14T20:40:44+00:00",
+      "status": "reported",
+      "tags": [
+        "Ghost Rider"
+      ],
+      "related_characters": [
+        "Ghost Rider"
+      ],
+      "external_id": "CBMiZ0FVX3lxTE5COHplaUZ0cEhCd3VoVmUwb1JMc0xVWlNKS2FiWjBsbEV1ZzM4YnlzM0NNd3N6VjlPOUtEZklCRFZDVW1SXzB0SGY2Tk1fclB3blpJWVZYbDM5djlvQjVzNm9xQno0ZEk",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "ghostridercinematographersaysheintendstomakemcurebootfeelgroundedandemotional",
+      "title": "Ghost Rider Cinematographer Says He Intends To Make MCU Reboot Feel \"Grounded And Emotional\"",
+      "summary": "Ghost Rider Cinematographer Says He Intends To Make MCU Reboot Feel \"Grounded And Emotional\" IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92c3VabHpydHUtb09NVDJNVDlOUExtVEoyUEk4dGRlM0hpS1NJdGpxajdyTXY1T0VQY3FGQl9lY0JhMDNDSU8tY01nMzdnc0VOQ1hyZXdwd3BJcFlEemN1X1pTUjlLMms?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-14T20:39:14+00:00",
+      "status": "reported",
+      "tags": [
+        "Ghost Rider"
+      ],
+      "related_characters": [
+        "Ghost Rider"
+      ],
+      "external_id": "CBMiZ0FVX3lxTE92c3VabHpydHUtb09NVDJNVDlOUExtVEoyUEk4dGRlM0hpS1NJdGpxajdyTXY1T0VQY3FGQl9lY0JhMDNDSU8tY01nMzdnc0VOQ1hyZXdwd3BJcFlEemN1X1pTUjlLMms",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "joelockefinallyconfirmswhetherwiccanwillreturninavengersdoomsday",
+      "title": "Joe Locke Finally Confirms Whether Wiccan Will Return in ‘Avengers: Doomsday’",
+      "summary": "Joe Locke Finally Confirms Whether Wiccan Will Return in ‘Avengers: Doomsday’ IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGX2hxQjJhUURDOUpMWm5ObVRraGRVLW1oSWJaajE3Y3BMYmFMYWtOOFBzZlJaMTFicWxPZGV2clY3X0NJSWNrYmF0aVoyMTg2RGtha0l6UGhWSDh2RFZ6aTJxdXg5Qjg?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-14T20:19:44+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiZ0FVX3lxTFBGX2hxQjJhUURDOUpMWm5ObVRraGRVLW1oSWJaajE3Y3BMYmFMYWtOOFBzZlJaMTFicWxPZGV2clY3X0NJSWNrYmF0aVoyMTg2RGtha0l6UGhWSDh2RFZ6aTJxdXg5Qjg",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
       "id": "marvelcinematicuniversethecompletetimelinetophase6fantasticfourdoomsdaymore",
       "title": "Marvel Cinematic Universe, The Complete Timeline to Phase 6: ‘Fantastic Four,’ ‘Doomsday’ & More",
       "summary": "Marvel Cinematic Universe, The Complete Timeline to Phase 6: ‘Fantastic Four,’ ‘Doomsday’ & More IMDb",
@@ -34,11 +163,11 @@
         "IMDb"
       ],
       "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YdXROOGdxZUlYeGUzd3NNaUhxd1Q4cXg5aDFFR0JIajByVHBhT0lHT0VzV2RnZGJhWlRHRGM4WkFmamZ2WHV0WExGaHpQUUVINVIyaWZTclBuQ0hGMjMyM0F3aGdkb1NHU0E?oc=5",
+      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5aUjRzRW93bUhwQm1XUFdTY1BjdDNiczA5ZW5OalFqOXBsYUcwX204YlE0MU9Qa0RhelVfS1U4dVpOWERHckl6ZnJxcWIxQktNZXZYWmNyZ2hQR05nVlNIWjBxeXFWQQ?oc=5",
       "source": "IMDb",
       "source_id": "imdb",
       "category": "Marvel",
-      "published_at": "2026-11-14T18:56:17+00:00",
+      "published_at": "2026-11-14T18:45:41+00:00",
       "status": "reported",
       "tags": [
         "Fantastic Four",
@@ -48,7 +177,31 @@
         "Fantastic Four",
         "Doom"
       ],
-      "external_id": "CBMiakFVX3lxTE1YdXROOGdxZUlYeGUzd3NNaUhxd1Q4cXg5aDFFR0JIajByVHBhT0lHT0VzV2RnZGJhWlRHRGM4WkFmamZ2WHV0WExGaHpQUUVINVIyaWZTclBuQ0hGMjMyM0F3aGdkb1NHU0E",
+      "external_id": "CBMiZkFVX3lxTE5aUjRzRW93bUhwQm1XUFdTY1BjdDNiczA5ZW5OalFqOXBsYUcwX204YlE0MU9Qa0RhelVfS1U4dVpOWERHckl6ZnJxcWIxQktNZXZYWmNyZ2hQR05nVlNIWjBxeXFWQQ",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "all4newscenesinavengersendgameencorerankedbyhypelevelimportancefordoomsday",
+      "title": "All 4 New Scenes In Avengers Endgame: Encore, Ranked By Hype Level & Importance For Doomsday",
+      "summary": "All 4 New Scenes In Avengers Endgame: Encore, Ranked By Hype Level & Importance For Doomsday ScreenRant",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hV1Jpb0d4VVF6LUlYLWw3RUgyd2dyWlpPZU5xN1JxV3ZLSThnNGVOSmRrUXl2ZDVmaUpISlFpZjFqOWt5bDdQUFNTeWpSa0N0TFliUl9kaFVuWXRCOFJVemdvZUl1QXR3NmdSUDNacGRtYlR6b3VwZzdwVQ?oc=5",
+      "source": "Screen Rant",
+      "source_id": "screen_rant",
+      "category": "Marvel",
+      "published_at": "2026-11-14T18:45:18+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMie0FVX3lxTE1hV1Jpb0d4VVF6LUlYLWw3RUgyd2dyWlpPZU5xN1JxV3ZLSThnNGVOSmRrUXl2ZDVmaUpISlFpZjFqOWt5bDdQUFNTeWpSa0N0TFliUl9kaFVuWXRCOFJVemdvZUl1QXR3NmdSUDNacGRtYlR6b3VwZzdwVQ",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -156,7 +309,7 @@
       ],
       "external_id": "CBMiZ0FVX3lxTE93dC1Ybk9Qamhuak9qM3ZhcUgxV3lkNUs1M0thYUZwallRRXAtZXRuem9FUmJnd3g3b2hodzc1QUNqMzNFOWpLRGhTRDlkRDFpVzN4Vl84c0J1bWZpR0phV1N2MXRXbFk",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "chrisevansandletitiawrightsurpriseayoungsuperfanwithanavengersdoomsdayredcarpeti",
@@ -210,7 +363,7 @@
       ],
       "external_id": "CBMiZ0FVX3lxTE5YS2Jmd1ZWSkZTVF9iZmIwLWt2cy1LOXJSMUd5Sk53Q0ExT2pPbXo3NE0wQmNQdzdBaEFGeE9mVkRYWFFRVGdsVkVmRlVvSDNrM0Q3R1dpc2w3V3dqWWpQZk03R1U3Rnc",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "visionquestbecomesmostwatchedmarvelfinalein3yearswith37millionviews",
@@ -258,7 +411,7 @@
       ],
       "external_id": "CBMirAFBVV95cUxNTEN4OFgxWnBjWFNGNmg1alFUaXdEV1ZzQzlEVWFFMDg5QXY2aEl5MkYxZkRYN0U0bXYxc2U3MVk4c2JkLUk4MHMwRXNRTi03ZWJNT3ladUdWdVdmYi1pVlREMVh1LWVSaExDLThOWkxJYlZlQTJRSlVwdmRKazRNUm40NklrQUVHVmVxbFFrWWFY",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "avengersdoomsday",
@@ -312,7 +465,7 @@
       ],
       "external_id": "CBMiakFVX3lxTE5rbWJ6b19RZEFUWmF3STBWYU1lbmlZTmpQdy1UXzV2d0RpNy1YSnJDdjQ1YXVEZHFybUlvRTEzNGRGQzBmTlhCa1hUYVhBcDZaVndXRFVBZE9RTjdNazBYNGJNQkk4VXZnbVE",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "marvelsspiderman2arcraiderscontrolresonantandmoreconfirmedtoreceiveqssraiupscali",
@@ -334,7 +487,7 @@
       ],
       "external_id": "CBMiogFBVV95cUxNZUZXZk1ZQUhyTk1Tc2VTeGpTZjBNdXc5bXJ4SURvdUFsUVh0NE5xR1dqTk4xMHJwdk5XTy1JSWRIMHFBdDJMbVVaZHRKWnRpbi1DcGNjQmlENUpUUW5YX0REekZsaUc5MnpIQl84MUFrRGVvSVFCU2NLTGIyVXpTeFAtc2NyQzVRejhvSlRQOG4w",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "couldspidermanbrandnewdaylandanoscarnomforbestpicture",
@@ -1399,6 +1552,33 @@
         "Spider-Man"
       ],
       "external_id": "CBMiZ0FVX3lxTE1Oc3dyX1Ewc1R4QVRGZllWcUJsd2k4ZmJ2RUVXcmN3UU9nUUxuMGZETm50MGRWS3lHZlZzME9Cdl8zSXlmZDd4aXV1d0Z0d1JhZUVpSkt4cmJSUU1MbkI4cmFrbDZIMjQ",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "avengersdoomsdaydirectorconfirmsdoctordoomstragicmcuoriginstory",
+      "title": "Avengers: Doomsday Director Confirms Doctor Doom's Tragic MCU Origin Story",
+      "summary": "Avengers: Doomsday Director Confirms Doctor Doom's Tragic MCU Origin Story IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92b3h5RWRwS1dyV0VIb2I1RjBoelBvamtIaVFESXFSTHlyOHZhUERZUlJfOFZBY3I0elFsaDJBaHBrTXMxdmRrUDI2WHpLYll2aHl2cWpOdzY1aUtzamRIQ2QxSHdfMmc?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-12T22:57:51+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiZ0FVX3lxTE92b3h5RWRwS1dyV0VIb2I1RjBoelBvamtIaVFESXFSTHlyOHZhUERZUlJfOFZBY3I0elFsaDJBaHBrTXMxdmRrUDI2WHpLYll2aHl2cWpOdzY1aUtzamRIQ2QxSHdfMmc",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -3554,192 +3734,6 @@
         "Doom"
       ],
       "external_id": "CBMihgFBVV95cUxPMFBlUVZ1UzFLZWxsLUU2cWpZTk5kcVFlbXBEdjgyRVIzZWhTamh3WV9UdEktZ3REZGMwV0l1MWRXRXlteWpIWU1UUGt3MG53MWxyVDFXY3hHTXRpLUUtcHM3c1NLZXptc2NhM0wzQ0xEZmktN0F2bllkaDU2QThLVzFubEFYUQ",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersdoomsdaybillboardmayhavespoiledthorsbiggestpowerupgradeyet",
-      "title": "Avengers: Doomsday Billboard May Have Spoiled Thor's Biggest Power Upgrade Yet",
-      "summary": "Avengers: Doomsday Billboard May Have Spoiled Thor's Biggest Power Upgrade Yet IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xRzA3STZIWTE4TUNvVVNyQllZTVZGam5zbVNKRkxOamFvWUFaMFRJMmN6VnZkdUNNMXMwQ3hINEdPdkp2ZFhQQ05rc0w5U0FvYTFKNDJKSHd0VktTdzVfd01CdG1YNGs?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-10T23:17:07+00:00",
-      "status": "reported",
-      "tags": [
-        "Thor",
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Thor",
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE4xRzA3STZIWTE4TUNvVVNyQllZTVZGam5zbVNKRkxOamFvWUFaMFRJMmN6VnZkdUNNMXMwQ3hINEdPdkp2ZFhQQ05rc0w5U0FvYTFKNDJKSHd0VktTdzVfd01CdG1YNGs",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersdoomsdaydunepart3sreleasedatewatchorderofficiallyrecommendedbystarfloren",
-      "title": "Avengers: Doomsday & Dune: Part 3's Release Date Watch Order Officially Recommended By Star Florence Pugh",
-      "summary": "Avengers: Doomsday & Dune: Part 3's Release Date Watch Order Officially Recommended By Star Florence Pugh IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EcTJvUHRCYmpDakpWNURET1BZLU8zLU9Ud1h1bmoxMEpReU1jV0J5NHVfTUQxVkp0dTJvM2h0b0Z0cDcyd1E3bEtPbUd3LTVPVHdaMm4tU3d4UEx6TUJIbThrdlZmNm8?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-10T23:06:12+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE9EcTJvUHRCYmpDakpWNURET1BZLU8zLU9Ud1h1bmoxMEpReU1jV0J5NHVfTUQxVkp0dTJvM2h0b0Z0cDcyd1E3bEtPbUd3LTVPVHdaMm4tU3d4UEx6TUJIbThrdlZmNm8",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "beyondthespiderversetheoryhintsnewprotagonistinupcomingspidermanmovie",
-      "title": "Beyond the Spider-Verse Theory Hints New Protagonist in Upcoming Spider-Man Movie",
-      "summary": "Beyond the Spider-Verse Theory Hints New Protagonist in Upcoming Spider-Man Movie IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5lNEpvckh2NGVhb3pPZWFpT1AwNm9MUTNsdzNYcF9GUEZ3dTRUYnVKblBWSDVxQmpSWHEtRWZNeDB4cjhlNnNFdWZaQjdsd0NWTWdrcGNVQl9xODh1V0ppR0tTX2JZM0U?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Movies",
-      "published_at": "2026-11-10T22:24:34+00:00",
-      "status": "reported",
-      "tags": [
-        "Spider-Man"
-      ],
-      "related_characters": [
-        "Spider-Man"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE5lNEpvckh2NGVhb3pPZWFpT1AwNm9MUTNsdzNYcF9GUEZ3dTRUYnVKblBWSDVxQmpSWHEtRWZNeDB4cjhlNnNFdWZaQjdsd0NWTWdrcGNVQl9xODh1V0ppR0tTX2JZM0U",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "ironman",
-      "title": "Iron Man",
-      "summary": "Iron Man Rotten Tomatoes",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "Rotten Tomatoes"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42M2lLOG91Yjl6UGRPTDM4Y3JpN1I4enBrdWc0b3l6TGtwdVI1clNaYzdTSU93Y2hFZEFSanE2Z1ZFeGxTQ0dNYmtNd2ZCeWZrVXhz?oc=5",
-      "source": "Rotten Tomatoes",
-      "source_id": "rotten_tomatoes",
-      "category": "Marvel",
-      "published_at": "2026-11-10T20:57:51+00:00",
-      "status": "reported",
-      "tags": [
-        "Iron Man"
-      ],
-      "related_characters": [
-        "Iron Man"
-      ],
-      "external_id": "CBMiU0FVX3lxTE42M2lLOG91Yjl6UGRPTDM4Y3JpN1I4enBrdWc0b3l6TGtwdVI1clNaYzdTSU93Y2hFZEFSanE2Z1ZFeGxTQ0dNYmtNd2ZCeWZrVXhz",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "thefantasticfourarefinallyheadingtoavengerscampusaheadofavengersdoomsday",
-      "title": "The Fantastic Four Are Finally Heading to Avengers Campus Ahead of ‘Avengers: Doomsday’",
-      "summary": "The Fantastic Four Are Finally Heading to Avengers Campus Ahead of ‘Avengers: Doomsday’ IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CcW5kVUVicTY2OXdRWTFmamVEMjFZWGtZNy1CeEx0VGtJM1BITC05MThtWmhsWXdTMzVLQ2dJS0NsbEhqRzdQb0hPTzU3Q2JMSURaMHNWRERLV3NQY1hsNDg3T01DTVE?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-10T20:49:07+00:00",
-      "status": "reported",
-      "tags": [
-        "Fantastic Four",
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Fantastic Four",
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE5CcW5kVUVicTY2OXdRWTFmamVEMjFZWGtZNy1CeEx0VGtJM1BITC05MThtWmhsWXdTMzVLQ2dJS0NsbEhqRzdQb0hPTzU3Q2JMSURaMHNWRERLV3NQY1hsNDg3T01DTVE",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "marvelstudiosreleases1morewandamaximoffteaseforvisionquestfinale",
-      "title": "Marvel Studios Releases 1 More Wanda Maximoff Tease For VisionQuest Finale",
-      "summary": "Marvel Studios Releases 1 More Wanda Maximoff Tease For VisionQuest Finale The Direct",
-      "coverage_tags": [
-        "Series: VisionQuest"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWVlvRjVmVDJ5T0Y4X1hEYlBmNFcycHpjT1RpLURueXJpZEFMN2MwejJwZFEzM3ZSYldqQVdPZW9aSk83OV9RcENwS3FvM29TNEM3WWNxU2swTnFiLTg5MG5XaW5oZ0dhenhNQm5PQmFIMlJwUzRwSEF1WjNXbm1UbXIxb1p2SHNUOHc?oc=5",
-      "source": "The Direct",
-      "source_id": "the_direct",
-      "category": "Movies",
-      "published_at": "2026-11-10T20:02:49+00:00",
-      "status": "reported",
-      "tags": [
-        "Vision"
-      ],
-      "related_characters": [
-        "Vision"
-      ],
-      "external_id": "CBMiigFBVV95cUxPWVlvRjVmVDJ5T0Y4X1hEYlBmNFcycHpjT1RpLURueXJpZEFMN2MwejJwZFEzM3ZSYldqQVdPZW9aSk83OV9RcENwS3FvM29TNEM3WWNxU2swTnFiLTg5MG5XaW5oZ0dhenhNQm5PQmFIMlJwUzRwSEF1WjNXbm1UbXIxb1p2SHNUOHc",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "milesmoralesisofficiallyfightingspidermanstruevillainthatbrokepeterparker",
-      "title": "Miles Morales Is Officially Fighting Spider-Man’s True Villain That Broke Peter Parker",
-      "summary": "Miles Morales Is Officially Fighting Spider-Man’s True Villain That Broke Peter Parker IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GRnBtNmVHNmxOQnpRN2U2dWVCWmJjdl9jUnVGaXBMeElDV0FDbGRmRlUzSXZteE5SYzZaY2tzTlZlMDNsV3FILW02NTBkM2dfcmdqRVM4aVFTeTFJZUM4eTYtNFdWYWs?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-10T18:32:05+00:00",
-      "status": "reported",
-      "tags": [
-        "Spider-Man",
-        "Miles Morales"
-      ],
-      "related_characters": [
-        "Spider-Man",
-        "Miles Morales"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE5GRnBtNmVHNmxOQnpRN2U2dWVCWmJjdl9jUnVGaXBMeElDV0FDbGRmRlUzSXZteE5SYzZaY2tzTlZlMDNsV3FILW02NTBkM2dfcmdqRVM4aVFTeTFJZUM4eTYtNFdWYWs",
       "synopsis": "",
       "synopsis_status": "pending"
     }
