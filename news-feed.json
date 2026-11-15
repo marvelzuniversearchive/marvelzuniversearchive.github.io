@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T02:24:35.344053+00:00",
+  "generated_at": "2026-11-15T09:41:46.339424+00:00",
   "source_count": 15,
   "search_topics": [
     "Marvel Universe",
@@ -73,33 +73,6 @@
         "Doom"
       ],
       "external_id": "CBMibEFVX3lxTFAxTHk0dWszLW14ZkhRMW94d1ZiaUd5XzBfZDNPb0FhZjJZYW44ZWgxNmo0RzB5VUhNVVI3T0dVd29EZmpqbFVoRVF0NHlnazFHNGFlcU8tSHBtUVFuYlVoN2JMNkdFSTlHVXdTQQ",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "newavengersreleaseconquersdisneyaheadofdoomsday",
-      "title": "New Avengers Release Conquers Disney+ Ahead Of Doomsday",
-      "summary": "New Avengers Release Conquers Disney+ Ahead Of Doomsday IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XekZOTVJXMnNoUTRydXZydkJUU0xRLWk5UDdfQ083Y0I1U2p0T25uRlBKbURWTkdDTG9KVHFaTzNlWGNwSm5xbXlhWkcyUTZJaGZ4cWg5OGNsVnB1ZU85RGlDdWRVSUU?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-14T21:10:53+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE5XekZOTVJXMnNoUTRydXZydkJUU0xRLWk5UDdfQ083Y0I1U2p0T25uRlBKbURWTkdDTG9KVHFaTzNlWGNwSm5xbXlhWkcyUTZJaGZ4cWg5OGNsVnB1ZU85RGlDdWRVSUU",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -206,6 +179,30 @@
       "synopsis_status": "publisher_unavailable"
     },
     {
+      "id": "newavengersreleaseconquersdisneyaheadofdoomsday",
+      "title": "New Avengers Release Conquers Disney+ Ahead Of Doomsday",
+      "summary": "New Avengers Release Conquers Disney+ Ahead Of Doomsday ScreenRant",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOM21SSlZPNU5mekR1YUlNQ3RpdWxtdmZqWVJwdDhhZVdLTFZLclZzUU0xakF5dmZtTmlFQVplZjZMUm12MnNfTTRucV9aUHR5WEV3UUxDeDc1eG5FSzZXSDFESUNXUzE5Q0o0S0l4QUlDSnp2YVBVNlh4a1NYM0NmVEJ2a084VHpxcW9EYWlVTTNqV2pvdlE?oc=5",
+      "source": "Screen Rant",
+      "source_id": "screen_rant",
+      "category": "Marvel",
+      "published_at": "2026-11-14T19:41:04+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMilgFBVV95cUxOM21SSlZPNU5mekR1YUlNQ3RpdWxtdmZqWVJwdDhhZVdLTFZLclZzUU0xakF5dmZtTmlFQVplZjZMUm12MnNfTTRucV9aUHR5WEV3UUxDeDc1eG5FSzZXSDFESUNXUzE5Q0o0S0l4QUlDSnp2YVBVNlh4a1NYM0NmVEJ2a084VHpxcW9EYWlVTTNq",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
       "id": "marvelcinematicuniversethecompletetimelinetophase6fantasticfourdoomsdaymore",
       "title": "Marvel Cinematic Universe, The Complete Timeline to Phase 6: ‘Fantastic Four,’ ‘Doomsday’ & More",
       "summary": "Marvel Cinematic Universe, The Complete Timeline to Phase 6: ‘Fantastic Four,’ ‘Doomsday’ & More IMDb",
@@ -214,11 +211,11 @@
         "IMDb"
       ],
       "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1SSFJrclFwelhwXzhkcW9VWFZpN0I0aTR5WDNVWEU5QWNNNFdPeHBOZWVJMnRrdVVodF80SWYydU5ENVpjaXRBd3lEWXBWU3M3c3c1MjhPUVBKaU9pUTd4UUhZMC1janVqXzlv?oc=5",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YdXROOGdxZUlYeGUzd3NNaUhxd1Q4cXg5aDFFR0JIajByVHBhT0lHT0VzV2RnZGJhWlRHRGM4WkFmamZ2WHV0WExGaHpQUUVINVIyaWZTclBuQ0hGMjMyM0F3aGdkb1NHU0E?oc=5",
       "source": "IMDb",
       "source_id": "imdb",
       "category": "Marvel",
-      "published_at": "2026-11-14T18:50:42+00:00",
+      "published_at": "2026-11-14T18:56:17+00:00",
       "status": "reported",
       "tags": [
         "Fantastic Four",
@@ -228,7 +225,7 @@
         "Fantastic Four",
         "Doom"
       ],
-      "external_id": "CBMia0FVX3lxTE1SSFJrclFwelhwXzhkcW9VWFZpN0I0aTR5WDNVWEU5QWNNNFdPeHBOZWVJMnRrdVVodF80SWYydU5ENVpjaXRBd3lEWXBWU3M3c3c1MjhPUVBKaU9pUTd4UUhZMC1janVqXzlv",
+      "external_id": "CBMiakFVX3lxTE1YdXROOGdxZUlYeGUzd3NNaUhxd1Q4cXg5aDFFR0JIajByVHBhT0lHT0VzV2RnZGJhWlRHRGM4WkFmamZ2WHV0WExGaHpQUUVINVIyaWZTclBuQ0hGMjMyM0F3aGdkb1NHU0E",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -314,11 +311,11 @@
         "IMDb"
       ],
       "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1VMjBYT0NDcU5HNENYVy1QYUdhdUF5SlNPUFVsUU41MzNobVdZeER6R25jVjJKcS1SSEtDZmtYMFludlF3RXpYLVR2MWR1VG1jNWtSSFl4b1FuQ0pTTGdNUXllcHptSWM?oc=5",
+      "article_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14ZTE0RWlmemhIWkdXbG9tMEhuc2w2QzJWWVlVUUFFNzloeldrRkJyc2RnRTl1WGxXaUp5T0hIYWxMWHAzd0FtbmIyck5TQTQzcE1kd19Od2RneUN5ZDJPVTEtZDM?oc=5",
       "source": "IMDb",
       "source_id": "imdb",
       "category": "Casting",
-      "published_at": "2026-11-14T13:36:49+00:00",
+      "published_at": "2026-11-14T15:32:26+00:00",
       "status": "reported",
       "tags": [
         "X-Men"
@@ -326,7 +323,7 @@
       "related_characters": [
         "X-Men"
       ],
-      "external_id": "CBMiZ0FVX3lxTE1VMjBYT0NDcU5HNENYVy1QYUdhdUF5SlNPUFVsUU41MzNobVdZeER6R25jVjJKcS1SSEtDZmtYMFludlF3RXpYLVR2MWR1VG1jNWtSSFl4b1FuQ0pTTGdNUXllcHptSWM",
+      "external_id": "CBMiZEFVX3lxTE14ZTE0RWlmemhIWkdXbG9tMEhuc2w2QzJWWVlVUUFFNzloeldrRkJyc2RnRTl1WGxXaUp5T0hIYWxMWHAzd0FtbmIyck5TQTQzcE1kd19Od2RneUN5ZDJPVTEtZDM",
       "synopsis": "",
       "synopsis_status": "pending"
     },
