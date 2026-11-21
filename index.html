@@ -41,9 +41,31 @@ body:after{z-index:0;background:linear-gradient(transparent 0 43%,rgba(255,49,95
 @keyframes introFlicker{0%,100%{opacity:.35}50%{opacity:.95}}
 @keyframes introSweep{0%{transform:translateY(-100%)}100%{transform:translateY(100%)}}
 @media(prefers-reduced-motion:reduce){h1,body:before,body:after{animation:none!important}html{scroll-behavior:auto!important}}
+
+/* Spatial comic-city experience */
+#spatial-city{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none;perspective:900px;background:radial-gradient(ellipse at 50% 83%,#ffab52 0,transparent 26%),linear-gradient(180deg,#10112d 0%,#48205f 42%,#ed4c68 76%,#151322 100%)}
+#spatial-city .sky-glow{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 72%,rgba(255,190,90,.64),transparent 34%),linear-gradient(90deg,rgba(255,42,102,.2),transparent 38%,rgba(30,224,255,.18));mix-blend-mode:screen}
+#spatial-city .sun{position:absolute;width:min(35vw,400px);aspect-ratio:1;left:50%;top:35%;transform:translate(-50%,-50%);border-radius:50%;background:repeating-linear-gradient(180deg,#ffe3a8 0 9px,#ff8d73 10px 18px);filter:drop-shadow(0 0 55px #ff6b79);opacity:.78}
+#spatial-city .city-layer{position:absolute;inset:0;transform-style:preserve-3d;will-change:transform}
+#spatial-city .far{transform:translateZ(-220px) scale(1.24);opacity:.72}
+#spatial-city .mid{transform:translateZ(-80px) scale(1.09)}
+#spatial-city .near{transform:translateZ(45px) scale(.98)}
+#spatial-city .tower{position:absolute;bottom:-3%;width:var(--w);height:var(--h);left:var(--x);clip-path:polygon(8% 0,92% 4%,100% 100%,0 100%);background:linear-gradient(90deg,#14172f,#34355d 42%,#18172e);border:1px solid rgba(255,255,255,.17);box-shadow:inset 12px 0 24px #ff3f7826,inset -10px 0 20px #22dcff25}
+#spatial-city .tower:before{content:"";position:absolute;inset:8% 12%;background:repeating-linear-gradient(90deg,transparent 0 13px,rgba(77,226,255,.62) 14px 17px,transparent 18px 28px),repeating-linear-gradient(0deg,transparent 0 18px,rgba(255,205,108,.58) 19px 22px,transparent 23px 36px);mask-image:linear-gradient(180deg,#000,transparent 96%);opacity:.72}
+#spatial-city .tower:after{content:"";position:absolute;top:0;left:15%;width:70%;height:7%;background:linear-gradient(90deg,#41e7ff,#ff4d8b,#ffdc8c);filter:blur(9px);opacity:.75}
+#spatial-city .street{position:absolute;left:50%;bottom:-26%;width:115%;height:77%;transform:translateX(-50%) rotateX(68deg);transform-origin:50% 0;background:linear-gradient(180deg,rgba(255,141,104,.58),rgba(25,22,52,.94) 42%),repeating-linear-gradient(90deg,transparent 0 9.8%,rgba(76,227,255,.55) 10% 10.15%,transparent 10.3% 20%);border-top:2px solid #ffd58c;box-shadow:0 -20px 90px #ff397777}
+#spatial-city .web-lines{position:absolute;inset:0;opacity:.24;background:linear-gradient(26deg,transparent 49.7%,#ff70bd 49.85%,transparent 50.1%),linear-gradient(154deg,transparent 49.7%,#54e9ff 49.85%,transparent 50.1%),repeating-radial-gradient(ellipse at 50% -12%,transparent 0 55px,rgba(255,255,255,.45) 56px 57px,transparent 58px 92px);mix-blend-mode:screen}
+#spatial-city .halftone{position:absolute;inset:0;opacity:.17;background-image:radial-gradient(#ffe9dc 1px,transparent 1.5px);background-size:6px 6px;mask-image:linear-gradient(90deg,#000,transparent 50%,#000)}
+#spatial-city .scan{position:absolute;inset:-30% 0;background:linear-gradient(transparent 45%,rgba(87,234,255,.12) 49%,rgba(255,82,148,.12) 51%,transparent 56%);animation:cityScan 8s linear infinite}
+@keyframes cityScan{to{transform:translateY(60%)}}
+#archive-intro{background:linear-gradient(140deg,rgba(13,16,37,.76),rgba(21,20,42,.54));border:1px solid rgba(255,255,255,.2);border-radius:28px;box-shadow:0 32px 100px #08081999,inset 0 1px #ffffff25;backdrop-filter:blur(13px);text-shadow:0 3px 22px #090a20}
+#archive-intro h1{animation:none;text-shadow:4px 2px #ff315f,-3px -2px #00e5ff,0 12px 45px #080819}
+@media(prefers-reduced-motion:reduce){#spatial-city .scan{animation:none}}
+@media(max-width:700px){#spatial-city .far{transform:translateZ(-160px) scale(1.2)}#spatial-city .near{transform:translateZ(15px) scale(1.02)}#archive-intro{margin:14px}}
 </style>
 </head>
 <body>
+<div id="spatial-city" aria-hidden="true"><div class="sky-glow"></div><div class="sun"></div><div class="city-layer far"></div><div class="city-layer mid"></div><div class="city-layer near"></div><div class="street"></div><div class="web-lines"></div><div class="halftone"></div><div class="scan"></div></div>
 <main id="archive-intro">
   <h1>Marvel Universe Archive</h1>
   <p>Welcome to an independent, fan-made Marvel Universe Archive. Explore a searchable reference to characters, abilities, teams, stories, and major events from across Marvel comics.</p>
@@ -63,6 +85,13 @@ body:after{z-index:0;background:linear-gradient(transparent 0 43%,rgba(255,49,95
 (async()=>{
 const files=["site-data/part-001.txt","site-data/part-002.txt","site-data/part-003.txt","site-data/part-004.txt","site-data/part-005.txt","site-data/part-006.txt","site-data/part-007.txt","site-data/part-008.txt","site-data/part-009.txt","site-data/part-010.txt","site-data/part-011.txt","site-data/part-012.txt","site-data/part-013.txt","site-data/part-014.txt","site-data/part-015.txt","site-data/part-016.txt","site-data/part-017.txt"];
 const status=document.getElementById("status");
+function populateCity(root){
+ const specs=[[[2,52,18],[15,38,14],[29,58,16],[72,50,18],[84,64,14],[94,42,12]],[[-3,70,24],[9,57,18],[23,76,22],[39,46,16],[63,61,20],[79,75,19],[96,64,17]],[[-8,92,25],[5,68,20],[18,82,22],[35,62,20],[70,83,22],[87,70,22],[101,98,25]]];
+ root.querySelectorAll(".city-layer").forEach((layer,index)=>specs[index].forEach(([x,h,w])=>{const b=document.createElement("i");b.className="tower";b.style.setProperty("--x",x+"%");b.style.setProperty("--h",h+"%");b.style.setProperty("--w",w+"%");layer.appendChild(b)}));
+ const layers=[...root.querySelectorAll(".city-layer")];let raf=0;
+ window.addEventListener("pointermove",event=>{if(matchMedia("(prefers-reduced-motion: reduce)").matches||raf)return;raf=requestAnimationFrame(()=>{raf=0;const x=event.clientX/innerWidth-.5,y=event.clientY/innerHeight-.5;layers.forEach((layer,index)=>{const depth=(index+1)*6;layer.style.marginLeft=(-x*depth)+"px";layer.style.marginTop=(-y*depth)+"px"})})},{passive:true});
+}
+populateCity(document.getElementById("spatial-city"));
 const cssMarker="/* Directory comfort + stable cinematic backdrop */";
 const cssEndMarker="@media(max-width:800px){.org-grid{grid-template-columns:1fr}.org-card .entity-art{height:130px}}";
 const hasCssMarkers=source=>{const start=source.indexOf(cssMarker);return start>=0&&source.indexOf(cssEndMarker,start)>=0};
@@ -116,8 +145,10 @@ html=html.replace('<img src="/marvels-update-page/assets/file_0000000065dc821198
 if(!html.toLowerCase().includes("<!doctype html>")||!html.includes("</html>")||!html.includes('id="drone-scene"')||!html.includes('id="kohan-city-background"'))throw Error("Archive page integrity check failed");
 document.open();document.write(html);document.close();
 const frame=document.getElementById("kohan-city-background");
-if(!frame)throw Error("Archive background did not initialize");
-frame.addEventListener("load",()=>{try{const d=frame.contentDocument;const st=d.createElement("style");st.textContent="html,body{height:100%!important;overflow:hidden!important}#scroll,#hud,#panel,#rail,#status,#note{display:none!important}#stage{pointer-events:none!important}";d.head.appendChild(st)}catch(e){console.warn("Background styling could not be applied",e)}});
+if(!frame)throw Error("Archive background mount was not found");
+const city=document.createElement("div");city.id="spatial-city";city.setAttribute("aria-hidden","true");
+city.innerHTML='<div class="sky-glow"></div><div class="sun"></div><div class="city-layer far"></div><div class="city-layer mid"></div><div class="city-layer near"></div><div class="street"></div><div class="web-lines"></div><div class="halftone"></div><div class="scan"></div>';
+frame.replaceWith(city);populateCity(city);
 const newsScript=document.createElement("script");newsScript.src="news.js";newsScript.defer=true;document.body.appendChild(newsScript);
 }catch(error){console.error("Archive loading failed",error);showFailure("Archive loading failed: "+error.message)}
 }
