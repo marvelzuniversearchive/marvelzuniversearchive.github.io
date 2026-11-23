@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T22:27:09.118950+00:00",
+  "generated_at": "2026-11-23T02:57:36.057427+00:00",
   "source_count": 15,
   "search_topics": [
     "Marvel Universe",
@@ -25,6 +25,52 @@
   },
   "article_count": 150,
   "articles": [
+    {
+      "id": "avengersdoomsdayaddshaileesteinfeldaskatebishoptocast",
+      "title": "'Avengers: Doomsday' Adds Hailee Steinfeld as Kate Bishop to Cast",
+      "summary": "'Avengers: Doomsday' Adds Hailee Steinfeld as Kate Bishop to Cast Variety",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMWpEMGlwcm5pZ1JMT0NPblFCUzhlTkh0VE1FdW5lMU5mRUpGTTFWYURXZmN6OW95VmJxZUtGN1U0Zkc1NjROQ1pQU0VfUTYxTEFOMU83SlhEckpNQzM1V1B4RkxlTUxwSVJZVWJ3Vmxyb24tMkxyVlhfTjVuOUExUUhVRVFSTnI1TS1WazlEWWRHTV9iRm0yMg?oc=5",
+      "source": "Variety",
+      "source_id": "variety",
+      "category": "Casting",
+      "published_at": "2026-11-23T01:32:00+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMimAFBVV95cUxOMWpEMGlwcm5pZ1JMT0NPblFCUzhlTkh0VE1FdW5lMU5mRUpGTTFWYURXZmN6OW95VmJxZUtGN1U0Zkc1NjROQ1pQU0VfUTYxTEFOMU83SlhEckpNQzM1V1B4RkxlTUxwSVJZVWJ3Vmxyb24tMkxyVlhfTjVuOUExUUhVRVFSTnI1TS1WazlEWWRH",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "marvelofficiallyannouncesnameofnewcaptainmarvelreplacement",
+      "title": "Marvel Officially Announces Name Of New Captain Marvel Replacement",
+      "summary": "Marvel Officially Announces Name Of New Captain Marvel Replacement ScreenRant",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90TnVRVXRjemVsdmVFM3lndGNtYkxQTGJ2R0RCbkRJV2lXNUVHMnFWcnlwNjNCdUdxak5zczVLa0hUd3JrX3NsTFoyczJZX3hsV1paOXhsWW9HTEpjVGN0VTZMNzM0XzRTM3VtM2pXUmNFSXp1SHRSaXpsNTdMWnM?oc=5",
+      "source": "Screen Rant",
+      "source_id": "screen_rant",
+      "category": "Marvel",
+      "published_at": "2026-11-22T23:31:18+00:00",
+      "status": "reported",
+      "tags": [
+        "Captain Marvel"
+      ],
+      "related_characters": [
+        "Captain Marvel"
+      ],
+      "external_id": "CBMif0FVX3lxTE90TnVRVXRjemVsdmVFM3lndGNtYkxQTGJ2R0RCbkRJV2lXNUVHMnFWcnlwNjNCdUdxak5zczVLa0hUd3JrX3NsTFoyczJZX3hsV1paOXhsWW9HTEpjVGN0VTZMNzM0XzRTM3VtM2pXUmNFSXp1SHRSaXpsNTdMWnM",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
     {
       "id": "spidermansupcomingtvshowgetsitsfirstdescriptionthankstoanewreport",
       "title": "Spider-Man's upcoming TV show gets its first description thanks to a new report",
@@ -59,15 +105,15 @@
         "IMDb"
       ],
       "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5NcHNQa0xrYjk4M1Y4N0g5MEJGZllTYXFWelhFY3BjVS0wNUp6M1RPSy1hMmxOWlkxWkZGdFZQaGppVS1EOFlhYUwxUzdPUkJaaG5hWnpGbkcwNEVDQ3VZSXFR?oc=5",
+      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkZjlnQjhmYVZwTkRPSkVCRGVRWHp3N216YXJpLTJWX0IxY1ZBdXFJS1NNdzhxMXljQWtHckVzWWV0S1FkZmxxTkRiZEtNTkxSSVlDcDRMMVA4aGowbGNhSFJFb0lLdw?oc=5",
       "source": "IMDb",
       "source_id": "imdb",
       "category": "Marvel",
-      "published_at": "2026-11-22T20:23:39+00:00",
+      "published_at": "2026-11-22T20:24:17+00:00",
       "status": "reported",
       "tags": [],
       "related_characters": [],
-      "external_id": "CBMiYkFVX3lxTE5NcHNQa0xrYjk4M1Y4N0g5MEJGZllTYXFWelhFY3BjVS0wNUp6M1RPSy1hMmxOWlkxWkZGdFZQaGppVS1EOFlhYUwxUzdPUkJaaG5hWnpGbkcwNEVDQ3VZSXFR",
+      "external_id": "CBMiZkFVX3lxTFBkZjlnQjhmYVZwTkRPSkVCRGVRWHp3N216YXJpLTJWX0IxY1ZBdXFJS1NNdzhxMXljQWtHckVzWWV0S1FkZmxxTkRiZEtNTkxSSVlDcDRMMVA4aGowbGNhSFJFb0lLdw",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -529,7 +575,7 @@
       ],
       "external_id": "CBMid0FVX3lxTE5aWGM0RWNhclRZcU1XSW5PTkZENDBvR2xOb1Y1RGh0a2NPVzlIMmdVV2F3cUQ1VGNGU3BPSnZtS0pSNFF2UU1DX09OVTlIc29TekFkU05TVkc0TlcwcG9VSkotZHRwR2JIeHAtODZVNkJBTFhrSjNR",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "avengersdoomsdayglobaltourrevsupinlasvegaswithamarveltrioanthonymackiesimuliuchr",
@@ -602,7 +648,7 @@
       ],
       "external_id": "CBMiugJBVV95cUxQUWVpeFpFWllrSGhaa1JqWGQ1b3VsQzhTbVAycFUyRi00dG9yblZCQ0dXZzM3elMzcVZpTDVKbmdWT2IxdzBPX09EaUdZTUhDaTJuQkxaak13ZnZ5bm9VNkhoRWc4YjZLMHlqYUVZUXZMZzNOZ24yUV9yellpMGNKa29rbnB1aWgydkk0MkdUTHpm",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "marvelrivalsloveisabattlefieldtrailer",
@@ -752,7 +798,7 @@
       ],
       "external_id": "CBMiZ0FVX3lxTFB5TWFBUGphVnVyWDFkcGJnU2pLWUdTdjVfTEZ1MDd4QlpZUncwbWtwQXU2NVNxaWtYU013ZEFhcTZqMWdWd2pCV1cxdnRZYlB1NmpiZUhXNy1hV1hsYmlaa2xELTkxMVE",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "12robertdowneyjrmoviestowatchbeforeavengersdoomsdayin2026ranked",
@@ -874,7 +920,7 @@
       ],
       "external_id": "CBMijgFBVV95cUxPd2ZBUEVLNWhjS1hwbnl5OHJyQktIek5yeEd3QnlWQ0Izc3pQTC1ER1VvNkdkNklkSk8teThvMXBwNFhRcHp6bUlJRHNZc3BCTUxNQmREZDRMYUZQaUlrRHRQWGU1WjlHcG4wbGRpbm1xclY1Y3NFXzdTTWJmT04yTTFVN1VtcExlb3JubURR",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "avengersdoomsdayadmayhavespoiledthreemajormarvelheroreturns",
@@ -1312,7 +1358,7 @@
       ],
       "external_id": "CBMiZEFVX3lxTE56bllaU0UtZGVrcVZLVWhkQTZBTGpHZUt6dDJSMVJkdjdnSVluNnJoMW9wZjZoZEJQM2lmU1owUTBKVDRPLTRjNEZPUnp2amhoNDE0VzhWUHg5NEZJVC1IN21fVVk",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "avengerssecretwarswillofficiallybeevenbiggerthandoomsday",
@@ -1646,6 +1692,31 @@
       "synopsis_status": "pending"
     },
     {
+      "id": "bassamtariqsaysmarvelsscrappedbladereboottaughthimlifestooshorttomakeshfilms",
+      "title": "Bassam Tariq Says Marvel’s Scrapped ‘Blade’ Reboot Taught Him “Life’s Too Short to Make Sh** Films”",
+      "summary": "Bassam Tariq Says Marvel’s Scrapped ‘Blade’ Reboot Taught Him “Life’s Too Short to Make Sh** Films” IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mODMtVFIzdy1RbTI0WFgtNmxYamhqQUU3QzBSbG9rdGpZUmhsb1lla3Z5SWtXRnV5aE10WUt6eGViYjhYNnFkMWV4V0JQSndWcUJ3V1hVZnZTeEFLR0Z5WjdPU2FDN3pTOHc?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-21T01:24:59+00:00",
+      "status": "reported",
+      "tags": [
+        "Blade"
+      ],
+      "related_characters": [
+        "Blade"
+      ],
+      "external_id": "CBMiakFVX3lxTE5mODMtVFIzdy1RbTI0WFgtNmxYamhqQUU3QzBSbG9rdGpZUmhsb1lla3Z5SWtXRnV5aE10WUt6eGViYjhYNnFkMWV4V0JQSndWcUJ3V1hVZnZTeEFLR0Z5WjdPU2FDN3pTOHc",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
       "id": "bladedirectorblastsmarvelafterrevealingrealreasonbehindexit",
       "title": "Blade Director Blasts Marvel After Revealing Real Reason Behind Exit",
       "summary": "Blade Director Blasts Marvel After Revealing Real Reason Behind Exit IMDb",
@@ -1686,29 +1757,7 @@
       "related_characters": [],
       "external_id": "CBMi8AFBVV95cUxNTHpuTEJfR3pnVEFoSzdoeF9lUHhUR3AtMjZNdzR1UTZHbXRGY1RYa0d0bW9wa0FSLWRmaTVGSDRxbWFqc2gyMzRiR0I5aWFuLTJhcl9mMWRYZHJCVXpPR20yM0JBX294bTF3cWVuQ1JzTGMwNkVNbXhaR3FMamtUOWtreklmV2tRcmxqb1VnTGRZ",
       "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "bassamtariqsaysmarvelsscrappedbladereboottaughthimlifestooshorttomakeshfilms",
-      "title": "Bassam Tariq Says Marvel’s Scrapped ‘Blade’ Reboot Taught Him “Life’s Too Short to Make Sh** Films”",
-      "summary": "Bassam Tariq Says Marvel’s Scrapped ‘Blade’ Reboot Taught Him “Life’s Too Short to Make Sh** Films” The Hollywood Reporter",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaHBnd0hVNlRBUXpLWWRwdkgtbW82cWdLQURWNURfemNnRy1uM0Y1WFczdVVxWUVLbjdHanloVTJ2UU9BOTdIT1lXT0wtQmJtUGU5X25nb3VpcHhGWTkwQjZrVnBZekFWYmxfZEVVbTExbFUxLVFfVFZyd3JsZVBnVjg5a28ybEtwRTlXMjlyQ0ZWeEl4dHNqUDMwOUVXZGpZYU85anBZcG04a2dJR0hNWHpDSC1rQQ?oc=5",
-      "source": "The Hollywood Reporter",
-      "source_id": "the_hollywood_reporter",
-      "category": "Marvel",
-      "published_at": "2026-11-21T00:28:52+00:00",
-      "status": "reported",
-      "tags": [
-        "Blade"
-      ],
-      "related_characters": [
-        "Blade"
-      ],
-      "external_id": "CBMitgFBVV95cUxNaHBnd0hVNlRBUXpLWWRwdkgtbW82cWdLQURWNURfemNnRy1uM0Y1WFczdVVxWUVLbjdHanloVTJ2UU9BOTdIT1lXT0wtQmJtUGU5X25nb3VpcHhGWTkwQjZrVnBZekFWYmxfZEVVbTExbFUxLVFfVFZyd3JsZVBnVjg5a28ybEtwRTlXMjlyQ0ZW",
-      "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "bladerunner2099officiallymakesitsbiggestchangethatdefinedthefranchise",
@@ -1988,6 +2037,33 @@
         "Doom"
       ],
       "external_id": "CBMiYkFVX3lxTFBGaXdIODdDZHJZdHNXOHNWalNmckVPMmYyQ1F6RnhsRlRCUkJNemxyVlNjZkVfekRTd2hQNzF1eS11R1BabFh1ekxRZ1JoMUJBaFNSYXlEdXZ1VUM1WkJkMVBR",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "deadpoolwolverineaudiencereviews",
+      "title": "Deadpool & Wolverine | Audience Reviews",
+      "summary": "Deadpool & Wolverine | Audience Reviews Rotten Tomatoes",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "Rotten Tomatoes"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR21rMUNudm1WT3Z6Ukw3bmRyNXo2UzR5T1ota1dwZnVvZnNXMzN0SzhkbXVlRm9XRVAwMkJiOU5Ld2VOZWZLajJ0U0dxUF9QVHBwbnZpWk9lUDFHVnI2aGNfN1Z6cGwzSGxvWXl3WWhGankydHp2UVBpM1hEX3RMcGVn?oc=5",
+      "source": "Rotten Tomatoes",
+      "source_id": "rotten_tomatoes",
+      "category": "Ratings",
+      "published_at": "2026-11-20T17:06:47+00:00",
+      "status": "reported",
+      "tags": [
+        "Wolverine",
+        "Deadpool"
+      ],
+      "related_characters": [
+        "Wolverine",
+        "Deadpool"
+      ],
+      "external_id": "CBMiggFBVV95cUxPR21rMUNudm1WT3Z6Ukw3bmRyNXo2UzR5T1ota1dwZnVvZnNXMzN0SzhkbXVlRm9XRVAwMkJiOU5Ld2VOZWZLajJ0U0dxUF9QVHBwbnZpWk9lUDFHVnI2aGNfN1Z6cGwzSGxvWXl3WWhGankydHp2UVBpM1hEX3RMcGVn",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -3244,6 +3320,30 @@
       "synopsis_status": "pending"
     },
     {
+      "id": "avengersdoomsdayboxofficecollectionsday1advancebookingforrobertdowneyjrandchrise",
+      "title": "‘Avengers: Doomsday’ box office collections Day 1: Advance booking for Robert Downey Jr and Chris Evans s",
+      "summary": "‘Avengers: Doomsday’ box office collections Day 1: Advance booking for Robert Downey Jr and Chris Evans s The Times of India",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxOb2pzdUVSRGd3dllMYVppeFYtazktVWo5azljWGlOUVpqWXRBekJTMllJYlE0ODJXakk3VnR4ZjJwcUR4UmNlcjAxRkNkd2ZOVG9tQnpYbXZQdWE4Wks4YmNzc1RaX2xobnRmNkZtNjZIN1dHQ0N3WEFHeHBnSWVNMy0yVWk4d3N5VnBPZ3c3NllWYUxmQmZiRlBaNFFnRzlEUHN2NHpubklPT1EtcmxNODc4Q1RzOVFZRUpKdGVuNGlzQWJ6c3lNeTNKd0l5ZFRBVTk1NHlURkhscmtjM1NrNnYyMy1KTGFQNkVfa2ZMM0R1cHJjN2w3TTA3aW5aMUV4VDQ0aEtKSjlXcFUzb1J5STRPTndueEZVOTR3MEF0X1RCbFB6T2UzV1dDSXlpek1Ta1ZfRlNVbGc4cEtXczBBb010cV94S0RFZk1XYlp0TFN1d0pxUFBqaG1hZkFaQlRxVHlPVEQ4cS0wSm8wZ0FSam4zTFo1SnB6cE5MSm1zU0doRjhVLUHSAYsDQVVfeXFMT0JabUFjU01VRzBDaDdpTnJkeVY2Rlo4NkVFT2tZTVphM21HYkk0UEE5LWlVbGpvdkN6MGhQamMtVHJTeEVxeUZFbms1MGFTZlVXMnhFVFlpWjdJZXhwb1NMbncyRk5sM2Zmc0hDV2tIZTVyZGxyUzB6RWNiMnhBYWtZV0ttWWpyV25TU1gzb0pYUFEzam5rQW5ZcGd6TjIxb1FGV2dGSmpfazZTOXA3c2RodXBpX3U2WXo5b1pLYzNhSUoteExlSlh0MDRIcjZHempnbnR3N21uMWNYS1NJcEVuZm9NcDk1Z3FObjUxR1VzcVlqZFlkN3BlQWg1VEEwdjZCSDhRNDVCN283eTlLTlpEUExmYW1CQ185VW13ekxCdmxIa3NtRk5sdGc4V1psNFJWT2sxNGpLQ2VxTWM3X2NlWHRaLVRfMVY0N25CS2pYa1NxUVJaVlFabVFUZjE2dTVoR212Y3ZKWE5yY2VxeC1lck5MekpSc0dCUzRxOWZYN2I4QjRCM056Z2c?oc=5",
+      "source": "Times of India",
+      "source_id": "times_of_india",
+      "category": "Movies",
+      "published_at": "2026-11-19T05:05:00+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMihgNBVV95cUxOb2pzdUVSRGd3dllMYVppeFYtazktVWo5azljWGlOUVpqWXRBekJTMllJYlE0ODJXakk3VnR4ZjJwcUR4UmNlcjAxRkNkd2ZOVG9tQnpYbXZQdWE4Wks4YmNzc1RaX2xobnRmNkZtNjZIN1dHQ0N3WEFHeHBnSWVNMy0yVWk4d3N5VnBPZ3c3NllW",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
       "id": "midnightfantasticfourpreparestheexplorersfortwoverydifferentkindsoftrips",
       "title": "Midnight Fantastic Four Prepares the Explorers For Two Very Different Kinds of Trips",
       "summary": "Midnight Fantastic Four Prepares the Explorers For Two Very Different Kinds of Trips Comic Book Resources",
@@ -3552,33 +3652,6 @@
       "synopsis_status": "pending"
     },
     {
-      "id": "marvelunveilsmajoravengersdoomsdayherodesignsinnewmcumovielook",
-      "title": "Marvel Unveils Major Avengers: Doomsday Hero Designs In New MCU Movie Look",
-      "summary": "Marvel Unveils Major Avengers: Doomsday Hero Designs In New MCU Movie Look IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UTTk3bmhyM3BNOXBiOXVpbHRKNTZkZjd0c0J2ZUNZTE1tX1hJaDk2TF85S2hpVTZYdjQ3WS1MX2pPVzRGcTg3V3UzWjlxMHFLalphazlnUE1rQVN3cnJtSE1wZE1CTUE?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Movies",
-      "published_at": "2026-11-18T19:50:52+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE1UTTk3bmhyM3BNOXBiOXVpbHRKNTZkZjd0c0J2ZUNZTE1tX1hJaDk2TF85S2hpVTZYdjQ3WS1MX2pPVzRGcTg3V3UzWjlxMHFLalphazlnUE1rQVN3cnJtSE1wZE1CTUE",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
       "id": "updateavengersdoomsdayfeaturetterevealsfirstlookatsuestormsnewblackfantasticfour",
       "title": "Update: Avengers: Doomsday Featurette Reveals First Look At Sue Storm's New Black Fantastic Four Costume",
       "summary": "Update: Avengers: Doomsday Featurette Reveals First Look At Sue Storm's New Black Fantastic Four Costume IMDb",
@@ -3734,85 +3807,6 @@
         "Doom"
       ],
       "external_id": "CBMia0FVX3lxTE9zZ2g3TEpZbTJuRmRudlZYclFudGRHZTlZaUw5X3NCQnVsRHZXenVvdkk2bWZyVWQxXzBaZlF6eXFSRS0waDRTd3JvUV83MWNXV09vS19VZk11SkFSQVBkWGxEdDRVRjV3V2dN",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "majormcuteamreportedlyconfirmeddeadaheadofavengersdoomsday",
-      "title": "Major MCU Team Reportedly Confirmed Dead Ahead Of Avengers: Doomsday",
-      "summary": "Major MCU Team Reportedly Confirmed Dead Ahead Of Avengers: Doomsday IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BczhEbll5d3V2b3I3OWhKTWV3M3VZZHNxX19BdElSa3NFTnZKMHEtMU52WXZ3MTM5dWlYVEpKVzFCZW1vdWJIMEFiRXQtMV9HWEktX25ERUg3UW5YN1YwcTJwMVhhTVU?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-18T18:20:14+00:00",
-      "status": "rumour",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE5BczhEbll5d3V2b3I3OWhKTWV3M3VZZHNxX19BdElSa3NFTnZKMHEtMU52WXZ3MTM5dWlYVEpKVzFCZW1vdWJIMEFiRXQtMV9HWEktX25ERUg3UW5YN1YwcTJwMVhhTVU",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersthekangdynastysscrappeddoctordoomtwistexplainedbymarvelskevinfeige",
-      "title": "Avengers: The Kang Dynasty's Scrapped Doctor Doom Twist Explained By Marvel's Kevin Feige",
-      "summary": "Avengers: The Kang Dynasty's Scrapped Doctor Doom Twist Explained By Marvel's Kevin Feige IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mOXVqdV9pS0FTV3EwUGExQjh5TnF3RkZwWlJEMzBnbE5IRWVmVHBna1JTQ2ZnM1FxNlJ1cTRReV9udFdubjVub1ZCWHVsZkZhbndzZFd3WjhzcWsySlh5TWZvZ0RwN2FBdVE?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-18T17:56:13+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiakFVX3lxTE5mOXVqdV9pS0FTV3EwUGExQjh5TnF3RkZwWlJEMzBnbE5IRWVmVHBna1JTQ2ZnM1FxNlJ1cTRReV9udFdubjVub1ZCWHVsZkZhbndzZFd3WjhzcWsySlh5TWZvZ0RwN2FBdVE",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "marvelofficiallydebutsspidermansnewmidnightdesignforfirsttime",
-      "title": "Marvel Officially Debuts Spider-Man's New 'Midnight' Design For First Time",
-      "summary": "Marvel Officially Debuts Spider-Man's New 'Midnight' Design For First Time IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZRVZ1aWQ5WHFPWGMySUl6SkVGcUxWYlVEYUtEelVKX09rTDhNNC0wODl5SUN3WUd2VERnZHVrblZ2dm54MXJVRjVvLV80QVNNYjM1Nm01Mm1FdnhrcGExcDNJZDlDbVE?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-18T17:26:30+00:00",
-      "status": "reported",
-      "tags": [
-        "Spider-Man"
-      ],
-      "related_characters": [
-        "Spider-Man"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE1ZRVZ1aWQ5WHFPWGMySUl6SkVGcUxWYlVEYUtEelVKX09rTDhNNC0wODl5SUN3WUd2VERnZHVrblZ2dm54MXJVRjVvLV80QVNNYjM1Nm01Mm1FdnhrcGExcDNJZDlDbVE",
       "synopsis": "",
       "synopsis_status": "pending"
     }
