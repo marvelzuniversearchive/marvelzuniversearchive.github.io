@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T20:58:40.061977+00:00",
+  "generated_at": "2026-11-26T03:24:09.209301+00:00",
   "source_count": 15,
   "search_topics": [
     "Marvel Universe",
@@ -26,6 +26,85 @@
   "article_count": 150,
   "articles": [
     {
+      "id": "avengerssecretwarssettingconfirmedbymarvelspoilingdoomsday",
+      "title": "Avengers: Secret Wars Setting Confirmed By Marvel, Spoiling Doomsday",
+      "summary": "Avengers: Secret Wars Setting Confirmed By Marvel, Spoiling Doomsday IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlYjgydWhHc2FiRDZmSDBoaDJ5blItWVJuQkJFTi1pTUJLa2JyWmVvYk9MN2ozS3RCR3FqUC00azEwdzNjUmVqWHJUaTN6OWVCcTUxMnFEOHRUR3FGcFlKQTJSLTJONTE2ZFE?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-25T20:52:19+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiakFVX3lxTFBlYjgydWhHc2FiRDZmSDBoaDJ5blItWVJuQkJFTi1pTUJLa2JyWmVvYk9MN2ozS3RCR3FqUC00azEwdzNjUmVqWHJUaTN6OWVCcTUxMnFEOHRUR3FGcFlKQTJSLTJONTE2ZFE",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "marveltelevisioncableeraagentsofshieldagentcartermore",
+      "title": "Marvel Television, Cable Era: ‘Agents of S.H.I.E.L.D.,’ ‘Agent Carter’ & More",
+      "summary": "Marvel Television, Cable Era: ‘Agents of S.H.I.E.L.D.,’ ‘Agent Carter’ & More IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kWGJGTFpieUw1QzhES3ZkR2RkQU85ZGhHcW1uUU5mc1lVN3VkUngxREFlWWs4YUpIS2g1V0tsaXpLQUlVZHAyYjBWY1N5QjRHNGN4ZUVMTGd4am5ENTVWMVdWNlEyODhPMlE?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-25T20:50:41+00:00",
+      "status": "reported",
+      "tags": [
+        "Vision"
+      ],
+      "related_characters": [
+        "Vision"
+      ],
+      "external_id": "CBMiakFVX3lxTE9kWGJGTFpieUw1QzhES3ZkR2RkQU85ZGhHcW1uUU5mc1lVN3VkUngxREFlWWs4YUpIS2g1V0tsaXpLQUlVZHAyYjBWY1N5QjRHNGN4ZUVMTGd4am5ENTVWMVdWNlEyODhPMlE",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "avengersdoomsdayrevealsfirstlookat5legendarymcuphase3weapons",
+      "title": "Avengers: Doomsday Reveals First Look at 5 Legendary MCU Phase 3 Weapons",
+      "summary": "Avengers: Doomsday Reveals First Look at 5 Legendary MCU Phase 3 Weapons IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56ZktUNHI3Rndxc2pDYVJHVlpKUnZuX1V1dUhvT2gza1NpdElRUFVGNGNRem9Od3Z5VWs3T3NuRHVqcnltM1JRaW5uQmluUDllbU1MSUFQa3l4V3FoVnRQOUZpUjBNNWc?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Trailers",
+      "published_at": "2026-11-25T20:30:17+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiZ0FVX3lxTE56ZktUNHI3Rndxc2pDYVJHVlpKUnZuX1V1dUhvT2gza1NpdElRUFVGNGNRem9Od3Z5VWs3T3NuRHVqcnltM1JRaW5uQmluUDllbU1MSUFQa3l4V3FoVnRQOUZpUjBNNWc",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
       "id": "marvelexeckevinfeigebreakssilenceonconnorstorriesghostridercasting",
       "title": "Marvel Exec Kevin Feige Breaks Silence on Connor Storrie’s ‘Ghost Rider’ Casting",
       "summary": "Marvel Exec Kevin Feige Breaks Silence on Connor Storrie’s ‘Ghost Rider’ Casting IMDb",
@@ -34,11 +113,11 @@
         "IMDb"
       ],
       "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxUnhiS0pURjFaZ01sR0lPOTJNMnBrTjVJY2Y4VEItNzVuWEZHdm53WEJsMnA3MGhuZzFOQVliVXQ3YVpuSGtuVkhJRF85bWNKeENJaFViNFp5S2I5bVZOUE9NYVAxV0syRHc?oc=5",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRajc0WldfX0tXS3YyMFNJQlVYSXJsZ1VwWmdkcGJzM1ZkdjFRd2Z6RkRBOU9zLVRHV21Gd05OT1VSWk95NkJjUE9qdFoxR0ozcnBRNXdSVm5TcVBfVk9KLUJiMHVJNDg?oc=5",
       "source": "IMDb",
       "source_id": "imdb",
       "category": "Casting",
-      "published_at": "2026-11-25T19:45:34+00:00",
+      "published_at": "2026-11-25T19:25:39+00:00",
       "status": "reported",
       "tags": [
         "Ghost Rider"
@@ -46,7 +125,58 @@
       "related_characters": [
         "Ghost Rider"
       ],
-      "external_id": "CBMiakFVX3lxTFAxUnhiS0pURjFaZ01sR0lPOTJNMnBrTjVJY2Y4VEItNzVuWEZHdm53WEJsMnA3MGhuZzFOQVliVXQ3YVpuSGtuVkhJRF85bWNKeENJaFViNFp5S2I5bVZOUE9NYVAxV0syRHc",
+      "external_id": "CBMiZ0FVX3lxTFBRajc0WldfX0tXS3YyMFNJQlVYSXJsZ1VwWmdkcGJzM1ZkdjFRd2Z6RkRBOU9zLVRHV21Gd05OT1VSWk95NkJjUE9qdFoxR0ozcnBRNXdSVm5TcVBfVk9KLUJiMHVJNDg",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "avengersdoomsdaylaunchesmonopolygotieinseasondoomsdaygogamingnewsroundup",
+      "title": "‘Avengers: Doomsday’ Launches ‘Monopoly Go’ Tie-In Season ‘Doomsday Go’ (Gaming News Roundup)",
+      "summary": "‘Avengers: Doomsday’ Launches ‘Monopoly Go’ Tie-In Season ‘Doomsday Go’ (Gaming News Roundup) Variety",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTnVxdDEweU9EN3lnMkJURkpIRFJEQTFEN3pSblhTQVF1Y0ZjYzRnaU1ta2JEN3lCc2lCbVZNUllPSHZ3MkJERFdjTDc0QTVLWDV2TTRfMkJiZVI4SGJzWjRXVlVGMlNXVnhYZmphb1lySWRCamlRQXMxaVdYVjZKUjBQdzZfRGR6dmNJ?oc=5",
+      "source": "Variety",
+      "source_id": "variety",
+      "category": "Games",
+      "published_at": "2026-11-25T19:12:00+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiiwFBVV95cUxNTnVxdDEweU9EN3lnMkJURkpIRFJEQTFEN3pSblhTQVF1Y0ZjYzRnaU1ta2JEN3lCc2lCbVZNUllPSHZ3MkJERFdjTDc0QTVLWDV2TTRfMkJiZVI4SGJzWjRXVlVGMlNXVnhYZmphb1lySWRCamlRQXMxaVdYVjZKUjBQdzZfRGR6dmNJ",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "avengersdoomsdaylandsthebiggestopeningprojectionintrackinghistory",
+      "title": "‘Avengers: Doomsday’ Lands the Biggest Opening Projection in Tracking History",
+      "summary": "‘Avengers: Doomsday’ Lands the Biggest Opening Projection in Tracking History IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBNUjU5d2JqQWw2QXRsckozYzJ6UE1wR3lLbXZwYWZEMmNpMGV0RmpLN2lvMUF0amxpdUloNVFkczRxTElxUC1oOHN1Mm01SUxhb01kWGNpV3oyaThFZlpuQ0FB?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-25T19:02:25+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiYkFVX3lxTFBNUjU5d2JqQWw2QXRsckozYzJ6UE1wR3lLbXZwYWZEMmNpMGV0RmpLN2lvMUF0amxpdUloNVFkczRxTElxUC1oOHN1Mm01SUxhb01kWGNpV3oyaThFZlpuQ0FB",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -74,6 +204,60 @@
         "Doom"
       ],
       "external_id": "CBMiYkFVX3lxTFA4WjhkRzRpYkQ4aXFUWFVYRHQ1NWVmOXYtZmZLVlRkQlZFSm9QUGppY0gxb2NYZ2tqRjFFWDZlcG9KMWxSbU1hMTlTMzhNX0NscnZ3azM4LW52TVRpSHJxTHZR",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "kevinfeigesaysfanscanalreadyfindavengersdoomsdayandsecretwarsspoilersinthecomics",
+      "title": "Kevin Feige Says Fans Can Already Find ‘Avengers: Doomsday’ and ‘Secret Wars’ Spoilers in the Comics",
+      "summary": "Kevin Feige Says Fans Can Already Find ‘Avengers: Doomsday’ and ‘Secret Wars’ Spoilers in the Comics IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zSTIzQjZtakcybVZUQkw2aWhLekc0U2pKX0wtUnFuUEhld2ZYanpsUHR2NlZEZklXVGJ5dk5JTXRLODdRQlhVa1lRRlhiMWhUejdFTlhGcVdNUTMwQmVNNklB?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-25T19:01:05+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiYkFVX3lxTE9zSTIzQjZtakcybVZUQkw2aWhLekc0U2pKX0wtUnFuUEhld2ZYanpsUHR2NlZEZklXVGJ5dk5JTXRLODdRQlhVa1lRRlhiMWhUejdFTlhGcVdNUTMwQmVNNklB",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "kevinfeigerevealswherefanscanfindavengersdoomsdayandsecretwarsspoilers",
+      "title": "Kevin Feige Reveals Where Fans Can Find ‘Avengers: Doomsday’ and ‘Secret Wars’ Spoilers",
+      "summary": "Kevin Feige Reveals Where Fans Can Find ‘Avengers: Doomsday’ and ‘Secret Wars’ Spoilers IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TRTlQZVhVbWVhMUtVeGFmeVg1VzgxQll2Q1NRMEZsSHd1R0l3STN4LWFsNm4td1FyVmVmWlJyTzN1QnBqZjZ0akNyR0ZLak54VGc1aHpYQWY3UGNmVEgxZGJ3?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Announcements",
+      "published_at": "2026-11-25T18:45:02+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiYkFVX3lxTE9TRTlQZVhVbWVhMUtVeGFmeVg1VzgxQll2Q1NRMEZsSHd1R0l3STN4LWFsNm4td1FyVmVmWlJyTzN1QnBqZjZ0akNyR0ZLak54VGc1aHpYQWY3UGNmVEgxZGJ3",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -129,7 +313,61 @@
       ],
       "external_id": "CBMiZ0FVX3lxTE5RV2NWMWNEZFdHWXpiRDBJV0pCMU5TVy1yaWxvaC1rVzlXclJVbWtHaXJxTjJCTm54S2djenNpdGtCNHg1eTRpcXFhbUlXSDdLVkY3VmtQOFlmWEs1WjNNcHF4d0xadDA",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "avengersdoomsdaylandsrecordbreakingboxofficetrackingasdune3bracesforashowdown",
+      "title": "‘Avengers: Doomsday’ Lands Record-Breaking Box Office Tracking as ‘Dune 3’ Braces for a Showdown",
+      "summary": "‘Avengers: Doomsday’ Lands Record-Breaking Box Office Tracking as ‘Dune 3’ Braces for a Showdown IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtTGs3M20yWlhPdi1JTENNNkhJVTY0Z1B1LU12Sm5MWi1wWFBFdERxMFZ3V0h0emxpY1pHNW5oOXZ1aUktZW5IZjFZLVNlS2g5MzFNU1J6YlRqUXM4c0U4ZEJud2ljNm8?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Movies",
+      "published_at": "2026-11-25T18:22:59+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiZ0FVX3lxTFBtTGs3M20yWlhPdi1JTENNNkhJVTY0Z1B1LU12Sm5MWi1wWFBFdERxMFZ3V0h0emxpY1pHNW5oOXZ1aUktZW5IZjFZLVNlS2g5MzFNU1J6YlRqUXM4c0U4ZEJud2ljNm8",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "newavengersdoomsdayfootageputsrdjsdoctordoomaccentinthespotlight",
+      "title": "New Avengers: Doomsday Footage Puts Rdj's Doctor Doom Accent In The Spotlight",
+      "summary": "New Avengers: Doomsday Footage Puts Rdj's Doctor Doom Accent In The Spotlight IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoaHNhQlpiaTBBaHRWQjBybmFuNWNKOEhwYzZwMVpVTHRVc2lnRjBVUEhLMGZFalFSajlpQlJjSkl2dnRiamNqNnNNSWxFa0k1S3VPRGFGQ3ltSHhGV1BDRG5SdnhKZw?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-25T18:22:57+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiZkFVX3lxTFBoaHNhQlpiaTBBaHRWQjBybmFuNWNKOEhwYzZwMVpVTHRVc2lnRjBVUEhLMGZFalFSajlpQlJjSkl2dnRiamNqNnNNSWxFa0k1S3VPRGFGQ3ltSHhGV1BDRG5SdnhKZw",
+      "synopsis": "",
+      "synopsis_status": "pending"
     },
     {
       "id": "chrisevansonsecretmeetingsaboutavengersreturndespitesayinghewashappilyretiredfro",
@@ -154,7 +392,31 @@
       ],
       "external_id": "CBMiYkFVX3lxTFBRZ0FwX0ZNbTE3eGttYUJzOGlwNzcwYWhKM1hwQUJyV2xESE9DZ2NNWXEwejEyZ05mMzMyMnk4VjNvQlRpLU9oeGF0Skc2YzRIeUJOeXg4UlUzSmY5NkVzSWl3",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "avengersdoomsdayuspresalesnowat100maspicheadsfor270mopeningboxoffice",
+      "title": "‘Avengers: Doomsday’ U.S. Presales Now At $100M+ As Pic Heads For $270M+ Opening – Box Office",
+      "summary": "‘Avengers: Doomsday’ U.S. Presales Now At $100M+ As Pic Heads For $270M+ Opening – Box Office Deadline",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR1JFc25ocGo1NVI0dV90RnlsTjRrWV9vOTR2S1RtaHZ5a0FBQ3NnSTh4eUhmdXV0bzNOenp4TS1ZUTNKSzQ0eGRoS2RJSTdtSmJmYjhvWWxybGJtcEpxNEFwN3QzS2lBRVlXRVZwVXBDY25oTS04VjUyNW02RmpGclNrbC0?oc=5",
+      "source": "Deadline",
+      "source_id": "deadline",
+      "category": "Movies",
+      "published_at": "2026-11-25T17:45:00+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMihAFBVV95cUxNR1JFc25ocGo1NVI0dV90RnlsTjRrWV9vOTR2S1RtaHZ5a0FBQ3NnSTh4eUhmdXV0bzNOenp4TS1ZUTNKSzQ0eGRoS2RJSTdtSmJmYjhvWWxybGJtcEpxNEFwN3QzS2lBRVlXRVZwVXBDY25oTS04VjUyNW02RmpGclNrbC0",
+      "synopsis": "",
+      "synopsis_status": "pending"
     },
     {
       "id": "avengersdoomsdayeyes270mopeningdune375mboxofficeforecast",
@@ -178,7 +440,7 @@
       ],
       "external_id": "CBMimwFBVV95cUxPWDdhMjVseTQ5OXprR0UwUHF6RnZnYW96LTFsRTA3QjRWc2NUa2IxYzE0MXpuNmxrN002SVJmQ1FwWWgtQWNBNzh6TWQyT3J0aFNVZHZSY3RuenVEaXUtOWZtNWVOOGVtaExadDJpYW1KU3hDclNtZjFFMHVRX0ItUURucUZ4VV9oS3V5M2F1Ti1n",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "marvelskevinfeigedeniesconnorstorrieghostridercastingrumors",
@@ -203,7 +465,82 @@
       ],
       "external_id": "CBMiZ0FVX3lxTE1DazZaV1lnUlMtU0NRYnhhb3dVZWV1QktMd3BveGd2ekFEenktZFhKSHdDZ01MTFhobEVWQ3ViQ29scVZWcjQxNC1sVGRnd051cXRyMXZNNEY1R0FCVWRSOC1IdWx4a3c",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "spidermanscarletwitchseeminglyconfirmedforavengersdoomsdaybyrobertdowneyjr",
+      "title": "Spider-Man & Scarlet Witch Seemingly Confirmed For Avengers: Doomsday By Robert Downey Jr.",
+      "summary": "Spider-Man & Scarlet Witch Seemingly Confirmed For Avengers: Doomsday By Robert Downey Jr. ScreenRant",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWlBGVDdEX3A5SmM0OGJPX2VWVDJLNXRrY2RDOEpUS21feVBiQ0dHTDJjOGcycUpLYjF2SFoydzlrTDVGLXJTNk1YTVpkMFFvcWpDZWxkREpNQ05ybHdXMlhKR0Z1eVdueFFONVlMUFZ4d3JSeFZESnlydmhsUlpfYXBSOTAtdy1j?oc=5",
+      "source": "Screen Rant",
+      "source_id": "screen_rant",
+      "category": "Marvel",
+      "published_at": "2026-11-25T14:00:08+00:00",
+      "status": "reported",
+      "tags": [
+        "Spider-Man",
+        "Avengers",
+        "Scarlet Witch",
+        "Doom"
+      ],
+      "related_characters": [
+        "Spider-Man",
+        "Avengers",
+        "Scarlet Witch",
+        "Doom"
+      ],
+      "external_id": "CBMiiAFBVV95cUxOWlBGVDdEX3A5SmM0OGJPX2VWVDJLNXRrY2RDOEpUS21feVBiQ0dHTDJjOGcycUpLYjF2SFoydzlrTDVGLXJTNk1YTVpkMFFvcWpDZWxkREpNQ05ybHdXMlhKR0Z1eVdueFFONVlMUFZ4d3JSeFZESnlydmhsUlpfYXBSOTAtdy1j",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "marvelbossreactstoconnorstorrieghostriderreportsexclusive",
+      "title": "Marvel boss reacts to Connor Storrie ‘Ghost Rider’ reports (exclusive)",
+      "summary": "Marvel boss reacts to Connor Storrie ‘Ghost Rider’ reports (exclusive) Entertainment Weekly",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYXNETzlvQVUwV09LQXVnM2J5aVJzS3B6S0pscU5FWEJTOVlKVW1jOE9mOVBuNEtxWlU3cDEtM1gtaFU2Q2d1TVZBWkJjcnAxT3ZwaUJQTzhrUDBoYTlhV0ZQa04za0tBN0RmMXlUcURob1ZEM3JMYTJ0N0k4aHhLRHhfSUJlY21UWWh2YzZqNA?oc=5",
+      "source": "Entertainment Weekly",
+      "source_id": "entertainment_weekly",
+      "category": "Marvel",
+      "published_at": "2026-11-25T14:00:00+00:00",
+      "status": "reported",
+      "tags": [
+        "Ghost Rider"
+      ],
+      "related_characters": [
+        "Ghost Rider"
+      ],
+      "external_id": "CBMijwFBVV95cUxOYXNETzlvQVUwV09LQXVnM2J5aVJzS3B6S0pscU5FWEJTOVlKVW1jOE9mOVBuNEtxWlU3cDEtM1gtaFU2Q2d1TVZBWkJjcnAxT3ZwaUJQTzhrUDBoYTlhV0ZQa04za0tBN0RmMXlUcURob1ZEM3JMYTJ0N0k4aHhLRHhfSUJlY21UWWh2YzZqNA",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "bladerunner2099reviewprimevideoseries",
+      "title": "Blade Runner 2099 – Review | Prime Video Series",
+      "summary": "Blade Runner 2099 – Review | Prime Video Series IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IT3V4SG9ueklMOFAtQW9uWmFiajUwSDFuemQ2bEtCR2xKV01QRnYwV0RGdlJMWTB0Z01yNmxQUkR4c3JYMC1McnAta2Q1WXllRzd3YWwzS3pfT1VGTVdzMkVyREdvdFE?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Ratings",
+      "published_at": "2026-11-25T13:35:02+00:00",
+      "status": "reported",
+      "tags": [
+        "Blade"
+      ],
+      "related_characters": [
+        "Blade"
+      ],
+      "external_id": "CBMiZ0FVX3lxTE5IT3V4SG9ueklMOFAtQW9uWmFiajUwSDFuemQ2bEtCR2xKV01QRnYwV0RGdlJMWTB0Z01yNmxQUkR4c3JYMC1McnAta2Q1WXllRzd3YWwzS3pfT1VGTVdzMkVyREdvdFE",
+      "synopsis": "",
+      "synopsis_status": "pending"
     },
     {
       "id": "avengersdoomsdayofficialtamiltrailer",
@@ -457,7 +794,7 @@
       ],
       "external_id": "CBMib0FVX3lxTE9wRVRWcVpXVDFkOEdlNGtFaXZ6c1cxQi1ybURhczV5OFV2T2U4bkJIVENvaWZJM1l3dnFZM2VxNWxUTlExM3F6cjFQeVNHcjJTSlVoS2UzZi1kUkVycmNxbXBSc1lpUlVEVVZ2YXpQYw",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "goldenglobesspidermanbrandnewdaygoescomedydune3skipsboxofficeachievementcategory",
@@ -482,7 +819,7 @@
       ],
       "external_id": "CBMiakFVX3lxTE5tOFAyWFhqeW0wa0lKMW5lWkFQR25FUWEtT25pSVBtV3czMVJOWlQ5czhKZkRXQWV0Rnc3cWI2RElFOGtQUjN1S19WbFVhc0NGVzFwOWsyOU05OVJLZ0Q4YzlkbWtaQVhGS0E",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "steverogersthorconfrontdoctordoominnewavengersdoomsdayfootage",
@@ -876,6 +1213,28 @@
       "synopsis_status": "pending"
     },
     {
+      "id": "the10bestspidermangamesofalltime",
+      "title": "The 10 best Spider-Man games of all time",
+      "summary": "The 10 best Spider-Man games of all time GamesRadar+",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1MZ0w2ZEsyUUx3VTJ5cE9nNGtHdDFDNW9DblFqVERabnRVWFhOdEtnLWEta3o0azBGOVZGalJ4ZmtveHBVRjlNTEVpUVkzUFlPcUROZVVONE1QYXdp?oc=5",
+      "source": "GamesRadar+",
+      "source_id": "gamesradar",
+      "category": "Marvel",
+      "published_at": "2026-11-24T16:41:13+00:00",
+      "status": "reported",
+      "tags": [
+        "Spider-Man"
+      ],
+      "related_characters": [
+        "Spider-Man"
+      ],
+      "external_id": "CBMiXEFVX3lxTE1MZ0w2ZEsyUUx3VTJ5cE9nNGtHdDFDNW9DblFqVERabnRVWFhOdEtnLWEta3o0azBGOVZGalJ4ZmtveHBVRjlNTEVpUVkzUFlPcUROZVVONE1QYXdp",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
       "id": "howmanyteamswillbeinavengersdoomsdayalot",
       "title": "How Many Teams Will Be in Avengers: Doomsday? A Lot",
       "summary": "How Many Teams Will Be in Avengers: Doomsday? A Lot IGN",
@@ -1252,7 +1611,7 @@
       ],
       "external_id": "CBMid0FVX3lxTE82eTZ4djNaeGhXTjVtdHY3bnhhSWpPTzA3Y3lnWmpvb1NxTnFrMzRRMTEtbDdmWEFGSXV1U0RiUzV1WnRtYU92R0YwMmc0d1Z1Uk5nRkRjMzl1eXZBR2N4SmswcHpldjI5MDZ3NU5JLW9rdktLNkx3",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "whyistheavengersdoomsdaytrailersogloomyinterneteruptsoverlatestlookatmarvelmovie",
@@ -2474,6 +2833,39 @@
       "synopsis_status": "pending"
     },
     {
+      "id": "arewolverinespidermanandcaptainmarvelsecretlyjoiningavengersdoomsdayanewpromohas",
+      "title": "Are Wolverine, Spider-Man and Captain Marvel Secretly Joining ‘Avengers: Doomsday’? A New Promo Has Fans Convinced",
+      "summary": "Are Wolverine, Spider-Man and Captain Marvel Secretly Joining ‘Avengers: Doomsday’? A New Promo Has Fans Convinced IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0NGMtQ3IwNHZIcGRWZEdRV1F6SDkyRlFBUmlwYk8xYXRIR2g5Q0dRNmdSMnM3ZV93MnFTa0lYc2RTWkVfVm1KdzR3bzBDdw?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-23T02:55:41+00:00",
+      "status": "reported",
+      "tags": [
+        "Spider-Man",
+        "Wolverine",
+        "Avengers",
+        "Captain Marvel",
+        "Doom"
+      ],
+      "related_characters": [
+        "Spider-Man",
+        "Wolverine",
+        "Avengers",
+        "Captain Marvel",
+        "Doom"
+      ],
+      "external_id": "CBMiTkFVX3lxTFB0NGMtQ3IwNHZIcGRWZEdRV1F6SDkyRlFBUmlwYk8xYXRIR2g5Q0dRNmdSMnM3ZV93MnFTa0lYc2RTWkVfVm1KdzR3bzBDdw",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
       "id": "marvelstudiosconfirmshaileesteinfeldsreturnashawkeyeinavengersdoomsday",
       "title": "Marvel Studios Confirms Hailee Steinfeld’s Return as Hawkeye in ‘Avengers: Doomsday’",
       "summary": "Marvel Studios Confirms Hailee Steinfeld’s Return as Hawkeye in ‘Avengers: Doomsday’ IMDb",
@@ -3406,387 +3798,6 @@
       "external_id": "CBMiUkFVX3lxTE5BZXNPenR6UWR3VG52b1Y5cEU3WkhMaFdOQXFtWk1vbmxfVWU5bUtKX2tzUHJVcVNyQ2xmUDJpM1REaFg0dG9jWkdUYUhoV2Zpb2c",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "spidermanbrandnewdayrereleaseconfirmedtofeatureanewmcucameo",
-      "title": "Spider-Man: Brand New Day re-release confirmed to feature a new MCU cameo",
-      "summary": "Spider-Man: Brand New Day re-release confirmed to feature a new MCU cameo IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96dXdRMGhpSjVUUi12dlZEemtxUjBmX0xOZEVqSmFMNU9MWldOTW54d1hVVUdqTGtpeGdKT0RuTGFBS01PV2lYVWpHdDJ2ZDZhRnJhdEVnaGpSYjJfQjRrbEttUEFobFdKSlJv?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-21T23:26:30+00:00",
-      "status": "reported",
-      "tags": [
-        "Spider-Man"
-      ],
-      "related_characters": [
-        "Spider-Man"
-      ],
-      "external_id": "CBMia0FVX3lxTE96dXdRMGhpSjVUUi12dlZEemtxUjBmX0xOZEVqSmFMNU9MWldOTW54d1hVVUdqTGtpeGdKT0RuTGFBS01PV2lYVWpHdDJ2ZDZhRnJhdEVnaGpSYjJfQjRrbEttUEFobFdKSlJv",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersdoomsdayboxofficetrackingpointstoahistoricrecordsmashingopening",
-      "title": "‘Avengers: Doomsday’ Box Office Tracking Points to a Historic Record-Smashing Opening",
-      "summary": "‘Avengers: Doomsday’ Box Office Tracking Points to a Historic Record-Smashing Opening IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5WMzZjeEZkVHZPOEh2OGtLYmxuUzlTS3hFUkdpeVpDZ1RWX1paVVBlbThXRHFXQ3NnZ0t1LXpyS0NSZVVtOE1rTTJpazg4OTVsM0JJR09BRlU0NkNub3pLWmttN19Ick1yTTVJ?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Movies",
-      "published_at": "2026-11-21T23:25:31+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMia0FVX3lxTE5WMzZjeEZkVHZPOEh2OGtLYmxuUzlTS3hFUkdpeVpDZ1RWX1paVVBlbThXRHFXQ3NnZ0t1LXpyS0NSZVVtOE1rTTJpazg4OTVsM0JJR09BRlU0NkNub3pLWmttN19Ick1yTTVJ",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "spidermanbrandnewdayrereleasefirstlookatrosariodawsonasnightnurseindeletedscene",
-      "title": "‘Spider-Man: Brand New Day’ Re-Release: First Look At Rosario Dawson As Night Nurse In Deleted Scene",
-      "summary": "‘Spider-Man: Brand New Day’ Re-Release: First Look At Rosario Dawson As Night Nurse In Deleted Scene IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5wZzN6V3lIdnVVOWtvY1d5SlRfOTlXd2FTV0hnU0JSa0RjcmhoWGZCdnBaWHFpN2pZalNtUHBIeHZxUUExeERORTBOaV9IeWpOeV96NDV3VzNfVFFVTnQtREJKUVR4RndXTWVN?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Trailers",
-      "published_at": "2026-11-21T23:25:29+00:00",
-      "status": "reported",
-      "tags": [
-        "Spider-Man"
-      ],
-      "related_characters": [
-        "Spider-Man"
-      ],
-      "external_id": "CBMia0FVX3lxTE5wZzN6V3lIdnVVOWtvY1d5SlRfOTlXd2FTV0hnU0JSa0RjcmhoWGZCdnBaWHFpN2pZalNtUHBIeHZxUUExeERORTBOaV9IeWpOeV96NDV3VzNfVFFVTnQtREJKUVR4RndXTWVN",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersdoomsdayworldwideboxofficebecomes2026s2ndbiggestsuperherofilmwithjustits",
-      "title": "Avengers: Doomsday Worldwide Box Office: Becomes 2026’s 2nd Biggest Superhero Film With Just Its Pre-Sales!",
-      "summary": "Avengers: Doomsday Worldwide Box Office: Becomes 2026’s 2nd Biggest Superhero Film With Just Its Pre-Sales! IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BSDlDWHBTN3BaS0hYT2VJeVE4d3ZNM0dNY3BhYzN5ZnJlelM5eGIzNi00YUdJa0g1ZFpqX2tGdXpIcXhxWld5VjMxY0ZRRi1nS0VFanY3bFJMdGlJV29JNzFVMXBzbGJyNGVN?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Movies",
-      "published_at": "2026-11-21T23:24:25+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMia0FVX3lxTE1BSDlDWHBTN3BaS0hYT2VJeVE4d3ZNM0dNY3BhYzN5ZnJlelM5eGIzNi00YUdJa0g1ZFpqX2tGdXpIcXhxWld5VjMxY0ZRRi1nS0VFanY3bFJMdGlJV29JNzFVMXBzbGJyNGVN",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "iplayrockyofficiallyjoinsavengersendgameexclusiveclubforrarestrecord",
-      "title": "I Play Rocky Officially Joins Avengers: Endgame Exclusive Club for Rarest Record",
-      "summary": "I Play Rocky Officially Joins Avengers: Endgame Exclusive Club for Rarest Record IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5TWFBUGphVnVyWDFkcGJnU2pLWUdTdjVfTEZ1MDd4QlpZUncwbWtwQXU2NVNxaWtYU013ZEFhcTZqMWdWd2pCV1cxdnRZYlB1NmpiZUhXNy1hV1hsYmlaa2xELTkxMVE?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Casting",
-      "published_at": "2026-11-21T22:13:42+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers"
-      ],
-      "related_characters": [
-        "Avengers"
-      ],
-      "external_id": "CBMiZ0FVX3lxTFB5TWFBUGphVnVyWDFkcGJnU2pLWUdTdjVfTEZ1MDd4QlpZUncwbWtwQXU2NVNxaWtYU013ZEFhcTZqMWdWd2pCV1cxdnRZYlB1NmpiZUhXNy1hV1hsYmlaa2xELTkxMVE",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "5marvelstorieswithgamechangingrevealsincludingthemostshockingwolverinemomentever",
-      "title": "5 Marvel Stories With Game-Changing Reveals Including the Most Shocking Wolverine Moment Ever",
-      "summary": "5 Marvel Stories With Game-Changing Reveals Including the Most Shocking Wolverine Moment Ever ComicBook.com",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcVE3TF9rQkc5dTNLVlpSNnMtbW1uUEF3R2EyRFJ3RzZ3S1Qxai0xYnNFSzQ4ZHJrSGMyNEdDV1BCeFZFNE1XZXRGN3lGbW5OSjROaGJXakpRZmdod3BRaGlDdGg4RHZNVXpMSTNfVWR0Q0IxRzkzNkhxRVRiM2wzN1NqVHBoX2F0SzA0YTlKdEgzYzZxMEQzX3JYbG9tLTRrLXFhNDVobWFpdU5PTzZ4MVhYZXFBS3FUTDludmlvSVNiVmJrR3pB?oc=5",
-      "source": "ComicBook.com",
-      "source_id": "comicbook_com",
-      "category": "Games",
-      "published_at": "2026-11-21T22:02:00+00:00",
-      "status": "reported",
-      "tags": [
-        "Wolverine"
-      ],
-      "related_characters": [
-        "Wolverine"
-      ],
-      "external_id": "CBMixwFBVV95cUxOcVE3TF9rQkc5dTNLVlpSNnMtbW1uUEF3R2EyRFJ3RzZ3S1Qxai0xYnNFSzQ4ZHJrSGMyNEdDV1BCeFZFNE1XZXRGN3lGbW5OSjROaGJXakpRZmdod3BRaGlDdGg4RHZNVXpMSTNfVWR0Q0IxRzkzNkhxRVRiM2wzN1NqVHBoX2F0SzA0YTlKdEgz",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "12robertdowneyjrmoviestowatchbeforeavengersdoomsdayin2026ranked",
-      "title": "12 Robert Downey Jr. Movies To Watch Before Avengers: Doomsday In 2026, Ranked",
-      "summary": "12 Robert Downey Jr. Movies To Watch Before Avengers: Doomsday In 2026, Ranked ScreenRant",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVFd5SFhETGFsM0tpV0RxV1dOVnF2NDNhRVpzZU04Ymk5SGhBUjFNaGhKel9MVU56N0IwZ0lwbFVFeXU0X3hYZDZ5SGlscnU0TWhmQ0RfUDJtUzFfUG1TTWhPeDRkTDhoRDBxS0ZWN2FqY3RWSXZCOEd3b3NBS0Rwa2lidlR5U1duZHFob3Etc3A1ZFJV?oc=5",
-      "source": "Screen Rant",
-      "source_id": "screen_rant",
-      "category": "Marvel",
-      "published_at": "2026-11-21T22:00:18+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMilAFBVV95cUxNVFd5SFhETGFsM0tpV0RxV1dOVnF2NDNhRVpzZU04Ymk5SGhBUjFNaGhKel9MVU56N0IwZ0lwbFVFeXU0X3hYZDZ5SGlscnU0TWhmQ0RfUDJtUzFfUG1TTWhPeDRkTDhoRDBxS0ZWN2FqY3RWSXZCOEd3b3NBS0Rwa2lidlR5U1duZHFob3Etc3A1",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersendgameofficiallyreclaims1globalstreamingspotaftergta6massacre",
-      "title": "Avengers: Endgame Officially Reclaims #1 Global Streaming Spot After GTA 6 Massacre",
-      "summary": "Avengers: Endgame Officially Reclaims #1 Global Streaming Spot After GTA 6 Massacre IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5UZWxCU3JjZHFXOWdVQVRidWFwX3hIWVBMaHBGUkhjb0NkanhqT2Y3ZEhIV0gzLWxfcnZzV2lpd3EwdHhXUS0yWDNkUjJLcW1FOEo1ZUpsamtNV1F2NDlveEdpT3Vsdw?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "TV",
-      "published_at": "2026-11-21T21:21:23+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers"
-      ],
-      "related_characters": [
-        "Avengers"
-      ],
-      "external_id": "CBMiZkFVX3lxTE5UZWxCU3JjZHFXOWdVQVRidWFwX3hIWVBMaHBGUkhjb0NkanhqT2Y3ZEhIV0gzLWxfcnZzV2lpd3EwdHhXUS0yWDNkUjJLcW1FOEo1ZUpsamtNV1F2NDlveEdpT3Vsdw",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersdoomsdayfinaltrailerreleasedaterevealedbypeggycarteractresshayleyatwell",
-      "title": "Avengers: Doomsday Final Trailer Release Date Revealed By Peggy Carter Actress Hayley Atwell",
-      "summary": "Avengers: Doomsday Final Trailer Release Date Revealed By Peggy Carter Actress Hayley Atwell IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBZUhpcXhGQkdNU1lVMXdqaGdqNVFtZjF1bFlfMXpNWmJQY2NCa3JLUS1fWkg3YXJ0LWRGWWk3QnpCUkM1SzJXMjBLY0tIQm5jWkdVc0ROcnIxTjV6TWZvNTlnYzQzZw?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Trailers",
-      "published_at": "2026-11-21T21:21:23+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZkFVX3lxTFBBZUhpcXhGQkdNU1lVMXdqaGdqNVFtZjF1bFlfMXpNWmJQY2NCa3JLUS1fWkg3YXJ0LWRGWWk3QnpCUkM1SzJXMjBLY0tIQm5jWkdVc0ROcnIxTjV6TWZvNTlnYzQzZw",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersdoomsdaystarhayleyatwellteasesnewtrailerformonday",
-      "title": "Avengers: Doomsday Star Hayley Atwell Teases New Trailer for Monday",
-      "summary": "Avengers: Doomsday Star Hayley Atwell Teases New Trailer for Monday IGN India",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZE5IVmpjeWhrUlcwZ0RnXzF4SmxGY3VkZl9JaVBIZFY5ckJSUUZWZlVJcXN2VkxuLU51RjF3dGNqUVU0U0RRd0RRN0ZTSVBrRjAwb29tb0FNd2xBcF9sUzc5VHNHNWJublBvcERfMVZ6NVhBRkRqSXNKbjFSSkRQaG54VFBsZzEtd0N0Z2ZZNFhVMTV3bm1pUW9YWnBUdlJsSHQyaUlpM1lOZ05ObTBn?oc=5",
-      "source": "IGN",
-      "source_id": "ign",
-      "category": "Trailers",
-      "published_at": "2026-11-21T20:41:10+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMirwFBVV95cUxQZE5IVmpjeWhrUlcwZ0RnXzF4SmxGY3VkZl9JaVBIZFY5ckJSUUZWZlVJcXN2VkxuLU51RjF3dGNqUVU0U0RRd0RRN0ZTSVBrRjAwb29tb0FNd2xBcF9sUzc5VHNHNWJublBvcERfMVZ6NVhBRkRqSXNKbjFSSkRQaG54VFBsZzEtd0N0Z2ZZNFhV",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "thisisamazingavengersdoomsdaytrailercomingmondayaccordingtocaptaincarterstarhayl",
-      "title": "'This Is Amazing' — Avengers: Doomsday Trailer Coming Monday, According to Captain Carter Star Hayley Atwell",
-      "summary": "'This Is Amazing' — Avengers: Doomsday Trailer Coming Monday, According to Captain Carter Star Hayley Atwell IGN",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbF9RdDNlS0sxcVhXTm8yLWpxX202VnJjZENnQ2lOVEFxWThhdmIxU0MxcjNSNkFjbmZLNXNnLXdETzhVaWFfMFNWVndtcWJIVHN4RHBuZXNBRUhDalBsRzhrZWdBY2t0QzJOT0MtcmtGVE0xa0FqRzNFaHdqN2pwRGVacF9JbWE1T1E4WHYydElCVmhiZFlLNzBwOA?oc=5",
-      "source": "IGN",
-      "source_id": "ign",
-      "category": "Trailers",
-      "published_at": "2026-11-21T20:30:36+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMimwFBVV95cUxQbF9RdDNlS0sxcVhXTm8yLWpxX202VnJjZENnQ2lOVEFxWThhdmIxU0MxcjNSNkFjbmZLNXNnLXdETzhVaWFfMFNWVndtcWJIVHN4RHBuZXNBRUhDalBsRzhrZWdBY2t0QzJOT0MtcmtGVE0xa0FqRzNFaHdqN2pwRGVacF9JbWE1T1E4WHYydElC",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "captainamericabravenewworldaudiencereviews",
-      "title": "Captain America: Brave New World | Audience Reviews",
-      "summary": "Captain America: Brave New World | Audience Reviews Rotten Tomatoes",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "Rotten Tomatoes"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd2ZBUEVLNWhjS1hwbnl5OHJyQktIek5yeEd3QnlWQ0Izc3pQTC1ER1VvNkdkNklkSk8teThvMXBwNFhRcHp6bUlJRHNZc3BCTUxNQmREZDRMYUZQaUlrRHRQWGU1WjlHcG4wbGRpbm1xclY1Y3NFXzdTTWJmT04yTTFVN1VtcExlb3JubURR?oc=5",
-      "source": "Rotten Tomatoes",
-      "source_id": "rotten_tomatoes",
-      "category": "Ratings",
-      "published_at": "2026-11-21T20:07:53+00:00",
-      "status": "reported",
-      "tags": [
-        "Captain America"
-      ],
-      "related_characters": [
-        "Captain America"
-      ],
-      "external_id": "CBMijgFBVV95cUxPd2ZBUEVLNWhjS1hwbnl5OHJyQktIek5yeEd3QnlWQ0Izc3pQTC1ER1VvNkdkNklkSk8teThvMXBwNFhRcHp6bUlJRHNZc3BCTUxNQmREZDRMYUZQaUlrRHRQWGU1WjlHcG4wbGRpbm1xclY1Y3NFXzdTTWJmT04yTTFVN1VtcExlb3JubURR",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersdoomsdayadmayhavespoiledthreemajormarvelheroreturns",
-      "title": "‘Avengers: Doomsday’ Ad May Have Spoiled Three Major Marvel Hero Returns",
-      "summary": "‘Avengers: Doomsday’ Ad May Have Spoiled Three Major Marvel Hero Returns IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3TVZXcVVncDZ0bTdoTGRKQmlONzdoQjV1R3VUWUYzaHhnaV83MmhwTmlUbmV4RFZHN1BSdkFWNWtTMlVYRVlQT0xlbGZkRFdSQlg4RWJOYlcxa2ptOUt1dk1R?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-21T20:03:14+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiYkFVX3lxTFA3TVZXcVVncDZ0bTdoTGRKQmlONzdoQjV1R3VUWUYzaHhnaV83MmhwTmlUbmV4RFZHN1BSdkFWNWtTMlVYRVlQT0xlbGZkRFdSQlg4RWJOYlcxa2ptOUt1dk1R",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "misterfantastictakescenterstageinastrikingnewavengersdoomsdayposter",
-      "title": "Mister Fantastic Takes Center Stage in a Striking New ‘Avengers: Doomsday’ Poster",
-      "summary": "Mister Fantastic Takes Center Stage in a Striking New ‘Avengers: Doomsday’ Poster IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VYXZaNXpzQnowV3N5c0R5Z0RxYUtoMDhVYVBNX0NqRVVpcWhOLUtDNmlCR0Q3Njg3TVFKRFMxeWZETlRINWZ4NGczUzkzdGxIbU9aSFRfSWVhSk44Yk5rRmtR?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-21T20:02:25+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiYkFVX3lxTE5VYXZaNXpzQnowV3N5c0R5Z0RxYUtoMDhVYVBNX0NqRVVpcWhOLUtDNmlCR0Q3Njg3TVFKRFMxeWZETlRINWZ4NGczUzkzdGxIbU9aSFRfSWVhSk44Yk5rRmtR",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersdoomsdayofficiallybringsbackiconicmarvelhero23yearslaterinfirstlook",
-      "title": "'Avengers: Doomsday' Officially Brings Back Iconic Marvel Hero 23 Years Later in First Look",
-      "summary": "'Avengers: Doomsday' Officially Brings Back Iconic Marvel Hero 23 Years Later in First Look IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52ZlVxWmhETVh4c3lFblFTNXZFc3U3SnN6ZWd5TzFFR2s4aGhtcnhMV2EyV1M4MDlpU01EbXl0bW1KV0txV1cyMjk4V2xkWDBQOUtHV1gxU25XbFNpdC1FazRXaVREYUE?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Trailers",
-      "published_at": "2026-11-21T20:01:47+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZ0FVX3lxTE52ZlVxWmhETVh4c3lFblFTNXZFc3U3SnN6ZWd5TzFFR2s4aGhtcnhMV2EyV1M4MDlpU01EbXl0bW1KV0txV1cyMjk4V2xkWDBQOUtHV1gxU25XbFNpdC1FazRXaVREYUE",
-      "synopsis": "",
-      "synopsis_status": "pending"
     }
   ],
   "synopsis_engine": "Free local TextRank-style source extraction (no API key)"
