@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T03:24:09.209301+00:00",
+  "generated_at": "2026-11-26T12:57:44.653448+00:00",
   "source_count": 15,
   "search_topics": [
     "Marvel Universe",
@@ -25,6 +25,58 @@
   },
   "article_count": 150,
   "articles": [
+    {
+      "id": "xmen97season2",
+      "title": "X-Men '97: Season 2",
+      "summary": "X-Men '97: Season 2 Rotten Tomatoes",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "Rotten Tomatoes"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MU0VhVktrWE8waXo4N3VHdmllQmdQeml4WHh3NWlfNUNkVkd1ZDNTa2YyTTBkbVlrVExpNHZNdTVIWEh6N190a2dvcldyTHFvLUsxd3ZqRXVXQQ?oc=5",
+      "source": "Rotten Tomatoes",
+      "source_id": "rotten_tomatoes",
+      "category": "TV",
+      "published_at": "2026-11-26T09:08:33+00:00",
+      "status": "reported",
+      "tags": [
+        "X-Men"
+      ],
+      "related_characters": [
+        "X-Men"
+      ],
+      "external_id": "CBMiWkFVX3lxTE9MU0VhVktrWE8waXo4N3VHdmllQmdQeml4WHh3NWlfNUNkVkd1ZDNTa2YyTTBkbVlrVExpNHZNdTVIWEh6N190a2dvcldyTHFvLUsxd3ZqRXVXQQ",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "avengersdoomsdayteaserrevealsafirstlookatdoctordoomsscarredfacespoilers",
+      "title": "Avengers: Doomsday Teaser Reveals A First Look At Doctor Doom's Scarred Face - Spoilers",
+      "summary": "Avengers: Doomsday Teaser Reveals A First Look At Doctor Doom's Scarred Face - Spoilers IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYS2dHOWhQdDVZYllLQlFod283TzI2c005amljTXRudjJSWUlNd3Z2dlBKN0dVTllSdXM3bi1LYmxGZkNTOUlIMWlXUzBhaGIxVTlmZFphTERKQk03SXVIWjRpYVVsOG8?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Trailers",
+      "published_at": "2026-11-26T03:52:15+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiZ0FVX3lxTFBYS2dHOWhQdDVZYllLQlFod283TzI2c005amljTXRudjJSWUlNd3Z2dlBKN0dVTllSdXM3bi1LYmxGZkNTOUlIMWlXUzBhaGIxVTlmZFphTERKQk03SXVIWjRpYVVsOG8",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
     {
       "id": "avengerssecretwarssettingconfirmedbymarvelspoilingdoomsday",
       "title": "Avengers: Secret Wars Setting Confirmed By Marvel, Spoiling Doomsday",
@@ -101,6 +153,30 @@
         "Doom"
       ],
       "external_id": "CBMiZ0FVX3lxTE56ZktUNHI3Rndxc2pDYVJHVlpKUnZuX1V1dUhvT2gza1NpdElRUFVGNGNRem9Od3Z5VWs3T3NuRHVqcnltM1JRaW5uQmluUDllbU1MSUFQa3l4V3FoVnRQOUZpUjBNNWc",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "avengersdoomsdayeyes270mopeningasdunepartthreealsoheadsforbigstart",
+      "title": "‘Avengers: Doomsday’ Eyes $270M Opening as ‘Dune: Part Three’ Also Heads for Big Start",
+      "summary": "‘Avengers: Doomsday’ Eyes $270M Opening as ‘Dune: Part Three’ Also Heads for Big Start The Hollywood Reporter",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLUNPTjdzWllITlpyaTlWMU52T0cwbVZ1UnhoMVI2VHJISGtrRzBUdkxBeVRNbkpMX0V2Z0JFMWR4LUhEYW9DZjlyZVZwS2FvTXN1TEwwZ3ROeThFVHJUSFVxc0tsSjRwVVY1U0ZKUkUwVEJTcmxaVS1pLXMtODU3RmQtYXdOUnMtTWI4RHpuenVMVzVLc1ZpNjNmUEZfWThSQzBDbExPeHRqRHBuSUs3S1JLcG91R3hx?oc=5",
+      "source": "The Hollywood Reporter",
+      "source_id": "the_hollywood_reporter",
+      "category": "Marvel",
+      "published_at": "2026-11-25T19:46:10+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiuAFBVV95cUxPLUNPTjdzWllITlpyaTlWMU52T0cwbVZ1UnhoMVI2VHJISGtrRzBUdkxBeVRNbkpMX0V2Z0JFMWR4LUhEYW9DZjlyZVZwS2FvTXN1TEwwZ3ROeThFVHJUSFVxc0tsSjRwVVY1U0ZKUkUwVEJTcmxaVS1pLXMtODU3RmQtYXdOUnMtTWI4RHpuenVM",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -270,11 +346,11 @@
         "IMDb"
       ],
       "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3bHpxQjF1T2FUZFF6UUE2dl83TmxFdlFJcWp3WUlYNkFMeUR1SVpqN29SU3QyNURIaHIydFlaeWhUcl9WbnRDOE5FbGMzMmVsc1FnODg1M1hNZm9JNnE1OC1ObktGRmM?oc=5",
+      "article_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWQWVUUHFDYTg1M2xxaVBBOEtxSGsyZmVHTDRZbmphZWRKck5lQmRRZDl5NEpwVHhzcmdxZ1p1S1dmbHFLY0hDYmVSVnNXQlJiWUdRdWktQU5rZVBCblAtaXVn?oc=5",
       "source": "IMDb",
       "source_id": "imdb",
       "category": "Casting",
-      "published_at": "2026-11-25T18:44:47+00:00",
+      "published_at": "2026-11-25T18:45:02+00:00",
       "status": "reported",
       "tags": [
         "Avengers",
@@ -284,7 +360,7 @@
         "Avengers",
         "Doom"
       ],
-      "external_id": "CBMiZ0FVX3lxTFA3bHpxQjF1T2FUZFF6UUE2dl83TmxFdlFJcWp3WUlYNkFMeUR1SVpqN29SU3QyNURIaHIydFlaeWhUcl9WbnRDOE5FbGMzMmVsc1FnODg1M1hNZm9JNnE1OC1ObktGRmM",
+      "external_id": "CBMiYkFVX3lxTFBWQWVUUHFDYTg1M2xxaVBBOEtxSGsyZmVHTDRZbmphZWRKck5lQmRRZDl5NEpwVHhzcmdxZ1p1S1dmbHFLY0hDYmVSVnNXQlJiWUdRdWktQU5rZVBCblAtaXVn",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -416,7 +492,7 @@
       ],
       "external_id": "CBMihAFBVV95cUxNR1JFc25ocGo1NVI0dV90RnlsTjRrWV9vOTR2S1RtaHZ5a0FBQ3NnSTh4eUhmdXV0bzNOenp4TS1ZUTNKSzQ0eGRoS2RJSTdtSmJmYjhvWWxybGJtcEpxNEFwN3QzS2lBRVlXRVZwVXBDY25oTS04VjUyNW02RmpGclNrbC0",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "avengersdoomsdayeyes270mopeningdune375mboxofficeforecast",
@@ -440,7 +516,7 @@
       ],
       "external_id": "CBMimwFBVV95cUxPWDdhMjVseTQ5OXprR0UwUHF6RnZnYW96LTFsRTA3QjRWc2NUa2IxYzE0MXpuNmxrN002SVJmQ1FwWWgtQWNBNzh6TWQyT3J0aFNVZHZSY3RuenVEaXUtOWZtNWVOOGVtaExadDJpYW1KU3hDclNtZjFFMHVRX0ItUURucUZ4VV9oS3V5M2F1Ti1n",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "marvelskevinfeigedeniesconnorstorrieghostridercastingrumors",
@@ -465,7 +541,7 @@
       ],
       "external_id": "CBMiZ0FVX3lxTE1DazZaV1lnUlMtU0NRYnhhb3dVZWV1QktMd3BveGd2ekFEenktZFhKSHdDZ01MTFhobEVWQ3ViQ29scVZWcjQxNC1sVGRnd051cXRyMXZNNEY1R0FCVWRSOC1IdWx4a3c",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "spidermanscarletwitchseeminglyconfirmedforavengersdoomsdaybyrobertdowneyjr",
@@ -493,7 +569,7 @@
       ],
       "external_id": "CBMiiAFBVV95cUxOWlBGVDdEX3A5SmM0OGJPX2VWVDJLNXRrY2RDOEpUS21feVBiQ0dHTDJjOGcycUpLYjF2SFoydzlrTDVGLXJTNk1YTVpkMFFvcWpDZWxkREpNQ05ybHdXMlhKR0Z1eVdueFFONVlMUFZ4d3JSeFZESnlydmhsUlpfYXBSOTAtdy1j",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "marvelbossreactstoconnorstorrieghostriderreportsexclusive",
@@ -772,7 +848,7 @@
       ],
       "external_id": "CBMiVkFVX3lxTE9RNC1FQzVVTnRSOGxxZnJWYjAwWXRyQXViYnA5VktmaXhvX1NaUWZFeEpFSkhhNHREYTNPNjFlTDhjRGx2OFdzcVhfc3d0SmZoelNscmt3",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "avengersdirectorsrevealwhytheychangedendgamesendingafter7years",
@@ -830,11 +906,11 @@
         "IMDb"
       ],
       "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rcVRnZTdjWHZKSGxYcC1xZHZoSG5sWDV4NFM5Z0ZIV2hfZWNPOTlaNkdqYm9nM0UtVzc1dTNhSlVSNVAyNktsbU9GZFpZcl9fZXJDcTBOMGJIQkFaNW84THZB?oc=5",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EcFpjZEhVZnFyUF9FVUJSQnlrSGlHTnhYcVljNGp4em5vYmRtR3NjVXhtTmhTVTNjQjVET3lFQ2Q1MENVa3F5cC1ZSU82QUN3Zl9RLWxVcFpZbGc3dEZfNFh5QkxEZGs?oc=5",
       "source": "IMDb",
       "source_id": "imdb",
       "category": "Marvel",
-      "published_at": "2026-11-25T01:01:13+00:00",
+      "published_at": "2026-11-25T00:53:30+00:00",
       "status": "reported",
       "tags": [
         "Thor",
@@ -846,7 +922,7 @@
         "Avengers",
         "Doom"
       ],
-      "external_id": "CBMiYkFVX3lxTE5rcVRnZTdjWHZKSGxYcC1xZHZoSG5sWDV4NFM5Z0ZIV2hfZWNPOTlaNkdqYm9nM0UtVzc1dTNhSlVSNVAyNktsbU9GZFpZcl9fZXJDcTBOMGJIQkFaNW84THZB",
+      "external_id": "CBMiZ0FVX3lxTE9EcFpjZEhVZnFyUF9FVUJSQnlrSGlHTnhYcVljNGp4em5vYmRtR3NjVXhtTmhTVTNjQjVET3lFQ2Q1MENVa3F5cC1ZSU82QUN3Zl9RLWxVcFpZbGc3dEZfNFh5QkxEZGs",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -875,31 +951,6 @@
         "Doom"
       ],
       "external_id": "CBMinAFBVV95cUxNT2w5SjBGY2p6WEVfZzFfd29uTWxVRnBrOU8tTUJuRW1fb0Zfclh2blpjTTUxWF9LdE1uTUVZYzNPZkxqeFcyYXVjQXkwakNmWGFEOUdJeUYyektNb29TV0p1R0RXU0xERFlFZXk1LVpfUGNsUUw0RXdzb093R3FuZ040eklxd195VlBEY2xGdG9Q",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "xmen97season2",
-      "title": "X-Men '97: Season 2",
-      "summary": "X-Men '97: Season 2 Rotten Tomatoes",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "Rotten Tomatoes"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MU0VhVktrWE8waXo4N3VHdmllQmdQeml4WHh3NWlfNUNkVkd1ZDNTa2YyTTBkbVlrVExpNHZNdTVIWEh6N190a2dvcldyTHFvLUsxd3ZqRXVXQQ?oc=5",
-      "source": "Rotten Tomatoes",
-      "source_id": "rotten_tomatoes",
-      "category": "TV",
-      "published_at": "2026-11-24T23:49:25+00:00",
-      "status": "reported",
-      "tags": [
-        "X-Men"
-      ],
-      "related_characters": [
-        "X-Men"
-      ],
-      "external_id": "CBMiWkFVX3lxTE9MU0VhVktrWE8waXo4N3VHdmllQmdQeml4WHh3NWlfNUNkVkd1ZDNTa2YyTTBkbVlrVExpNHZNdTVIWEh6N190a2dvcldyTHFvLUsxd3ZqRXVXQQ",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -1641,6 +1692,31 @@
       "synopsis_status": "pending"
     },
     {
+      "id": "xmenapocalypse",
+      "title": "X-Men: Apocalypse",
+      "summary": "X-Men: Apocalypse Rotten Tomatoes",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "Rotten Tomatoes"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1MbjNnRnhPR1BTVE43Uk5IUUE3cHllVjRxU001R3lxbFAtckxyeG82Qnpqc2RWQnV0TEhsbjhYNC14Sk54SUxUb0x1SW5MX2U3ZXY3TjhpZHZwMGJvVmc?oc=5",
+      "source": "Rotten Tomatoes",
+      "source_id": "rotten_tomatoes",
+      "category": "Marvel",
+      "published_at": "2026-11-23T21:21:44+00:00",
+      "status": "reported",
+      "tags": [
+        "X-Men"
+      ],
+      "related_characters": [
+        "X-Men"
+      ],
+      "external_id": "CBMiXkFVX3lxTE1MbjNnRnhPR1BTVE43Uk5IUUE3cHllVjRxU001R3lxbFAtckxyeG82Qnpqc2RWQnV0TEhsbjhYNC14Sk54SUxUb0x1SW5MX2U3ZXY3TjhpZHZwMGJvVmc",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
       "id": "bladerunner2099srottentomatoesscorerevealedanditsetsanunfortunatefranchiserecord",
       "title": "Blade Runner 2099's Rotten Tomatoes Score Revealed — And It Sets An Unfortunate Franchise Record",
       "summary": "Blade Runner 2099's Rotten Tomatoes Score Revealed — And It Sets An Unfortunate Franchise Record IMDb",
@@ -1876,33 +1952,6 @@
         "Doom"
       ],
       "external_id": "CBMiZ0FVX3lxTE9fUk5WWnItZzdJZ1l1MFZQUzVGN3d2bC1nR1Q5RVFKMlpNVmZOdUY3T0RkV3hxSWd1WHk1RXpCLTNBLVJHMzlLTi1INmQxOXhmTWp3YXJwYmpJVWgtQzQxSUZqc2tmWWc",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "anotheravengersdoomsdaycastrevealhasseeminglybeenhidinginplainsightpossiblespoil",
-      "title": "Another Avengers: Doomsday Cast Reveal Has Seemingly Been Hiding In Plain Sight — Possible Spoilers",
-      "summary": "Another Avengers: Doomsday Cast Reveal Has Seemingly Been Hiding In Plain Sight — Possible Spoilers IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGNG9KV0pidzVxWXhjdjJiWW1PRDAzVGpKaWNyd251ejMwYnpqaVJOUGFwdUJ4a2Z4aV9DOENFX3htQ0xpSlVlejJjazEyZEFuR1JpYllzRU9MMk5McUJaSEtKdG8?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Casting",
-      "published_at": "2026-11-23T16:31:21+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiZEFVX3lxTFBGNG9KV0pidzVxWXhjdjJiWW1PRDAzVGpKaWNyd251ejMwYnpqaVJOUGFwdUJ4a2Z4aV9DOENFX3htQ0xpSlVlejJjazEyZEFuR1JpYllzRU9MMk5McUJaSEtKdG8",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -2358,6 +2407,33 @@
         "Doom"
       ],
       "external_id": "CBMiYkFVX3lxTFA4WnotcWNQbWhYRzBjaXY4NmI3R3VIZjRDbVQ5R0FSbk1NUmNINFgyXzNoZXFMeEFWR3hBcUptN05SLXZwQjFpcXRtYmtzbVNlUmZhMTc4VjBxaFpEZkx5Q3hn",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "anotheravengersdoomsdaycastrevealhasseeminglybeenhidinginplainsightpossiblespoil",
+      "title": "Another Avengers: Doomsday Cast Reveal Has Seemingly Been Hiding In Plain Sight — Possible Spoilers",
+      "summary": "Another Avengers: Doomsday Cast Reveal Has Seemingly Been Hiding In Plain Sight — Possible Spoilers IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qOHpLOS12Qm1JUVk0R1JXUmwzR2FVY3BlZkVKVGNyZjBPUkxBNG1WV0t4ZXJWQUJkZmtUYXB2dV9wV1R2U01veURtR25KM0xMUUluWG1pNXprZ2JIQmY3eVpB?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Casting",
+      "published_at": "2026-11-23T13:12:03+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiYkFVX3lxTE5qOHpLOS12Qm1JUVk0R1JXUmwzR2FVY3BlZkVKVGNyZjBPUkxBNG1WV0t4ZXJWQUJkZmtUYXB2dV9wV1R2U01veURtR25KM0xMUUluWG1pNXprZ2JIQmY3eVpB",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -3731,73 +3807,6 @@
       "external_id": "CBMiYkFVX3lxTE5jTk9TdlVJeG9UaHdYVVVHalBPemFZOXphakxlRlpXeVM0RERHRXA0QmgxQXNqNHAxSXd3OWRocDd6V0VmQXk2LWJRd1p2eGcwcUZ2eFZTcmdzb1B3THRzWWJ3",
       "synopsis": "",
       "synopsis_status": "pending"
-    },
-    {
-      "id": "spidermanbrandnewdaysencoreextendedcutcouldgivemarvelarecordthatsimpossibletobea",
-      "title": "Spider-Man: Brand New Day’s “Encore” Extended Cut Could Give Marvel a Record That's Impossible to Beat",
-      "summary": "Spider-Man: Brand New Day’s “Encore” Extended Cut Could Give Marvel a Record That's Impossible to Beat ComicBook.com",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY3dMQU5LYXdOaEEzMExSWDVsWHpEWlozZVA1OEJPYngxY0dSRUQ3XzZYcTJGSHYtTmtCcndOOXQyaVVwOG83eFRXellhQUNCbm9PeV9EU04zX1htekpySl9zYjk5TmNLS3BuWXRiSHVTTmpZVTlKalgwMVRHclJIVnJuV2dZaksybFlfVXY4TExrencxcWNFUFV0RWtMcWphM2pGLXJJNkExd0NWeFdMb2JiODJIcFRNdm15OEp4M3d0ODBocjg2SVZ2TmdWNEtT?oc=5",
-      "source": "ComicBook.com",
-      "source_id": "comicbook_com",
-      "category": "Marvel",
-      "published_at": "2026-11-22T03:24:19+00:00",
-      "status": "reported",
-      "tags": [
-        "Spider-Man"
-      ],
-      "related_characters": [
-        "Spider-Man"
-      ],
-      "external_id": "CBMi0AFBVV95cUxOY3dMQU5LYXdOaEEzMExSWDVsWHpEWlozZVA1OEJPYngxY0dSRUQ3XzZYcTJGSHYtTmtCcndOOXQyaVVwOG83eFRXellhQUNCbm9PeV9EU04zX1htekpySl9zYjk5TmNLS3BuWXRiSHVTTmpZVTlKalgwMVRHclJIVnJuV2dZaksybFlfVXY4TExr",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersdoomsdayadvancebookingsalesoverallnumberscrossrs4794croreforthefirstfour",
-      "title": "‘Avengers: Doomsday’ advance booking sales: Overall numbers cross Rs 47.94 crore for the first four days",
-      "summary": "‘Avengers: Doomsday’ advance booking sales: Overall numbers cross Rs 47.94 crore for the first four days The Times of India",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQUWVpeFpFWllrSGhaa1JqWGQ1b3VsQzhTbVAycFUyRi00dG9yblZCQ0dXZzM3elMzcVZpTDVKbmdWT2IxdzBPX09EaUdZTUhDaTJuQkxaak13ZnZ5bm9VNkhoRWc4YjZLMHlqYUVZUXZMZzNOZ24yUV9yellpMGNKa29rbnB1aWgydkk0MkdUTHpmbVZqY2ZhdFR3YTd4XzJDSWVyZURSVUFiRUtPb1hUR1hxOXJ6R1I2ODM5YmdrelE0SzRpX19leHZXdFFfM0ROMVpmY0dMN2U5WkR5V1ZRRk5oU1lsRXFrN2RkM2JiQkZfUVRIa2FpZ0ZfN3NvYlctaktWemdPbXlTODBCOGlXa0cwQlhDbGplRzF2dDhmT0ZOVjZlSVFxZ2g5dk5XREgtSkFhRV9YQ0dCQdIBvwJBVV95cUxObWh2Sml3MmxfelY3aXQ5Y0hORkRTTUJfSzdsMlpMQkQzU3lsd01PWElIUTVvM3RYemM3OW1ra2pYZWNfWVlmSWpaaGppLUhFaVBOcHpyU1BxaVk4S2loeDdGaE9WZHhBdmlnLUlhZEVFTmxfOVpNVUp3a1JFZ0hyVXFza1cyLW5BbkVrTTZnb1VIcUtrOEJoZ1hFbmNheDh5Z3RYUEdWbEtmUUZfb0EyMHFZRWpKWm5vejhlZnlfZkpTNG8xNi0tUndjQ2NKYndhYVI3RnV6dkZQQnNRVEVtSi00VFBOQkFkNHJ6LXc2UkE2SFAyMzRKdWVKLU1leWRwVUFXTFo1Wmdmb3Y4MDROakR3YXBUOEVpd0dVSXRwV1FlRlB0LU4yLWdEcjZuUVplYV9JY3F3Wjh5MXVyYVUw?oc=5",
-      "source": "Times of India",
-      "source_id": "times_of_india",
-      "category": "Marvel",
-      "published_at": "2026-11-22T03:22:00+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiugJBVV95cUxQUWVpeFpFWllrSGhaa1JqWGQ1b3VsQzhTbVAycFUyRi00dG9yblZCQ0dXZzM3elMzcVZpTDVKbmdWT2IxdzBPX09EaUdZTUhDaTJuQkxaak13ZnZ5bm9VNkhoRWc4YjZLMHlqYUVZUXZMZzNOZ24yUV9yellpMGNKa29rbnB1aWgydkk0MkdUTHpm",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "marvelrivalsloveisabattlefieldtrailer",
-      "title": "Marvel Rivals: Love Is A Battlefield Trailer",
-      "summary": "Marvel Rivals: Love Is A Battlefield Trailer IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BZXNPenR6UWR3VG52b1Y5cEU3WkhMaFdOQXFtWk1vbmxfVWU5bUtKX2tzUHJVcVNyQ2xmUDJpM1REaFg0dG9jWkdUYUhoV2Zpb2c?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Trailers",
-      "published_at": "2026-11-22T01:01:47+00:00",
-      "status": "reported",
-      "tags": [],
-      "related_characters": [],
-      "external_id": "CBMiUkFVX3lxTE5BZXNPenR6UWR3VG52b1Y5cEU3WkhMaFdOQXFtWk1vbmxfVWU5bUtKX2tzUHJVcVNyQ2xmUDJpM1REaFg0dG9jWkdUYUhoV2Zpb2c",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
     }
   ],
   "synopsis_engine": "Free local TextRank-style source extraction (no API key)"
