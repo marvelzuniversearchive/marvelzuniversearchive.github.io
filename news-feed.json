@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T22:26:47.292721+00:00",
+  "generated_at": "2026-11-28T04:04:04.243578+00:00",
   "source_count": 15,
   "search_topics": [
     "Marvel Universe",
@@ -25,31 +25,6 @@
   },
   "article_count": 150,
   "articles": [
-    {
-      "id": "willtrentstarramnrodrguezalsoplayedamajormarveltelevisionvillain",
-      "title": "Will Trent Star Ramón Rodríguez Also Played A Major Marvel Television Villain",
-      "summary": "Will Trent Star Ramón Rodríguez Also Played A Major Marvel Television Villain IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBocDVSenV2MHFoT1JkV25HZG1PUUZsaGpPdFJlX29YUzkyTGkzdWk1QXUzYURRek9ac2w2Ymd4QlRUcnZQOW5LU0pDVE41N0l5bW9uRmlYQUlCSFFPQjd4QWhCckU2UQ?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-27T21:27:35+00:00",
-      "status": "reported",
-      "tags": [
-        "Vision"
-      ],
-      "related_characters": [
-        "Vision"
-      ],
-      "external_id": "CBMiZkFVX3lxTFBocDVSenV2MHFoT1JkV25HZG1PUUZsaGpPdFJlX29YUzkyTGkzdWk1QXUzYURRek9ac2w2Ymd4QlRUcnZQOW5LU0pDVE41N0l5bW9uRmlYQUlCSFFPQjd4QWhCckU2UQ",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
-    },
     {
       "id": "bladerunner2099starsnearperfectthrillerisofficiallyleavinghulu",
       "title": "‘Blade Runner 2099’ Star’s Near-Perfect Thriller Is Officially Leaving Hulu",
@@ -99,6 +74,27 @@
         "Doom"
       ],
       "external_id": "CBMiZ0FVX3lxTE1kVkVoTEpJN05HNkJpa0RtdlUtWTNnOTJ5N2xDTmVaSFdUMldLQTZxYThMN1lXNFZhRXNESWxXOWtXaFc5VUlKQ0NoVEVJcjhXQUVTeE9YWnZueFJFb01rQXVScmtNUGs",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "marvelstarssebastianstanandvanessakirbycostarredinaforgottenminiseries",
+      "title": "Marvel Stars Sebastian Stan And Vanessa Kirby Co-Starred In A Forgotten Miniseries",
+      "summary": "Marvel Stars Sebastian Stan And Vanessa Kirby Co-Starred In A Forgotten Miniseries IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5QkNnVGF4NjRHVUstYjcxQ2ctTFNaVkpXU0hEYWFMT3lHOFdZUnhDa0Q1NGl4NTFkTWJ4TldZb2RlSlpBWDRpZ1llOV9VLWw1aW1oZEp6TXBEbng3aGRMN09YTVNCUF9ndUE?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-27T19:08:01+00:00",
+      "status": "reported",
+      "tags": [],
+      "related_characters": [],
+      "external_id": "CBMiakFVX3lxTFA5QkNnVGF4NjRHVUstYjcxQ2ctTFNaVkpXU0hEYWFMT3lHOFdZUnhDa0Q1NGl4NTFkTWJ4TldZb2RlSlpBWDRpZ1llOV9VLWw1aW1oZEp6TXBEbng3aGRMN09YTVNCUF9ndUE",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -153,27 +149,6 @@
         "Doom"
       ],
       "external_id": "CBMiYkFVX3lxTE5Yc3lTN00xb2IwMHlxcFZNQk9yd0hJTTFONkFyek5Ya2lScHdDU1dHZ3phbldYdE53akRrNTVFdHNRbXBTQTFUd1dYMktGMXJFMGpQRjl1emhmNWlBTzhRLUV3",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "marvelstarssebastianstanandvanessakirbycostarredinaforgottenminiseries",
-      "title": "Marvel Stars Sebastian Stan And Vanessa Kirby Co-Starred In A Forgotten Miniseries",
-      "summary": "Marvel Stars Sebastian Stan And Vanessa Kirby Co-Starred In A Forgotten Miniseries IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XaXR3ZElWaERSZGRrYUNldXpOZ1ZYZS1udjJaUXJ0TEJPeTUxY19yWjlhS21vWXQ1aUtQb2VuaWN4ZkxKVm4teUNMNDVpR3BydUlsYnBYWHFmZkk2LUQyRWV3cXhpUQ?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Marvel",
-      "published_at": "2026-11-27T18:32:04+00:00",
-      "status": "reported",
-      "tags": [],
-      "related_characters": [],
-      "external_id": "CBMiZkFVX3lxTE5XaXR3ZElWaERSZGRrYUNldXpOZ1ZYZS1udjJaUXJ0TEJPeTUxY19yWjlhS21vWXQ1aUtQb2VuaWN4ZkxKVm4teUNMNDVpR3BydUlsYnBYWHFmZkk2LUQyRWV3cXhpUQ",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     },
@@ -312,33 +287,6 @@
       "synopsis_status": "pending"
     },
     {
-      "id": "avengersdoomsdaytrailerofficiallyunveilssteverogersnewpowersdoctordoomssonsname",
-      "title": "Avengers: Doomsday Trailer Officially Unveils Steve Roger's New Powers & Doctor Doom's Son's Name",
-      "summary": "Avengers: Doomsday Trailer Officially Unveils Steve Roger's New Powers & Doctor Doom's Son's Name IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE45RlR2ZFFjSU5mTlQtcG1jM3M3X1hGZHNCazlITWZHRFF6Rlc1MWctNnVrWmdfZEJfWDFkSzJ4SUQ4Y3JNOEJNSUhDYTNkc2NOeXozU2FiOHhORnNHQmdoM0Vn?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Trailers",
-      "published_at": "2026-11-27T18:09:44+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiYkFVX3lxTE45RlR2ZFFjSU5mTlQtcG1jM3M3X1hGZHNCazlITWZHRFF6Rlc1MWctNnVrWmdfZEJfWDFkSzJ4SUQ4Y3JNOEJNSUhDYTNkc2NOeXozU2FiOHhORnNHQmdoM0Vn",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
       "id": "denisvilleneuvewasdeeplydisappointedwhenavengersdoomsdaytookdunepartthreesreleas",
       "title": "Denis Villeneuve Was “Deeply Disappointed” When ‘Avengers: Doomsday’ Took ‘Dune: Part Three”s Release Date",
       "summary": "Denis Villeneuve Was “Deeply Disappointed” When ‘Avengers: Doomsday’ Took ‘Dune: Part Three”s Release Date IMDb",
@@ -363,7 +311,7 @@
       ],
       "external_id": "CBMiYkFVX3lxTFBEaWJWelNHOTNVaC16WEpnYnRFam1aN3JiY2xEbjZWRWRhdWotVWRVdl9Yd1lqR3RzcTVUOVBnNnNicnFXU0I0cmdVanF2dFUwNzlQMmZCbWwwX0R3Y3JKU09n",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "denisvilleneuveisdeeplydisappointedavengersdoomsdayisopeningthesamedayasdune3",
@@ -390,7 +338,7 @@
       ],
       "external_id": "CBMiakFVX3lxTE5LUUhqZ3huUTRZOF9lOWwtTHdCZ3lSWGJUNXFyZWt0MGpuSjgxQ1ZHcWg2OGRRU2JHcTI1MDViX0VNWWNRZGZLMUt4NllLaUo5NjFVazFTN0RNZDZsbjd3T04wR2s3bm5ZaEE",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "sebastianstanthunderboltswassuccessdespiteboxofficehadnuance",
@@ -523,7 +471,32 @@
       ],
       "external_id": "CBMiakFVX3lxTE50eW5ZOVdOQTdjNnMxY0poVE9RODQtbHU2ZjFBUDRmbjF0Z0RmVXRjV1ZyazVKcUp5OG5JZnlmblJ1enBmSThzbEZhamVKX1F0SnYyOTVUTmNrZWV3UTNKUUhWRnlZSFNwb2c",
       "synopsis": "",
-      "synopsis_status": "pending"
+      "synopsis_status": "publisher_unavailable"
+    },
+    {
+      "id": "willtrentstarramnrodrguezalsoplayedamajormarveltelevisionvillain",
+      "title": "Will Trent Star Ramón Rodríguez Also Played A Major Marvel Television Villain",
+      "summary": "Will Trent Star Ramón Rodríguez Also Played A Major Marvel Television Villain IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tSUh0dEFfSFpGMlpPWDEydGc5cWEwYVJrY18wakJObndzejFuQkdOR3BGRmxWeGtBa3NzZzZ5aU5YZnFmVW1uTEM2Q29YR19xOHdROXotYm5seVBxbVFBREpuYWd5akxLSUE?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-27T17:05:19+00:00",
+      "status": "reported",
+      "tags": [
+        "Vision"
+      ],
+      "related_characters": [
+        "Vision"
+      ],
+      "external_id": "CBMiakFVX3lxTE0tSUh0dEFfSFpGMlpPWDEydGc5cWEwYVJrY18wakJObndzejFuQkdOR3BGRmxWeGtBa3NzZzZ5aU5YZnFmVW1uTEM2Q29YR19xOHdROXotYm5seVBxbVFBREpuYWd5akxLSUE",
+      "synopsis": "",
+      "synopsis_status": "publisher_unavailable"
     },
     {
       "id": "denisvilleneuvedeeplydisappointeddisneyputavengersdoomsdayagainstdune3",
@@ -546,6 +519,30 @@
         "Doom"
       ],
       "external_id": "CBMiuwFBVV95cUxOX0pSWURkbU9uZW5hYzhSX3EtQ0lXRExJcUJoVDJfQjRkaVNocTJhTFBpZ0VLVmtmcm44MmV2bmNzRjlTbFF3dXlhbXJXSWlraGZzUlIybzZOSkpNTTdsRk1zUE5mc0VrNzJqazlaNkRNYVZnTU5rWGFscmFxZFRlNkVlVWRCNExHZ3dpVFlIRXoz",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "avengersdoomsdaytrailerofficiallyunveilssteverogersnewpowersdoctordoomssonsname",
+      "title": "Avengers: Doomsday Trailer Officially Unveils Steve Roger's New Powers & Doctor Doom's Son's Name",
+      "summary": "Avengers: Doomsday Trailer Officially Unveils Steve Roger's New Powers & Doctor Doom's Son's Name ScreenRant",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVUI4amU2T2t3RHNSLS02bEUzNEl0bS1jajBGOW4yN1dWZmhGZUcyYllKQ2QwTzczNmVtODV3OTRIVElRQjNRM2JmR3M2Tl83NnNQYU9MYTFWZnpBSEhQU25lVVRlZUlCZC03WHA5b1haa2dRNGpFNWwxWXZ4QW5iWjlLdW43OVJjZU5NMXBFbw?oc=5",
+      "source": "Screen Rant",
+      "source_id": "screen_rant",
+      "category": "Trailers",
+      "published_at": "2026-11-27T16:53:57+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMijwFBVV95cUxQVUI4amU2T2t3RHNSLS02bEUzNEl0bS1jajBGOW4yN1dWZmhGZUcyYllKQ2QwTzczNmVtODV3OTRIVElRQjNRM2JmR3M2Tl83NnNQYU9MYTFWZnpBSEhQU25lVVRlZUlCZC03WHA5b1haa2dRNGpFNWwxWXZ4QW5iWjlLdW43OVJjZU5NMXBFbw",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -923,31 +920,6 @@
       "synopsis_status": "pending"
     },
     {
-      "id": "marvelsxmenrebootnewdetailsongambitbeastcastingandmistersinistersmcufuture",
-      "title": "Marvel's X-Men Reboot: New Details On Gambit, Beast Casting And Mister Sinister's MCU Future",
-      "summary": "Marvel's X-Men Reboot: New Details On Gambit, Beast Casting And Mister Sinister's MCU Future IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WX1dFY1hYZ3N4NUtUT21SeUtRTUdlQTNCN0tEZFRHTjZmUEczT1FCTXZrQXRSRGozWUNUMUNjX1BtTlRvZl9YNkljZjNhSWg3SnAtQ3FpNURuaERwb0ZZT0Q1eWp2cElhclk4?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Casting",
-      "published_at": "2026-11-27T09:56:08+00:00",
-      "status": "reported",
-      "tags": [
-        "X-Men"
-      ],
-      "related_characters": [
-        "X-Men"
-      ],
-      "external_id": "CBMia0FVX3lxTE1WX1dFY1hYZ3N4NUtUT21SeUtRTUdlQTNCN0tEZFRHTjZmUEczT1FCTXZrQXRSRGozWUNUMUNjX1BtTlRvZl9YNkljZjNhSWg3SnAtQ3FpNURuaERwb0ZZT0Q1eWp2cElhclk4",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
       "id": "ebenezernorthamericaboxofficejohnnydeppsebenezerscroogesettobeatavengersendgamee",
       "title": "Ebenezer North America Box Office: Johnny Depp’s Ebenezer Scrooge Set To Beat Avengers: Endgame Encore’s Domestic Haul This Weekend",
       "summary": "Ebenezer North America Box Office: Johnny Depp’s Ebenezer Scrooge Set To Beat Avengers: Endgame Encore’s Domestic Haul This Weekend IMDb",
@@ -994,6 +966,31 @@
         "Spider-Man"
       ],
       "external_id": "CBMiZ0FVX3lxTE1rcEVJTXVSWUtyc3dqZmotUWJFZFFxX1ZNaFk0ZUQ0OWU0d0J6aDg0M2dZci1hVm1lelllUUY2OGtwdWppbEJ2SUR3d18wbWFRc0JVTC1SN0ZxcUhZNTRtaXV5d1J4YXc",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "marvelsxmenrebootnewdetailsongambitbeastcastingandmistersinistersmcufuture",
+      "title": "Marvel's X-Men Reboot: New Details On Gambit, Beast Casting And Mister Sinister's MCU Future",
+      "summary": "Marvel's X-Men Reboot: New Details On Gambit, Beast Casting And Mister Sinister's MCU Future IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEeVhlR1B3bnUwMTBQS2FvWHRJOEJMNVcybGhqX2ktQi1nNU8ycl9IRjJBQWlaY0ZaaWpSSjlkOWdsVzRNSWR4NzAwbU5talc4Nm1wUW1HZldXUHUwZFJLU1d2TnhNRzA?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Casting",
+      "published_at": "2026-11-27T09:01:58+00:00",
+      "status": "reported",
+      "tags": [
+        "X-Men"
+      ],
+      "related_characters": [
+        "X-Men"
+      ],
+      "external_id": "CBMiZ0FVX3lxTFBEeVhlR1B3bnUwMTBQS2FvWHRJOEJMNVcybGhqX2ktQi1nNU8ycl9IRjJBQWlaY0ZaaWpSSjlkOWdsVzRNSWR4NzAwbU5talc4Nm1wUW1HZldXUHUwZFJLU1d2TnhNRzA",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -1948,7 +1945,7 @@
       ],
       "external_id": "CBMiywJBVV95cUxNS2I5S0N0U1cwOHdCdXNyVEQ2cmpjUDJFQkpqdl9OUUJmSFRScHBWZC1DU3VjNEs1VXdGMWNrVzk5aFJWSXJ0TmFaeGxaUG9QYTVmWl9JR3owU18tZWJKQ0dWd1BGUndPZ0lmNXhjUnVHcVRqZGw1clkxVVBxTVVrOWt4aHBEYnI5WjczZXN2YlBo",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "avengersdoomsdayconfirmsanotheractorisinthemovie",
@@ -2026,6 +2023,33 @@
       "synopsis_status": "pending"
     },
     {
+      "id": "australiasnblteamswillwearavengersdoomsdayjerseysindecember",
+      "title": "Australia’s Nbl teams will wear Avengers: Doomsday jerseys in December",
+      "summary": "Australia’s Nbl teams will wear Avengers: Doomsday jerseys in December IMDb",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "IMDb"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE52c19KalE1c0pHUGJFcW9mQlVEYnJERG1zU29yZWVIVFBoT2dJekNjZ0NsTlM4S2VXWVdxVmd3MWRpRjdKaENuYTJKVHl4UTQ2c0hiR1hVWVgyTTVaREt6OXJn?oc=5",
+      "source": "IMDb",
+      "source_id": "imdb",
+      "category": "Marvel",
+      "published_at": "2026-11-26T09:51:24+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers",
+        "Doom"
+      ],
+      "related_characters": [
+        "Avengers",
+        "Doom"
+      ],
+      "external_id": "CBMiYkFVX3lxTE52c19KalE1c0pHUGJFcW9mQlVEYnJERG1zU29yZWVIVFBoT2dJekNjZ0NsTlM4S2VXWVdxVmd3MWRpRjdKaENuYTJKVHl4UTQ2c0hiR1hVWVgyTTVaREt6OXJn",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
       "id": "avengersdoomsdayeyesusd270millionopeningatnorthamericanboxofficeracesaheadofdune",
       "title": "'Avengers: Doomsday' eyes USD 270 million opening at North American box office; races ahead of 'Dune: Par",
       "summary": "'Avengers: Doomsday' eyes USD 270 million opening at North American box office; races ahead of 'Dune: Par The Times of India",
@@ -2047,7 +2071,7 @@
       ],
       "external_id": "CBMi0AJBVV95cUxNcWdJZXRzZ25GVDV1ZTluNEI0ZFZlUVgxVGxlUmFqOUtERllLTW9CV0ZIaE9qcFRjVlNDRXpZZ3ppWUt3U1F6am1MTTEyUWxVZEViYXJUd0x1bmY2TDNjbDRJMks3Q0ZtYVlHbTIwU2FsYzJNLWprUXBoYVlCUW5sS3pmSDh3N3VoOXV2M0lLb0NS",
       "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
+      "synopsis_status": "pending"
     },
     {
       "id": "avengersdoomsdayteaserrevealsafirstlookatdoctordoomsscarredfacespoilers",
@@ -2564,6 +2588,28 @@
       "synopsis_status": "pending"
     },
     {
+      "id": "avengerssecretwarswillofficiallyintroducemajorlocationtothemcu",
+      "title": "Avengers: Secret Wars Will Officially Introduce Major Location To The MCU",
+      "summary": "Avengers: Secret Wars Will Officially Introduce Major Location To The MCU ScreenRant",
+      "coverage_tags": [],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbnpmOUxweHh0NTVKZjY0WVV4SGpKUlNyaEhTb2dSaWtvM1VoV2tLVlBnODBmNXVlZjVmTHk1UHduQlpUd2lsRTlkeUQtZWdHUVhzb2dkU3UxaXhfUEhHZTFRejl3MEJVNGdnSXczd1Q3M1V6a1NTUi0yLU1qYnBDQzZQcGNiSnZpZjkxMDdfTUxQQQ?oc=5",
+      "source": "Screen Rant",
+      "source_id": "screen_rant",
+      "category": "Marvel",
+      "published_at": "2026-11-25T16:15:52+00:00",
+      "status": "reported",
+      "tags": [
+        "Avengers"
+      ],
+      "related_characters": [
+        "Avengers"
+      ],
+      "external_id": "CBMikgFBVV95cUxPbnpmOUxweHh0NTVKZjY0WVV4SGpKUlNyaEhTb2dSaWtvM1VoV2tLVlBnODBmNXVlZjVmTHk1UHduQlpUd2lsRTlkeUQtZWdHUVhzb2dkU3UxaXhfUEhHZTFRejl3MEJVNGdnSXczd1Q3M1V6a1NTUi0yLU1qYnBDQzZQcGNiSnZpZjkxMDdfTUxQ",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
       "id": "spidermanscarletwitchseeminglyconfirmedforavengersdoomsdaybyrobertdowneyjr",
       "title": "Spider-Man & Scarlet Witch Seemingly Confirmed For Avengers: Doomsday By Robert Downey Jr.",
       "summary": "Spider-Man & Scarlet Witch Seemingly Confirmed For Avengers: Doomsday By Robert Downey Jr. ScreenRant",
@@ -2635,6 +2681,31 @@
         "Blade"
       ],
       "external_id": "CBMiZ0FVX3lxTE5IT3V4SG9ueklMOFAtQW9uWmFiajUwSDFuemQ2bEtCR2xKV01QRnYwV0RGdlJMWTB0Z01yNmxQUkR4c3JYMC1McnAta2Q1WXllRzd3YWwzS3pfT1VGTVdzMkVyREdvdFE",
+      "synopsis": "",
+      "synopsis_status": "pending"
+    },
+    {
+      "id": "blade",
+      "title": "Blade",
+      "summary": "Blade Rotten Tomatoes",
+      "coverage_tags": [
+        "Ratings & Reviews",
+        "Rotten Tomatoes"
+      ],
+      "image_url": "",
+      "article_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KVV9CbUYtN3J6N2EwQVUzUFh4d3B0ZWNMd2drRVdDbzE1QVdsX3EyUm1nMEREdmFfcm0ycVNSRE94d2VweHBxQUJSVnloZmJScFZCYmEzX0RlUQ?oc=5",
+      "source": "Rotten Tomatoes",
+      "source_id": "rotten_tomatoes",
+      "category": "Marvel",
+      "published_at": "2026-11-25T12:47:34+00:00",
+      "status": "reported",
+      "tags": [
+        "Blade"
+      ],
+      "related_characters": [
+        "Blade"
+      ],
+      "external_id": "CBMiWkFVX3lxTE5KVV9CbUYtN3J6N2EwQVUzUFh4d3B0ZWNMd2drRVdDbzE1QVdsX3EyUm1nMEREdmFfcm0ycVNSRE94d2VweHBxQUJSVnloZmJScFZCYmEzX0RlUQ",
       "synopsis": "",
       "synopsis_status": "pending"
     },
@@ -3755,84 +3826,6 @@
         "Daredevil"
       ],
       "external_id": "CBMiyAJBVV95cUxNYTlaaUN6NkNpMUVmQ244VUd0c3Z1NTVXMnRIb2tXMGhobkVsblBXcnFuMUN1NWgyZEtCN1VrMjRPbDR4OThqU3Jhd2xYSzNRYkVZeGRSX2p5dVZHY1piVjBncDRVNWNEV1ZUZ19PemtJRnJLMkdXd0JFN1BpTGRIbHlkMUFsVU1KMVdKVUh0MDVh",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "deadpoolwolverineaudiencereviews",
-      "title": "Deadpool & Wolverine | Audience Reviews",
-      "summary": "Deadpool & Wolverine | Audience Reviews Rotten Tomatoes",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "Rotten Tomatoes"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR21rMUNudm1WT3Z6Ukw3bmRyNXo2UzR5T1ota1dwZnVvZnNXMzN0SzhkbXVlRm9XRVAwMkJiOU5Ld2VOZWZLajJ0U0dxUF9QVHBwbnZpWk9lUDFHVnI2aGNfN1Z6cGwzSGxvWXl3WWhGankydHp2UVBpM1hEX3RMcGVn?oc=5",
-      "source": "Rotten Tomatoes",
-      "source_id": "rotten_tomatoes",
-      "category": "Ratings",
-      "published_at": "2026-11-24T03:37:33+00:00",
-      "status": "reported",
-      "tags": [
-        "Wolverine",
-        "Deadpool"
-      ],
-      "related_characters": [
-        "Wolverine",
-        "Deadpool"
-      ],
-      "external_id": "CBMiggFBVV95cUxPR21rMUNudm1WT3Z6Ukw3bmRyNXo2UzR5T1ota1dwZnVvZnNXMzN0SzhkbXVlRm9XRVAwMkJiOU5Ld2VOZWZLajJ0U0dxUF9QVHBwbnZpWk9lUDFHVnI2aGNfN1Z6cGwzSGxvWXl3WWhGankydHp2UVBpM1hEX3RMcGVn",
-      "synopsis": "",
-      "synopsis_status": "pending"
-    },
-    {
-      "id": "avengersdoomsdayfinaltrailerfansrootforteamdoomaftersteverogersbackstoryrevealsa",
-      "title": "‘Avengers: Doomsday’ final trailer: Fans root for 'Team Doom' after Steve Rogers' backstory reveal; say '",
-      "summary": "‘Avengers: Doomsday’ final trailer: Fans root for 'Team Doom' after Steve Rogers' backstory reveal; say ' The Times of India",
-      "coverage_tags": [],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNaEZpSHdNN2hsZWZQSS1MbUc1MVFVWG1WdzM5b3lnNHpZMFFnQnNIY2duczdYTzZNQmNadC1SVWRVQjc1QmNCWmU5a1pSV2ZEQW5QX0U2bUp2RUptT2tsZm40Z3ljbnpEVllJS19RWUxOek5KVEtzdVhEbGtRX2E3a1hDWFRkWHNOdE1vMTZfdGxuTDM0U2NmbmN0dldqVFh4Mkh5V1Q2d0NTSUtQRHZveWhCV3dlTFdNVmFFbVFRRTZxWXdVb1FQamlnUzNfaHhQVGlteUxyY0J5ZDZ5cFRiS2k4Wl84OFVXaVYzWDUzaXpqV2swbG5sVG1xZEpUdER2Qk9kN2RmcWZsV0VhTlBPMEh0Vlhod1NvZ3hqWDRxTjlZVkFhZTJ5SDBuNlhwQkF2d3gtdGFQbk9LVW15MEI2TDB6aGJ4S2NBdC01MVpHRmVMVUNlSU41ZDVsYS1oYy1CUEl30gHoAkFVX3lxTE1VVlJ0ZGtKN0Frc05OUlFIR053QTAyWmdtdWM5YXpfV0RNVC1VM2Z0Uk1mSjBFRGtCZ3NjbnBOUXFKOXhQbWJVZXYtTXFVV2xzQWJGZzJHWXlUX3JCVXVDa3JOaTFSTXNlcDBPamFWSlpjVlJYUXJaRHB0ZG5tb3RGZ2dIMXd0SGgxZXQzWHE4aTEyUlllZDV5MXp1OUx6TnZMemtQV053ckVfNmNaTEpxZGloTFlCZl90eTFtUWdXX0xVSEtHWHJGTjg5OE5Gd055RkZtZDRYdHdTUkJSSFFtNEVpbWM2RjVQN0xGS2FoWVVwT3NSQjVvT1Q1X1otLWY4bE0xblJWYW9US2UxRmV3bURNaVVValIyMU9ya1lUV1Bja3lCc1FSVVF1Y25mS3FJdjFqSUhXeUxSRzBiSEt0MUhIM01hemh4a0w1MUxha29hYTZmX0FzR3NJbU1Xa2FscERsWHdnTQ?oc=5",
-      "source": "Times of India",
-      "source_id": "times_of_india",
-      "category": "Trailers",
-      "published_at": "2026-11-24T02:38:00+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMi4wJBVV95cUxNaEZpSHdNN2hsZWZQSS1MbUc1MVFVWG1WdzM5b3lnNHpZMFFnQnNIY2duczdYTzZNQmNadC1SVWRVQjc1QmNCWmU5a1pSV2ZEQW5QX0U2bUp2RUptT2tsZm40Z3ljbnpEVllJS19RWUxOek5KVEtzdVhEbGtRX2E3a1hDWFRkWHNOdE1vMTZfdGxu",
-      "synopsis": "",
-      "synopsis_status": "publisher_unavailable"
-    },
-    {
-      "id": "avengersdoomsdayfinaltrailersocialmediareactstolatestteaserformarvelssuperheroex",
-      "title": "Avengers: Doomsday Final Trailer: Social Media Reacts To Latest Teaser For Marvel's Superhero Extravaganza",
-      "summary": "Avengers: Doomsday Final Trailer: Social Media Reacts To Latest Teaser For Marvel's Superhero Extravaganza IMDb",
-      "coverage_tags": [
-        "Ratings & Reviews",
-        "IMDb"
-      ],
-      "image_url": "",
-      "article_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBsUzFhZDZVSlNfajdTbEt6Q1BackkzaVBzYTB3MEZVVHRvVWd2RVdQSE5rNmJBOFpfMnNNcGlLLXJoYkpUeGMxMHJCV1hDVTB2RFQxRGY0dTNaY2hubGdfS2pR?oc=5",
-      "source": "IMDb",
-      "source_id": "imdb",
-      "category": "Trailers",
-      "published_at": "2026-11-24T01:26:25+00:00",
-      "status": "reported",
-      "tags": [
-        "Avengers",
-        "Doom"
-      ],
-      "related_characters": [
-        "Avengers",
-        "Doom"
-      ],
-      "external_id": "CBMiYkFVX3lxTFBsUzFhZDZVSlNfajdTbEt6Q1BackkzaVBzYTB3MEZVVHRvVWd2RVdQSE5rNmJBOFpfMnNNcGlLLXJoYkpUeGMxMHJCV1hDVTB2RFQxRGY0dTNaY2hubGdfS2pR",
       "synopsis": "",
       "synopsis_status": "publisher_unavailable"
     }
